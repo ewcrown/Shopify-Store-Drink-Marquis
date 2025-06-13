@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "press-template": {
+      "type": "press-template",
+      "blocks": {
+        "bd308a11-d1f1-4a55-9c06-f9cb042cc0ce": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/ahn_logo_vertical_black_-_Trang_Nguyen.png",
+            "content": "Marquis Blends Asian Roots And Modern Flair With Innovative Energy Drinks",
+            "link": "https://www.asianhustlenetwork.com/news/marquis-blends-asian-roots-and-modern-flair-with-innovative-energy-drinks/"
+          }
+        },
+        "1875765a-746a-4bf3-aa60-30f4ddf47b7e": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/rest-clicks-color-logo-2022.png",
+            "content": "9 Popular Sugar-Free Energy Drinks to Try",
+            "link": "https://restaurantclicks.com/best-sugar-free-energy-drinks/"
+          }
+        },
+        "686eb271-2db4-435a-a2b2-6c592abb161b": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/DT_Los_Angeles_News_-1.png",
+            "content": "Caffeine Conscious: Marquis infuses Asian heritage into energy drinks",
+            "link": "http://www.ladowntownnews.com/business/caffeine-conscious-marquis-infuses-asian-heritage-into-energy-drinks/article_e1398aea-2d98-11ee-9711-b76170899724.html"
+          }
+        },
+        "8ece035b-d271-46a7-9246-7fab517ad500": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Medium_Logo.png",
+            "content": "Snacks and Drinks to Try in 2023",
+            "link": "https://medium.com/@nicolelamarco/snacks-and-drinks-to-try-8c7f71d74fe4"
+          }
+        },
+        "518e24a9-f692-4fe2-8784-a17fe1378940": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/beverage-industry-logo-vector.png",
+            "content": "Los Angeles-based Marquis is appealing to the healthy-focused energy market with its lightly caffeinated beverages.",
+            "link": "https://www.bevindustry.com/articles/95978-energy-drink-consumers-loyalty-keeps-market-thriving"
+          }
+        },
+        "a739bbe3-e3e4-4af7-87ca-b96c34c2888a": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/niu-logo-white.png",
+            "content": "Writer for Nutra Ingredients calls new flavor Lemon Lavender \"Marquis’ Posh Botanical Blend.\"",
+            "link": "https://www.nutraingredients-usa.com/Article/2023/06/27/June-Launch-Pad#"
+          }
+        },
+        "35b48041-501e-481d-ae5f-bd3e782ab37e": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/prepared_foods.png",
+            "content": "Marquis brand taps into mindful consumers' demand for light, fresh and restorative flavors.",
+            "link": "https://www.preparedfoods.com/articles/128263-marquis-botanical-inspired-lemon-lavender"
+          }
+        },
+        "22861106-687d-437d-95ec-e0d7d03e2c8e": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/The_Food_Institute.png",
+            "content": "Food trend experts say these are the modern-day drinks and snacks to eat watching your favorite movies.",
+            "link": "https://foodinstitute.com/beverage/the-better-for-you-blockbuster-snacking-season-has-arrived/"
+          }
+        },
+        "beb76388-9c33-427a-acb3-6a884a8ff4f6": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/bd-logo.png",
+            "content": "What’s hitting the shelves? New Beverage launches.",
+            "link": "https://www.beveragedaily.com/Article/2023/06/19/New-beverage-launches-from-kombucha-to-craft-beer"
+          }
+        },
+        "2710082f-5aed-4fa5-a068-b283453ea7c4": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Marquis Introduces Its First Botanical-Inspired Flavor, Lemon Lavender, to Drive Rapid Growth",
+            "link": "https://www.bevnet.com/news/2023/marquis-introduces-its-first-botanical-inspired-flavor-lemon-lavender-to-drive-rapid-growth/"
+          }
+        },
+        "ca8571e5-cf82-41f4-bfac-522daa872c59": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Sweety_High.png",
+            "content": "All the Best Foods and Drinks We Tried in May 2023",
+            "link": "https://www.sweetyhigh.com/read/top-food-drinks-editors-choice-may-2023-060123"
+          }
+        },
+        "88adea3f-4204-4846-9f98-2330b3b4854e": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/1280px-BuzzFeed.png",
+            "content": "50 Asian-Owned Businesses That Might Turn Into Your Favorite Brands",
+            "link": "https://www.buzzfeed.com/brittneytrinh/asian-owned-businesses-2023"
+          }
+        },
+        "99fa9d30-a5e3-4a6d-90d1-b245d2eb5013": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/SelectLogo.png",
+            "content": "100+ AAPI brands to support for the month of May",
+            "link": "https://www.nbcnews.com/select/shopping/aapi-owned-businesses-ncna1268981"
+          }
+        },
+        "96b7bd41-3aac-486a-9e50-9ddf26550956": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/strat-us_4x.0.png",
+            "content": "Netflix Show, My Unorthodox Life, Reality TV Star Julia Haart shares the things she can't live without. See who made the list...",
+            "link": "https://nymag.com/strategist/article/julia-haart-favorite-things.html"
+          }
+        },
+        "d17c5f13-e69b-4f2e-9c2f-fd99bbcaf79f": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Voyage_LA.png",
+            "content": "Twitch Streamer & Model, Kayla Delancey, backs Marquis 100% in latest interview with Voyage La Magazine.",
+            "link": "http://voyagela.com/interview/life-work-with-kayla-delancey-of-los-angeles/"
+          }
+        },
+        "e227f3e6-5e6c-4a52-8575-7110daa94764": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "This week's new products: Marquis warms up winter with tropical flavors",
+            "link": "https://www.bevnet.com/news/2023/this-weeks-new-products-sparkling-ice-marquis-warm-up-winter-with-tropical-flavors/"
+          }
+        },
+        "a278d97e-26b0-4b22-b475-9f706e11d350": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/los-angeles-unscripted-logo-black.png",
+            "content": "Marquis debuts on KTLA Healthy Vibes segment. Co-Founders Chris & Danny share their store on why they started Marquis.",
+            "link": "https://ktla.com/la-unscripted/healthy-vibez/healthy-vibes-marquis-drinks/"
+          }
+        },
+        "135e30b6-78e3-42c0-abc9-90f6404c6e63": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/los-angeles-magazine-logo-black.png",
+            "content": "Discover a New Way to Caffeinate in L.A. with Marquis",
+            "link": "https://www.lamag.com/sponsored/discover-a-new-way-to-caffeinate-in-l-a-with-marquis/"
+          }
+        },
+        "dba46e34-75c1-42c6-b3a0-8f0a4cbde290": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Marquis Releases New Pineapple Passion Flavor",
+            "link": "https://www.bevnet.com/news/2023/marquis-releases-new-pineapple-passion-flavor/"
+          }
+        },
+        "dadb977a-4d8f-4432-8094-7152e96b3f56": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Talkshoplive.png",
+            "content": "Drink recipe alert! Chris, Danny and Madison make a fun summery cocktail with the new flavor.",
+            "link": "https://talkshop.live/watch/wHQGpVHRgnS8"
+          }
+        },
+        "ffda89eb-41af-4d63-a3f7-fc44d301c621": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/EatDrinkLA.png",
+            "content": "5 New Canned Drinks for Any Mood",
+            "link": "https://www.eatdrinkla.com/5-new-canned-drinks-for-any-mood/"
+          }
+        },
+        "de951cdd-674a-4678-b104-98d0ba27afe9": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Ray Latif, the Editor and Producer of the Taste Radio podcast interview Marquis Co ﻿Founders about latest brand news and updates.",
+            "link": ""
+          }
+        },
+        "22f418a5-7b8e-461b-b618-d6c383b35824": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/California-Meetings-Events_0_0.png",
+            "content": "A Marquis cocktail collaboration at Andaz West Hollywood.",
+            "link": "https://ca.meetingsmags.com/marquis-cocktail-collaboration-andaz-west-hollywod"
+          }
+        },
+        "bf95d4a9-b8c3-4b7a-8498-b7bfac8c4532": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Talkshoplive.png",
+            "content": "Can you guess what's in the cocktail? Marquis Co-Founders Chris and Danny play fun guessing game on Talkshoplive to celebrate Food & Drink Week.",
+            "link": "https://talkshop.live/watch/_voiJiOwl5st"
+          }
+        },
+        "c638a2f5-200d-443a-bc8d-f5c15bd521ae": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Progressive-Grocer-logo.png",
+            "content": "Marquis selected as winner in 2022 Editors' Picks. Best new products worthy of retailer, consumer attention.",
+            "link": "https://issuu.com/ensembleiq/docs/pg_0922?fr=sOTIwODgwODQ2MQ"
+          }
+        },
+        "57574fd3-998f-48b2-a5c0-0f6ef16c4c66": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/IFT_FIRST_Logo_fd4fbbe4-f9bf-4fd1-af53-9ec3ca5d2b35.png",
+            "content": "New coffee and tea products are quenching consumer thirst for specialty alternatives.",
+            "link": "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2022/july/features/specialty-foods-go-glam"
+          }
+        },
+        "866a4aef-9627-4531-8645-2bea07aa4bc0": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Marquis announces new partnership with luxury supermarket chain. Marquis’ full portfolio of better-for-you tri-blend caffeinated beverages are available for purchase at all 7 Erewhon store locations.",
+            "link": "https://www.bevnet.com/news/2022/marquis-expands-into-all-7-erewhon-retail-locations"
+          }
+        },
+        "341afce7-8280-4c84-8661-9a735e60df64": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+            "content": "9 clean energy beverages for a focused buzz...",
+            "link": "https://www.newhope.com/food-and-beverage/unboxed-9-clean-energy-beverages-focused-buzz/gallery?slide=6"
+          }
+        },
+        "e3b8212e-dc85-4142-a716-68a39d9b5f00": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Hunker_logo.png",
+            "content": "We've rounded up 80+ AAPI-owned home and lifestyle brands that you can shop and support now...",
+            "link": "https://www.hunker.com/13763757/aapi-business-directory"
+          }
+        },
+        "bdc301af-3620-4e06-859c-f79978189a9f": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Brit_Co.png",
+            "content": "24 AAPI Founders We Love to Support -- AAPI founders who are proof of that richness in diversity and inspire us every day with their fresh ideas to make the world a better...",
+            "link": "https://www.brit.co/aapi-founders/"
+          }
+        },
+        "6b35192c-7f64-46ab-98e5-a83a1df4f4dd": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Marquis has added a Lychee Peach flavor to its caffeinated beverage lineup. A “familiar and approachable” flavor...",
+            "link": "https://www.bevnet.com/news/2022/this-weeks-new-products-new-probiotic-sodas-flavors-plant-based-milks-and-a-new-look-for-golden-tiger"
+          }
+        },
+        "c540cd2f-9065-4ffa-84ca-bf4c356003b8": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/CaffeineMan_Logo.png",
+            "content": "YouTube personality CaffeineMan reviews Marquis and answers this question: Is it the healthiest & best tasting of the healthy energy drinks?",
+            "link": "https://www.youtube.com/watch?v=iyccKp3HIkU&t=190s"
+          }
+        },
+        "c4b61991-50a8-4a26-8669-4b493f85b51f": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/DTC.png",
+            "content": "Podcast Listen. All Kill No Filler Host Eric Dyck interviews Marquis Director of Marketing Zach Volpo and shares how he tripled the brand's velocity on Amazon.",
+            "link": "https://www.youtube.com/watch?v=dgew2C6eWC8"
+          }
+        },
+        "8dc30450-8325-4eec-b885-11959bf57bae": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Talkshoplive.png",
+            "content": "Talkshoplive host Madison Brodsky interviews Marquis Co-Founders Christopher Lai and Danny Huang introducing first-of-its kind tri-blend caffeine beverages.",
+            "link": "https://talkshop.live/watch/U8GkwKTdwRnO?utm_source=search&utm_medium=desktop&utm_campaign=search"
+          }
+        },
+        "9bbeafe9-00da-4392-a899-0b868f83f168": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+            "content": "Marquis launches its first new flavor as rebrand drives triple-digit growth.",
+            "link": "https://www.newhope.com/business-resources/marquis-launches-its-first-new-flavor-rebrand-drives-triple-digit-growth-press"
+          }
+        },
+        "faf685c3-278b-40a6-9a1c-4d868bb9e0ad": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Prevention.png",
+            "content": "Prevention Picks: 14 beauty and wellness products our editors are swearing by in April.",
+            "link": "https://www.prevention.com/life/g39653306/prevention-picks-april-2022/"
+          }
+        },
+        "51ede524-7ed9-45df-9a28-75df42c4d85b": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Talkshoplive.png",
+            "content": "Talkshoplive host Madison Brodsky interviews Marquis Co-Founders Christopher Lai and Danny Huang introducing first-of-its kind tri-blend caffeine beverages.",
+            "link": "https://talkshop.live/watch/pq8KkO4XuSRY/7544"
+          }
+        },
+        "4d974dcf-7b84-4e0a-b25d-5891d775af53": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Food_Business_News.png",
+            "content": "New beverage innovations from 2022 Natural Products Expo West...",
+            "link": "https://www.foodbusinessnews.net/articles/20921-slideshow-beverage-innovations-from-natural-products-expo-west"
+          }
+        },
+        "f8c0da93-7351-431b-8085-3b8fc980401a": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Sweety_High.png",
+            "content": "Marquis drinks provide natural caffeination without the crash—and they REALLY work! I agreed to try them out myself for a review and taste test to see if they really do get the job done...",
+            "link": "https://www.sweetyhigh.com/read/marquis-energy-drink-review-taste-test-031522"
+          }
+        },
+        "96d4769d-b74b-4e4e-80d1-9e3b86730840": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Voyage_LA.png",
+            "content": "VoyageLA interviews Marquis Co-Founders Christopher Lai and Danny Huang discussing life and business.",
+            "link": "http://voyagela.com/interview/exploring-life-business-with-christopher-lai-co-founder-ceo-danny-huang-co-founder-president-of-marquis/"
+          }
+        },
+        "bfbffc50-b3fa-439e-a9fc-37443ac718a8": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+            "content": "Non-alcoholic beverages go beyond zero proof in response to younger generations leading the way in finding alternative ways to unwind and blow off steam...",
+            "link": "https://secure.viewer.zmags.com/publication/b0a199b8?utm_campaign=HLN00NHN-HS-NFM%20Digital%20Edition_030122&utm_emailname=HLN00NFM-Digital_HS_030122&utm_medium=email&utm_source=Eloqua&utm_MDMContactID=af054531-09ac-453f-b2b9-963145a8f381&utm_campaigntype=Newsletter&utm_sub=%F0%9F%8C%B4%20March%2FApril%2FMay%20Digital%20Edition&eM=cc7af1d0876b124c9ae97a2f931d3409b97a18932b3e6709e9311b9217da5dc5&eventSeriesCode=ES_NWHOPEDGTL&eventEditionCode=HLN00NHN&sessionCode=S_NFMDIGEDN#/b0a199b8/16"
+          }
+        },
+        "16996dad-7714-47db-a6a5-e313545f6baa": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Authority_Magazine.png",
+            "content": "\"5 things I wish someone told me before I became a Founder.\" Interview with Marquis Co-Founders Christopher Lai and Danny Huang.",
+            "link": "https://medium.com/authority-magazine/christopher-lai-and-danny-huang-of-marquis-5-things-i-wish-someone-told-me-before-i-became-a-2317a2b4ffd7"
+          }
+        },
+        "40672697-8ebb-4a74-a36d-cc2325741bbc": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/FoodNavigator_bb620c15-31d0-4081-a20c-7c0128356940.png",
+            "content": "Marquis is starting off the year with a bold new look as it continues to transcend its energy drink origins and draw attention to the plant-powered benefits of its clean caffeinated beverages.",
+            "link": "https://www.foodnavigator-usa.com/Article/2022/01/26/marquis-talks-clean-caffeine-revolution-from-alternative-to-on-trend"
+          }
+        },
+        "66a88b2c-529c-4f10-bf25-e2485bfcbac6": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/NutraIngredient_s_NutraCast_Podcast_4345ef09-98e1-481f-93ef-abecfd9d08f3.png",
+            "content": "Podcast listen. Marquis on cracking the code in functional beverages -- Marquis speaks to new and innovative ways to stand out by offering unique and distinct products to capture consumers' attention.",
+            "link": "https://www.nutraingredients-usa.com/Article/2022/02/11/NutraCast-Marquis-on-cracking-the-code-in-functional-beverages"
+          }
+        },
+        "e846d31d-0780-4f19-8501-11f87ef8a463": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Just-Drinks.png",
+            "content": "Marquis has revamped the packaging and formulation adding monk fruit to its list of ingredients as a calorie-free sugar substitute that offers health benefits and natural sweetening.",
+            "link": "https://www.just-drinks.com/news/new-look-unveiled-for-marquis-functional-soft-drink/"
+          }
+        },
+        "e765b904-0671-43d5-bac0-cb2f3cca425a": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/BevNET.png",
+            "content": "Marquis unveils new modern can design with bright bold colors and enhanced flavors.",
+            "link": "https://www.bevnet.com/news/2022/marquis-unveils-new-modern-can-design-with-bright-bold-colors-and-enhanced-flavors/"
+          }
+        },
+        "d7354735-dcb4-49c6-806b-53df904b72e8": {
+          "type": "press",
+          "settings": {
+            "image_preview": "shopify://shop_images/Trend_Hunter.png",
+            "content": "TrendHunter reviews Marquis and it's full line-up of sparkling tri-blend caffeine beverages...",
+            "link": "https://www.trendhunter.com/trends/marquis"
+          }
+        }
+      },
+      "block_order": [
+        "bd308a11-d1f1-4a55-9c06-f9cb042cc0ce",
+        "1875765a-746a-4bf3-aa60-30f4ddf47b7e",
+        "686eb271-2db4-435a-a2b2-6c592abb161b",
+        "8ece035b-d271-46a7-9246-7fab517ad500",
+        "518e24a9-f692-4fe2-8784-a17fe1378940",
+        "a739bbe3-e3e4-4af7-87ca-b96c34c2888a",
+        "35b48041-501e-481d-ae5f-bd3e782ab37e",
+        "22861106-687d-437d-95ec-e0d7d03e2c8e",
+        "beb76388-9c33-427a-acb3-6a884a8ff4f6",
+        "2710082f-5aed-4fa5-a068-b283453ea7c4",
+        "ca8571e5-cf82-41f4-bfac-522daa872c59",
+        "88adea3f-4204-4846-9f98-2330b3b4854e",
+        "99fa9d30-a5e3-4a6d-90d1-b245d2eb5013",
+        "96b7bd41-3aac-486a-9e50-9ddf26550956",
+        "d17c5f13-e69b-4f2e-9c2f-fd99bbcaf79f",
+        "e227f3e6-5e6c-4a52-8575-7110daa94764",
+        "a278d97e-26b0-4b22-b475-9f706e11d350",
+        "135e30b6-78e3-42c0-abc9-90f6404c6e63",
+        "dba46e34-75c1-42c6-b3a0-8f0a4cbde290",
+        "dadb977a-4d8f-4432-8094-7152e96b3f56",
+        "ffda89eb-41af-4d63-a3f7-fc44d301c621",
+        "de951cdd-674a-4678-b104-98d0ba27afe9",
+        "22f418a5-7b8e-461b-b618-d6c383b35824",
+        "bf95d4a9-b8c3-4b7a-8498-b7bfac8c4532",
+        "c638a2f5-200d-443a-bc8d-f5c15bd521ae",
+        "57574fd3-998f-48b2-a5c0-0f6ef16c4c66",
+        "866a4aef-9627-4531-8645-2bea07aa4bc0",
+        "341afce7-8280-4c84-8661-9a735e60df64",
+        "e3b8212e-dc85-4142-a716-68a39d9b5f00",
+        "bdc301af-3620-4e06-859c-f79978189a9f",
+        "6b35192c-7f64-46ab-98e5-a83a1df4f4dd",
+        "c540cd2f-9065-4ffa-84ca-bf4c356003b8",
+        "c4b61991-50a8-4a26-8669-4b493f85b51f",
+        "8dc30450-8325-4eec-b885-11959bf57bae",
+        "9bbeafe9-00da-4392-a899-0b868f83f168",
+        "faf685c3-278b-40a6-9a1c-4d868bb9e0ad",
+        "51ede524-7ed9-45df-9a28-75df42c4d85b",
+        "4d974dcf-7b84-4e0a-b25d-5891d775af53",
+        "f8c0da93-7351-431b-8085-3b8fc980401a",
+        "96d4769d-b74b-4e4e-80d1-9e3b86730840",
+        "bfbffc50-b3fa-439e-a9fc-37443ac718a8",
+        "16996dad-7714-47db-a6a5-e313545f6baa",
+        "40672697-8ebb-4a74-a36d-cc2325741bbc",
+        "66a88b2c-529c-4f10-bf25-e2485bfcbac6",
+        "e846d31d-0780-4f19-8501-11f87ef8a463",
+        "e765b904-0671-43d5-bac0-cb2f3cca425a",
+        "d7354735-dcb4-49c6-806b-53df904b72e8"
+      ],
+      "settings": {
+        "title": "MARQUIS PRESS",
+        "sub-title": "Send press & media inquiries to press@drinkmarquis.com"
+      }
+    }
+  },
+  "order": [
+    "press-template"
+  ]
+}

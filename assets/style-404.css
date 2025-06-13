@@ -1,0 +1,42 @@
+.page-404 footer .walve-footer {
+  background-color: #fffffc; }
+
+.page-404-wrap {
+  padding-top: 311px;
+  padding-bottom: 186px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .page-404-wrap {
+      padding-top: 273px;
+      padding-bottom: 114px; } }
+  .page-404-wrap .section-content {
+    text-align: center;
+    color: #284734; }
+    .page-404-wrap .section-content .section-title {
+      letter-spacing: -0.02em;
+      font-size: 48px;
+      line-height: 52px;
+      margin-bottom: 30px;
+      font-weight: 600; }
+      @media only screen and (max-width: 767px) {
+        .page-404-wrap .section-content .section-title {
+          font-size: 30px;
+          line-height: 130%;
+          width: 80%;
+          margin: 0 auto 24px; } }
+    .page-404-wrap .section-content .sub-title {
+      font-size: 18px;
+      line-height: 22px;
+      opacity: 0.6;
+      margin-bottom: 28px; }
+      @media only screen and (max-width: 767px) {
+        .page-404-wrap .section-content .sub-title {
+          margin-bottom: 24px; } }
+    @media only screen and (max-width: 767px) {
+      .page-404-wrap .section-content .btn-link .btn-bg-green {
+        height: 48px;
+        width: 180px;
+        font-size: 19px; } }
+
+/*# sourceMappingURL=style-404.css.map */

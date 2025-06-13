@@ -1,0 +1,432 @@
+.marquology-page-wrap {
+  padding-top: 216px;
+  padding-bottom: 100px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .marquology-page-wrap {
+      padding-top: 122px;
+      padding-bottom: 27px; } }
+  .marquology-page-wrap section {
+    position: relative; }
+    .marquology-page-wrap section.header .section-title {
+      font-size: 83.2px;
+      line-height: 78px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: #284734;
+      font-weight: 900;
+      margin-bottom: 28px; }
+      @media only screen and (max-width: 767px) {
+        .marquology-page-wrap section.header .section-title {
+          font-size: 46px;
+          line-height: 52px;
+          margin-bottom: 16px; } }
+      @media only screen and (max-width: 427px) {
+        .marquology-page-wrap section.header .section-title {
+          font-size: 38px; } }
+    .marquology-page-wrap section.header .description {
+      width: 40%;
+      margin: 0 auto;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #284734;
+      opacity: 0.6; }
+      @media only screen and (max-width: 991px) {
+        .marquology-page-wrap section.header .description {
+          width: 100%; } }
+      @media only screen and (max-width: 767px) {
+        .marquology-page-wrap section.header .description {
+          font-size: 18px;
+          line-height: 22px;
+          width: 95%; } }
+    .marquology-page-wrap section.header .filter-wrap {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 47.84%;
+      margin: 55px auto 87px; }
+      @media only screen and (max-width: 991px) {
+        .marquology-page-wrap section.header .filter-wrap {
+          width: 100%; } }
+      @media only screen and (max-width: 576px) {
+        .marquology-page-wrap section.header .filter-wrap {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+          width: 290px;
+          margin: 32px auto 34px; } }
+      .marquology-page-wrap section.header .filter-wrap .select-wrap {
+        width: 46.9%;
+        position: relative; }
+        @media only screen and (max-width: 576px) {
+          .marquology-page-wrap section.header .filter-wrap .select-wrap {
+            width: 100%;
+            margin-bottom: 25px; } }
+        .marquology-page-wrap section.header .filter-wrap .select-wrap:first-child {
+          z-index: 5; }
+        .marquology-page-wrap section.header .filter-wrap .select-wrap:last-child {
+          z-index: 4; }
+        .marquology-page-wrap section.header .filter-wrap .select-wrap .select-title {
+          font-size: 18px;
+          line-height: 22px;
+          color: #284734;
+          font-weight: 700;
+          margin-bottom: 7px; }
+        .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field {
+          width: 100%;
+          background: #FFFFFF;
+          border: 1px solid #A0A0A0;
+          border-radius: 10px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          position: relative;
+          z-index: 5; }
+          .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field::after {
+            content: '';
+            width: 17px;
+            height: 10px;
+            display: block;
+            position: absolute;
+            right: 18px;
+            top: 18px;
+            background-image: url(select-arrow.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; }
+          .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .current {
+            font-size: 19px;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            color: #343434;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 10px 44px 13px 16px;
+            cursor: pointer; }
+          .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .select-options {
+            display: none;
+            padding: 15px 15px 15px 21px;
+            position: absolute;
+            width: calc(100% + 2px);
+            left: -1px;
+            top: 40px;
+            background: #ffffff;
+            border-radius: 0px 0px 20px 16px;
+            border: 1px solid #A0A0A0; }
+            .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .select-options::before {
+              width: 100%;
+              height: 2px;
+              background-color: #C4C4C4;
+              position: absolute;
+              left: 0px;
+              top: 0; }
+            .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .select-options li {
+              display: block;
+              list-style: none;
+              font-size: 19px;
+              line-height: 23px;
+              letter-spacing: 0.02em;
+              color: #949494;
+              -webkit-transition: 0.2s;
+              transition: 0.2s;
+              cursor: pointer;
+              margin-bottom: 5px; }
+              .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .select-options li:last-child {
+                margin-bottom: 0px; }
+              .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field .select-options li:hover {
+                color: #000000;
+                -webkit-transition: 0.2s;
+                transition: 0.2s; }
+          .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field.active {
+            border-radius: 20px 20px 0px 0px; }
+            .marquology-page-wrap section.header .filter-wrap .select-wrap .select-field.active .select-options {
+              display: block; }
+    @media only screen and (max-width: 767px) {
+      .marquology-page-wrap section.page-content {
+        overflow: hidden; } }
+    @media only screen and (max-width: 767px) {
+      .marquology-page-wrap section.page-content.no-results {
+        padding-bottom: 80px; } }
+    .marquology-page-wrap section.page-content.no-results .left-column {
+      display: none; }
+    .marquology-page-wrap section.page-content.no-results .right-column {
+      display: none; }
+    .marquology-page-wrap section.page-content .border-wrap {
+      position: relative; }
+      @media only screen and (max-width: 767px) {
+        .marquology-page-wrap section.page-content .border-wrap::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          display: block;
+          background-color: #ABABAB;
+          top: 0px;
+          left: 15px; }
+        .marquology-page-wrap section.page-content .border-wrap::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          display: block;
+          background-color: #ABABAB;
+          bottom: 0px;
+          left: 15px; } }
+    .marquology-page-wrap section.page-content .left-column {
+      padding-left: 228px;
+      position: relative; }
+      @media only screen and (max-width: 1400px) {
+        .marquology-page-wrap section.page-content .left-column {
+          padding-left: 30%; } }
+      @media only screen and (max-width: 991px) {
+        .marquology-page-wrap section.page-content .left-column {
+          padding-left: 0px; } }
+      @media only screen and (max-width: 767px) {
+        .marquology-page-wrap section.page-content .left-column {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          overflow-y: scroll;
+          left: -26px;
+          position: relative;
+          padding-left: 26px;
+          padding-right: 26px;
+          padding-top: 37px;
+          width: calc(100% + 56px); } }
+      .marquology-page-wrap section.page-content .left-column .cocktails-block {
+        padding-bottom: 57px; }
+        @media only screen and (max-width: 767px) {
+          .marquology-page-wrap section.page-content .left-column .cocktails-block {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            padding-bottom: 44px; }
+            .marquology-page-wrap section.page-content .left-column .cocktails-block .block-header {
+              padding-bottom: 31px; } }
+        .marquology-page-wrap section.page-content .left-column .cocktails-block .title {
+          font-size: 22px;
+          line-height: 26px;
+          color: #474747;
+          font-weight: 700;
+          margin-bottom: 18px; }
+        .marquology-page-wrap section.page-content .left-column .cocktails-block .description {
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 300;
+          color: #747474;
+          text-align: left;
+          width: 100%; }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section.page-content .left-column .cocktails-block .description {
+              width: 375px; } }
+      .marquology-page-wrap section.page-content .left-column .cocktails-list {
+        margin-top: 31px; }
+        @media only screen and (max-width: 767px) {
+          .marquology-page-wrap section.page-content .left-column .cocktails-list {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-top: auto; } }
+        .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding: 16px;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 3px;
+          border-radius: 20px;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item {
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              margin-right: 10px;
+              min-height: 186px; } }
+          .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item:hover {
+            background: #E7E2C9;
+            -webkit-transition: 0.2s;
+            transition: 0.2s; }
+          .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item.active {
+            background: #E7E2C9; }
+          .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .image-preview {
+            width: 110px;
+            height: 110px;
+            border: 2px solid #DBDBDB;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-right: 21px; }
+            @media only screen and (max-width: 576px) {
+              .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .image-preview {
+                margin-right: 0px;
+                margin-bottom: 12px; } }
+            .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .image-preview img {
+              -o-object-fit: cover;
+                 object-fit: cover;
+              -o-object-position: center;
+                 object-position: center;
+              width: 100%;
+              height: 100%; }
+          @media only screen and (max-width: 576px) {
+            .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .content {
+              text-align: center; } }
+          .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .content span {
+            display: block;
+            font-size: 18px;
+            line-height: 22px;
+            color: #686868; }
+            @media only screen and (max-width: 576px) {
+              .marquology-page-wrap section.page-content .left-column .cocktails-list .list-item .content span {
+                font-size: 16px;
+                line-height: 110%; } }
+    .marquology-page-wrap section.page-content .right-column {
+      margin-left: 15px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px; }
+      @media only screen and (max-width: 991px) {
+        .marquology-page-wrap section.page-content .right-column {
+          margin-left: 0px; } }
+      .marquology-page-wrap section.page-content .right-column .cocktail-recipe {
+        border-left: 1px solid rgba(171, 171, 171, 0.4);
+        padding-left: 69px;
+        padding-bottom: 89px; }
+        @media only screen and (max-width: 767px) {
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe {
+            border: none;
+            padding-left: 0px;
+            padding-top: 42px; } }
+        .marquology-page-wrap section.page-content .right-column .cocktail-recipe .header {
+          margin-bottom: 34px;
+          margin-top: -2px; }
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe .header .title {
+            font-size: 46px;
+            line-height: 55px;
+            font-weight: 700;
+            color: #131212;
+            margin-bottom: 12px; }
+            @media only screen and (max-width: 767px) {
+              .marquology-page-wrap section.page-content .right-column .cocktail-recipe .header .title {
+                font-size: 38px;
+                line-height: 46px;
+                margin-bottom: 16px; } }
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe .header .excerpt {
+            font-size: 20px;
+            line-height: 24px;
+            color: #747474; }
+        .marquology-page-wrap section.page-content .right-column .cocktail-recipe .image-preview {
+          width: 440px;
+          height: 440px;
+          border-radius: 20px;
+          overflow: hidden;
+          margin-bottom: 36px; }
+          @media only screen and (max-width: 991px) {
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .image-preview {
+              width: 100%;
+              height: 300px; } }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .image-preview {
+              height: 375px;
+              margin-bottom: 34px; } }
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe .image-preview img {
+            -o-object-fit: cover;
+               object-fit: cover;
+            -o-object-position: center;
+               object-position: center;
+            width: 100%;
+            height: 100%; }
+        .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info {
+          margin-bottom: 36px; }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info {
+              margin-bottom: 42px; } }
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info .title {
+            font-size: 20px;
+            line-height: 24px;
+            color: #454545;
+            margin-bottom: 14px; }
+            @media only screen and (max-width: 767px) {
+              .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info .title {
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 16px; } }
+          .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info .content {
+            background: rgba(210, 210, 210, 0.2);
+            border: 2px solid #DBDBDB;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            border-radius: 20px;
+            padding: 18px;
+            display: inline-block; }
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info .content span {
+              font-size: 20px;
+              line-height: 24px;
+              color: #454545;
+              display: block; }
+              @media only screen and (max-width: 767px) {
+                .marquology-page-wrap section.page-content .right-column .cocktail-recipe .block-info .content span {
+                  font-size: 18px;
+                  line-height: 22px; } }
+        .marquology-page-wrap section.page-content .right-column .cocktail-recipe .description {
+          font-size: 20px;
+          line-height: 24px;
+          font-style: italic;
+          color: #454545;
+          text-align: left;
+          width: 58%;
+          margin: -3px 0px auto; }
+          @media only screen and (max-width: 991px) {
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .description {
+              width: 100%; } }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section.page-content .right-column .cocktail-recipe .description {
+              font-size: 18px;
+              line-height: 22px;
+              margin-top: -7px; } }
+    .marquology-page-wrap section .empty-msg {
+      display: none;
+      font-size: 19px;
+      line-height: 23px;
+      letter-spacing: 0.02em;
+      text-align: center; }
+      .marquology-page-wrap section .empty-msg.active {
+        display: block; }
+        .marquology-page-wrap section .empty-msg.active.mobile-msg {
+          display: none;
+          padding-top: 181px;
+          padding-bottom: 201px; }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section .empty-msg.active.mobile-msg {
+              display: block; } }
+        .marquology-page-wrap section .empty-msg.active.desctop-msg {
+          padding-top: 118px;
+          min-height: 371px; }
+          @media only screen and (max-width: 767px) {
+            .marquology-page-wrap section .empty-msg.active.desctop-msg {
+              display: none; } }
+
+/*# sourceMappingURL=style-maquology.css.map */

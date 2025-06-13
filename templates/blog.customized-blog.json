@@ -1,0 +1,38 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blog-content": {
+      "type": "blog-content",
+      "blocks": {
+        "df991dfc-ef2b-493f-99d4-8d037166ec7d": {
+          "type": "article",
+          "settings": {
+            "article": "marquis-world/does-it-matter-where-your-caffeine-comes-from"
+          }
+        },
+        "75da8be8-5a80-4dcf-b393-b458451e4029": {
+          "type": "article",
+          "settings": {
+            "article": "marquis-world/does-it-matter-where-your-caffeine-comes-from-part-2"
+          }
+        }
+      },
+      "block_order": [
+        "df991dfc-ef2b-493f-99d4-8d037166ec7d",
+        "75da8be8-5a80-4dcf-b393-b458451e4029"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "blog-content"
+  ]
+}

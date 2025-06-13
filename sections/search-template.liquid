@@ -1,0 +1,61 @@
+<style>
+  .search-results_container{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+  }
+  .search-results_container h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-result {
+    margin-bottom: 20px;
+  }
+  
+  .search-result-title {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .search-result-excerpt {
+    color: #666;
+  }
+</style>
+
+<div class="search-results_container">
+  <div class="container">
+    
+{% if search.results_count > 0 %}
+ 
+    <h2>Search results for "{{ search.terms }}"</h2>
+
+    <ul class="search-results">
+      {% for item in search.results %}
+        {%- assign image = item.featured_media.preview_image | default: item.featured_image -%}
+        {% if item.object_type == 'product' %}
+          <li class="search-result">
+            {%- if image != blank -%}
+              <a href="{{ item.url }}">
+                <img class="image__img" src="{{ image | img_url: '2048x2048' }}" alt="{{ image.alt | escape }}">
+              </a>
+            {%- endif -%}
+            <a class="search-result-title" href="{{ item.url }}">{{ item.title }}</a>
+            <p class="search-result-excerpt">{{ item.excerpt }}</p>
+          </li>
+       {% endif %}
+      {% endfor %}
+    </ul>
+  
+{% else %}
+  <p>No results found for "{{ search.terms }}".</p>
+{% endif %}
+
+    
+  </div>
+
+</div>

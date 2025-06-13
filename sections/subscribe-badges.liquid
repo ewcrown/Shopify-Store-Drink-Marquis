@@ -1,0 +1,43 @@
+<section class="badges">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="details-wrap display-flex">
+                    {% for block in section.blocks %}
+                        <div class="detail-item">
+                            <div class="image-wrap">
+                                <img src="{{ block.settings.image-preview | img_url: 'master' }}" alt="">
+                            </div>
+                            <div class="description">{{ block.settings.badge-title }}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Badge bloks",
+        "blocks": [
+            {
+                "name": "Badge",
+                "type": "badge",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image-preview",
+                        "label": "Image preview"
+                    },
+                    {
+                        "type": "text",
+                        "id": "badge-title",
+                        "label": "Title"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

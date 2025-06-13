@@ -1,0 +1,18 @@
+{% if collection.handle != blank %}
+
+    {% assign show_noindex = 0 %}
+    {% if
+            collection.handle == 'last-minute-checkout-items' or
+            collection.handle == 'merchandise' or
+            collection.handle == 'shop' or
+            collection.handle == 'shop-all'
+    %}
+        {% assign show_noindex = 1 %}
+    {% endif %}
+
+    {% if show_noindex == 1 %}
+        <meta name="robots" content="noindex" />
+    {% endif %}
+
+{% endif %}
+

@@ -1,0 +1,3278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "csv_file_url": "https://cdn.shopify.com/s/files/1/1512/5894/files/12.21.23_Store_Locator_-_updated.csv?v=1703208329",
+    "badge_1_image": "shopify://shop_images/Slow-BoltAnimation.gif",
+    "badge_1_title": "Balanced Lift",
+    "badge_1_description": "Only 100 mg of plant-based caffeine.",
+    "badge_2_image": "shopify://shop_images/Slow-BrainAnimation.gif",
+    "badge_2_title": "Daily Vitamins",
+    "badge_2_description": "Packed with essentials like B3, B5, B6, and B12.",
+    "badge_3_image": "shopify://shop_images/Slow-HeartAnimation.gif",
+    "badge_3_title": "Immune Support",
+    "badge_3_description": "Antioxidants + more vitamin C than an Orange.",
+    "badge_4_image": "shopify://shop_images/Slow-PersonAnimation.gif",
+    "badge_4_title": "Guilt Free",
+    "badge_4_description": "No Sugar, Calories, Net carbs, or artificial sweeteners﻿.",
+    "fb_link": "https://www.facebook.com/drinkmarquis/",
+    "ig_link": "https://www.instagram.com/drinkmarquis/",
+    "linkedin_link": "https://www.linkedin.com/company/drinkmarquis/",
+    "pint_link": "https://www.pinterest.com/drinkmarquis",
+    "tiktok_link": "https://www.tiktok.com/@drinkmarquis",
+    "spotify_link": "https://open.spotify.com/user/31w7fj2p326gciq32yb3nrw5um6i",
+    "footer_subscribe_text": "Get $15 off your first order:",
+    "favicon_image": "shopify://shop_images/favicon-32x32_35ea0319-56fe-4124-891c-ce2a84e12e21.png",
+    "copyright_text": "Copyright Marquis 2024 © All Rights Reserved.",
+    "checkout_header_image": "shopify://shop_images/Cart_Header_FINALv2.jpg",
+    "checkout_logo_image": "shopify://shop_images/Horizontal_Logo_d9a772ef-38eb-465e-8dbd-06194df23af9.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#cedbb2",
+    "checkout_button_color": "#294634",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "d57557e3-0d8b-4134-b234-44ef40edbdc2": {
+            "type": "products",
+            "settings": {
+              "title": "marquis-assorted-12-pack",
+              "title_in_menu_product": "Variety Pack",
+              "main_image_product": "shopify://shop_images/Variety_ToteBagw_ographic.png",
+              "hover_image_product": "shopify://shop_images/Variety_Pack_-_PDP.jpg"
+            }
+          },
+          "products_tLKFLT": {
+            "type": "products",
+            "settings": {
+              "title": "",
+              "title_in_menu_product": ""
+            }
+          },
+          "9b7965c5-e3d1-4ed3-99c1-6e74b4e881f4": {
+            "type": "products",
+            "settings": {
+              "title": "marquis-best-seller-variety-pack",
+              "title_in_menu_product": "Best Seller Variety Pack",
+              "main_image_product": "shopify://shop_images/BestSellerVarietyPack_water.jpg",
+              "hover_image_product": "shopify://shop_images/Best_Seller_Pack_-_PDP_45abb9fb-dfbd-4fc8-82a5-b09266589c1f.jpg"
+            }
+          },
+          "1f6b4433-afca-415e-a0a9-4d0cbd00426d": {
+            "type": "products",
+            "settings": {
+              "title": "marquis-lemon-lavender",
+              "title_in_menu_product": "Lemon Lavender",
+              "main_image_product": "shopify://shop_images/LemonLavender_LemonBackground_1500x_f8a860ba-06c1-481a-911a-71582dead715.jpg",
+              "hover_image_product": "shopify://shop_images/LemonLavender_Pour_640x_62dea4a0-a1d8-4caa-8ea7-0f90b22b0070.png"
+            }
+          },
+          "43aeeb41-42d8-4619-931b-c869a7d484db": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-pineapple-passion",
+              "title_in_menu_product": "Pineapple Passion",
+              "main_image_product": "shopify://shop_images/PineapplePassion_PineappleBackground_home.png",
+              "hover_image_product": "shopify://shop_images/EDITEDx-48.jpg"
+            }
+          },
+          "f26ba702-bd2a-46b1-a6c2-f4e1e907f3a6": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-lychee-peach",
+              "title_in_menu_product": "Lychee Peach",
+              "main_image_product": "shopify://shop_images/LycheePeach_PeachBackground_home.jpg",
+              "hover_image_product": "shopify://shop_images/LycheePeach_GuyHoldingCan.jpg"
+            }
+          },
+          "044e23f4-3197-440e-9de0-e9820c638994": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-super-berry",
+              "title_in_menu_product": "Super Berry",
+              "main_image_product": "shopify://shop_images/SuperBerry_RaspberryBackground_home.jpg",
+              "hover_image_product": "shopify://shop_images/SuperBerry_DoubleHandReach.jpg"
+            }
+          },
+          "269fc12a-2945-4056-9cdf-f191028ce951": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-citrus-yuzu",
+              "title_in_menu_product": "Citrus Yuzu",
+              "main_image_product": "shopify://shop_images/CitrusYuzu_LemonBackground_home.jpg",
+              "hover_image_product": "shopify://shop_images/Marquis_citrus_yuzu_5a54eff9-5506-4c95-ae20-d3f24591d33d.jpg"
+            }
+          },
+          "a56d969a-05ec-4991-b26c-81150216af43": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-mango-ginger",
+              "title_in_menu_product": "Mango Ginger",
+              "main_image_product": "shopify://shop_images/MangoGinger_MangoBackground_home.jpg",
+              "hover_image_product": "shopify://shop_images/Mango_Ginger_-_PDP.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "d57557e3-0d8b-4134-b234-44ef40edbdc2",
+          "products_tLKFLT",
+          "9b7965c5-e3d1-4ed3-99c1-6e74b4e881f4",
+          "1f6b4433-afca-415e-a0a9-4d0cbd00426d",
+          "43aeeb41-42d8-4619-931b-c869a7d484db",
+          "f26ba702-bd2a-46b1-a6c2-f4e1e907f3a6",
+          "044e23f4-3197-440e-9de0-e9820c638994",
+          "269fc12a-2945-4056-9cdf-f191028ce951",
+          "a56d969a-05ec-4991-b26c-81150216af43"
+        ],
+        "settings": {
+          "subscription_url": "shopify://products/marquis-best-seller-variety-pack",
+          "marquology_url": "shopify://pages/marqology-new",
+          "learn_url": "shopify://pages/about-us",
+          "about_url": "shopify://pages/about-us",
+          "blog_url": "shopify://blogs/marquis-world",
+          "contact_url": "shopify://pages/contact-us",
+          "press_url": "shopify://pages/press",
+          "collection_url": "shopify://collections",
+          "store_locator_url": "shopify://pages/store-locator"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "86e3cacb-cae5-4cad-9b32-0c9649f8307c": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Certification-1.png",
+              "logo_url": "https://www.usda.gov/topics/organic"
+            }
+          },
+          "28732cdf-596b-461e-a016-47ca1874f49d": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Certification-2.png",
+              "logo_url": "https://www.nongmoproject.org/"
+            }
+          },
+          "3cd088ce-d861-4b0f-a02d-607fbd7a1f3a": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Gluten-Free_WHT_Circle.png",
+              "logo_url": "https://www.wfcforganic.com/"
+            }
+          },
+          "92826868-7565-4ad4-88ae-a3956865086f": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Certification-4.png",
+              "logo_url": "https://vegan.org/"
+            }
+          },
+          "035f10c0-dc44-415e-ac03-ee60a46b2631": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Certification-5.png",
+              "logo_url": "https://www.onepercentfortheplanet.org/?hsLang=en"
+            }
+          },
+          "45eb0a64-9544-485a-8a1f-4dac8d316e42": {
+            "type": "certification_logo",
+            "settings": {
+              "logo": "shopify://shop_images/Certification-6.png",
+              "logo_url": "https://nmsdc.org/"
+            }
+          }
+        },
+        "block_order": [
+          "86e3cacb-cae5-4cad-9b32-0c9649f8307c",
+          "28732cdf-596b-461e-a016-47ca1874f49d",
+          "3cd088ce-d861-4b0f-a02d-607fbd7a1f3a",
+          "92826868-7565-4ad4-88ae-a3956865086f",
+          "035f10c0-dc44-415e-ac03-ee60a46b2631",
+          "45eb0a64-9544-485a-8a1f-4dac8d316e42"
+        ],
+        "settings": {
+          "footer_title": "Not All Caffeine is Created Equal"
+        }
+      },
+      "1637141107db736dbd": {
+        "type": "index-recommend-products",
+        "settings": {
+          "left_title": "FAN FAVORITE",
+          "left_sub_title": "lychee peach",
+          "left_text": "<p>A sugar-free, sparkling mix of lychee and peach fruit packed with tons of vitamins and antioxidants. Combined with the perfect amount of organic caffeine, this drink is what your pre-workout ritual and post-work cocktail have been missing.</p>",
+          "left-image": "shopify://shop_images/LycheePeach_PeachBackgroundlifestyle_home.png",
+          "left_btn_text": "Shop Now",
+          "left_btn_link": "shopify://products/case-of-marquis-lychee-peach",
+          "right_title": "Mix it up",
+          "right_sub_title": "Best Seller Pack",
+          "right_text": "<p>Get Lemon Lavender, Pineapple Passion, and Lychee Peach all in one. Whether it be for that vacation you’ve been dreaming of, a drive through Beverly Hills with the windows down, or if you’re just feelin’ peachy… you can’t go wrong with this new variety pack that puts our best fruit forward flavors.</p>",
+          "right-image": "shopify://shop_images/Homepage_Best_Seller.jpg",
+          "right_btn_text": "Shop Now",
+          "right_btn_link": "shopify://products/marquis-best-seller-variety-pack",
+          "mobile_padding": "",
+          "desk_padding": "",
+          "cta_bg_color": "#294634",
+          "cta_text_color": "#ffffff"
+        }
+      },
+      "1637141110d4e76a55": {
+        "type": "index-hero-banner",
+        "disabled": true,
+        "settings": {
+          "hero-image": "shopify://shop_images/PINEAPPLE_PASSION_HERO_HEADER.png",
+          "title": "RETHINK <br> HOW YOU <br> DRINK CAFFEINE",
+          "text": "",
+          "btn_text": "Shop Now",
+          "btn_link": "shopify://products/case-of-marquis-pineapple-passion",
+          "bg_color": "#d9e8e1",
+          "heading_color": "#294634",
+          "desc_color": "#284734",
+          "cta_bg_color": "#284734",
+          "cta_color": "#fafafa",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "1637141113f2ca1850": {
+        "type": "index-slider",
+        "blocks": {
+          "4b159f4e-d69a-493a-89b7-42f7b995aaf4": {
+            "type": "slide",
+            "settings": {
+              "background": "",
+              "custom_background": "218,205,229",
+              "title": "Lemon Lavender",
+              "title-custom-color": "#fdf7f0",
+              "image": "shopify://shop_images/LELO_640x_6782cdc7-5ded-4912-857e-4abbc38308d2.png",
+              "fruit_profile": "Fresh-squeezed Citrus & a Hint of Lavender",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "shopify://products/marquis-lemon-lavender",
+              "cta_bg_color": "#294634",
+              "cta_text_color": ""
+            }
+          },
+          "4f0c59c4-9353-4b08-96cf-f965c5a0ab87": {
+            "type": "slide",
+            "settings": {
+              "background": "",
+              "custom_background": "251,247,240",
+              "title": "Pineapple Passion",
+              "title-custom-color": "#F9D849",
+              "image": "shopify://shop_images/PIPA.png",
+              "fruit_profile": "Tropical Pineapple & Passion Fruit",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "https://drinkmarquis.com/products/case-of-marquis-pineapple-passion",
+              "cta_bg_color": "#284734",
+              "cta_text_color": ""
+            }
+          },
+          "5c3c0480-aa1c-4956-be05-982f758c3d2b": {
+            "type": "slide",
+            "settings": {
+              "background": "pink",
+              "custom_background": "247,207,190",
+              "title": "Lychee Peach",
+              "title-custom-color": "#F79F90",
+              "image": "shopify://shop_images/LP_68b517b9-6502-402f-9e40-87f3affca0c6.png",
+              "fruit_profile": "Lychee Fruit & Sweet Peach",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "shopify://products/case-of-marquis-lychee-peach",
+              "cta_bg_color": "",
+              "cta_text_color": ""
+            }
+          },
+          "692a6082-715a-4c3b-9284-f94a0dce5661": {
+            "type": "slide",
+            "settings": {
+              "background": "pink",
+              "custom_background": "",
+              "title": "Super Berry",
+              "title-custom-color": "",
+              "image": "shopify://shop_images/SB_a2b47a02-c9ff-4ae7-8977-0289d1ce76e7.png",
+              "fruit_profile": "Sweet Raspberries & Tart Lemon",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "shopify://products/case-of-marquis-super-berry",
+              "cta_bg_color": "",
+              "cta_text_color": ""
+            }
+          },
+          "41d90dd1-f29b-4b6c-bb12-9797eb4611be": {
+            "type": "slide",
+            "settings": {
+              "background": "citrus",
+              "custom_background": "",
+              "title": "Citrus Yuzu",
+              "title-custom-color": "",
+              "image": "shopify://shop_images/CY_c4f80e61-d94e-4b27-97b9-ed51ce47546f.png",
+              "fruit_profile": "Yuzu, Lemon, Lime & Tangerine",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "shopify://products/case-of-marquis-citrus-yuzu",
+              "cta_bg_color": "",
+              "cta_text_color": ""
+            }
+          },
+          "8fc8ad80-82a9-44ca-a950-f5a09980db49": {
+            "type": "slide",
+            "settings": {
+              "background": "orange",
+              "custom_background": "",
+              "title": "Mango Ginger",
+              "title-custom-color": "",
+              "image": "shopify://shop_images/MG.png",
+              "fruit_profile": "Sweet Mango & Ginger Root",
+              "sweet_with": "Monk Fruit",
+              "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
+              "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
+              "shop-button-title": "Shop Now",
+              "shop_now_link": "shopify://products/case-of-marquis-mango-ginger",
+              "cta_bg_color": "",
+              "cta_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "4b159f4e-d69a-493a-89b7-42f7b995aaf4",
+          "4f0c59c4-9353-4b08-96cf-f965c5a0ab87",
+          "5c3c0480-aa1c-4956-be05-982f758c3d2b",
+          "692a6082-715a-4c3b-9284-f94a0dce5661",
+          "41d90dd1-f29b-4b6c-bb12-9797eb4611be",
+          "8fc8ad80-82a9-44ca-a950-f5a09980db49"
+        ],
+        "settings": {
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "163714121794aa5a06": {
+        "type": "index-what-caffeine",
+        "blocks": {
+          "62abfa17-85f2-42b4-b2dc-cfb4bd76ec0a": {
+            "type": "slide",
+            "settings": {
+              "title": "Yerba Mate",
+              "description": "This South American super-plant delivers a new type of energy experience. Get ready for take-off, it's going to be a smooth ride.",
+              "image": "shopify://shop_images/Yerba_Mate_eb442004-edd7-4660-8b0c-c324ae754acd.png"
+            }
+          },
+          "cefed1d4-57c3-49eb-ad8c-5af92030bdd9": {
+            "type": "slide",
+            "settings": {
+              "title": "Green Coffee",
+              "description": "The coffee bean is its most natural form; unroasted to avoid a bitter flavor and to ensure maximum nutritional impact.",
+              "image": "shopify://shop_images/Green_Coffee_Beans.png"
+            }
+          },
+          "30ad3918-5718-4287-87b2-b5066dce951a": {
+            "type": "slide",
+            "settings": {
+              "title": "Green Tea",
+              "description": "The tea that ignited the American Revolution in Boston can ignite your very own health revolution today.",
+              "image": "shopify://shop_images/Green_Tea_ffe393a7-616f-4567-b3b1-753fd325744e.png"
+            }
+          }
+        },
+        "block_order": [
+          "62abfa17-85f2-42b4-b2dc-cfb4bd76ec0a",
+          "cefed1d4-57c3-49eb-ad8c-5af92030bdd9",
+          "30ad3918-5718-4287-87b2-b5066dce951a"
+        ],
+        "settings": {
+          "title": "Not ALL caffeine<br>IS CREATED EQUAL",
+          "description": "<p>Our unique tri-blend of plant-based caffeine is the first of its kind. We paired yerba mate leaves, green coffee beans, and green tea to give you a balanced lift without the ups and downs of most caffeinated drinks.</p>",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "1637141851186d6990": {
+        "type": "index-press",
+        "blocks": {
+          "e72004b2-80c9-4812-81ea-dd1639ef813e": {
+            "type": "slide",
+            "settings": {
+              "title": "“Realizing the impact caffeine was having on their well-being, they went in search of a healthier option, one with low to moderate caffeine and healthy ingredients.”",
+              "image": "shopify://shop_images/los-angeles-magazine-logo-black36x.png",
+              "link": "https://www.lamag.com/sponsored/discover-a-new-way-to-caffeinate-in-l-a-with-marquis/"
+            }
+          },
+          "efedafff-4c4c-4577-b66d-c73d91eddecf": {
+            "type": "slide",
+            "settings": {
+              "title": "\"Marquis, aligns perfectly with Erewhon's ethos of believing nutrition is the key to a radiant lifestyle.”",
+              "image": "shopify://shop_images/Erewhon_Logo.png",
+              "link": "https://www.bevnet.com/news/2022/marquis-expands-into-all-7-erewhon-retail-locations"
+            }
+          },
+          "8b84d8c6-a3f7-46fc-ab31-4df7f006fb07": {
+            "type": "slide",
+            "settings": {
+              "title": "\"Drinking this just made me feel really honed in on my work, and I felt totally on top of the day.\"",
+              "image": "shopify://shop_images/Sweety_High.png",
+              "link": "https://www.sweetyhigh.com/read/marquis-energy-drink-review-taste-test-031522"
+            }
+          }
+        },
+        "block_order": [
+          "e72004b2-80c9-4812-81ea-dd1639ef813e",
+          "efedafff-4c4c-4577-b66d-c73d91eddecf",
+          "8b84d8c6-a3f7-46fc-ab31-4df7f006fb07"
+        ],
+        "settings": {
+          "background": "rgba(0,0,0,0)",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "1637141858918daa1a": {
+        "type": "index-review",
+        "settings": {
+          "title": "Marquis Is Making Waves",
+          "shop_now_link": "https://www.google.com",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "1637141870705638b0": {
+        "type": "index-instagram",
+        "settings": {
+          "title": "Let's Be Friends",
+          "code_for_feed": "<div id=\"insta-feed\"></div>",
+          "button_title": "@DRINKMARQUIS",
+          "button_url": "https://www.instagram.com/drinkmarquis/",
+          "mobile_padding": "",
+          "desk_padding": "",
+          "cta_bg_color": "",
+          "cta_text_color": ""
+        }
+      },
+      "1637662599cadf18ec": {
+        "type": "index-text-box",
+        "settings": {
+          "title_block_1": "ANYONE, ANYTIME, ANYWHERE.",
+          "description_block_1": "Whether you need to switch up your second cup of coffee, push through your day, or lift your spirits, Marquis fits into your life–morning, afternoon & night.",
+          "image_block_1": "shopify://shop_images/Anytime_621x690_f2c37d3a-7520-4ba8-9a86-8620d5d49e5b.jpg",
+          "shop_now_link_title_1": "Shop now",
+          "shop_now_link_1": "shopify://products/marquis-assorted-12-pack",
+          "title_block_2": "YOUR NEW FAVORITE MIXER.",
+          "description_block_2": "Yup, we can mix that. Browse our library of drink recipes to find the perfect way to mix your Marquis into a happy hour aperitif.",
+          "image_block_2": "shopify://shop_images/621x690-Marqology.png",
+          "shop_now_link_title_2": "view Recipes",
+          "shop_now_link_2": "shopify://pages/marqology-new",
+          "mobile_padding": "",
+          "desk_padding": "",
+          "cta_bg_color": "",
+          "cta_text_color": ""
+        }
+      },
+      "product-main-info": {
+        "type": "product-main-info",
+        "blocks": {
+          "363f22ac-96c7-470b-ad8e-d0aeeab2e3df": {
+            "type": "product",
+            "settings": {
+              "product": "marquis-assorted-12-pack"
+            }
+          },
+          "9be34b16-a563-492b-ae91-844d55381e55": {
+            "type": "product",
+            "settings": {
+              "product": "case-of-marquis-pineapple-passion"
+            }
+          },
+          "04ad9e79-871e-4d0e-a85f-2e6dabd155dc": {
+            "type": "product",
+            "settings": {
+              "product": "case-of-marquis-lychee-peach"
+            }
+          },
+          "74fe64b0-dc9b-4f1d-b610-0a29ed478e7e": {
+            "type": "product",
+            "settings": {
+              "product": "case-of-marquis-super-berry"
+            }
+          },
+          "44a5bff3-8637-437c-9fe5-32d16d79010e": {
+            "type": "product",
+            "settings": {
+              "product": "case-of-marquis-citrus-yuzu"
+            }
+          },
+          "52685a81-dc82-4a5a-a7d1-446a9aeac378": {
+            "type": "product",
+            "settings": {
+              "product": "case-of-marquis-mango-ginger"
+            }
+          }
+        },
+        "block_order": [
+          "363f22ac-96c7-470b-ad8e-d0aeeab2e3df",
+          "9be34b16-a563-492b-ae91-844d55381e55",
+          "04ad9e79-871e-4d0e-a85f-2e6dabd155dc",
+          "74fe64b0-dc9b-4f1d-b610-0a29ed478e7e",
+          "44a5bff3-8637-437c-9fe5-32d16d79010e",
+          "52685a81-dc82-4a5a-a7d1-446a9aeac378"
+        ],
+        "settings": {
+          "shipping_box_1": "<p>Order <span>2 Cases:</span></p><p>Get Free Shipping</p>",
+          "shipping_box_2": "<p>Order <span>3 Cases:</span></p><p>Get Free Shipping + 10% Off</p>"
+        }
+      },
+      "product-badges-and-difference": {
+        "type": "product-badges-and-difference",
+        "settings": {}
+      },
+      "product-text-blocks-with-images": {
+        "type": "product-text-blocks-with-images",
+        "settings": {}
+      },
+      "faq-short-list": {
+        "type": "faq-short-list",
+        "blocks": {
+          "cac3d9e0-7d40-4823-a818-6a4ef3c31b87": {
+            "type": "question",
+            "settings": {
+              "title": "How is Marquis sugar-free?",
+              "answer": "<p>Refined sugar is a relatively new addition to our diets. And it’s not a good one. So, we don’t use it. Instead, we sweeten our drinks with monk fruit. </p>"
+            }
+          },
+          "e64c55e0-4329-4bdd-bab3-260797f8cf5e": {
+            "type": "question",
+            "settings": {
+              "title": "Why did we make Marquis?",
+              "answer": "<p>Before we started Marquis, our routine was riddled with drip coffee and energy drinks. Over time, we found that this toxic mix of large amounts of sugar and low quality caffeine was wreaking havoc on our minds and bodies. So, we designed our own clean, vitamin-rich caffeine beverage carefully calibrated for the perfect lift.</p>"
+            }
+          },
+          "a3ca74e6-480b-40ac-b7d5-5da34f5452af": {
+            "type": "question",
+            "settings": {
+              "title": "What is Marquis’ unique caffeine blend made of?",
+              "answer": "<p>Organic & unprocessed plants; specifically Yerba Mate leaves, Green Coffee beans, and Green Tea.</p>"
+            }
+          },
+          "293d8387-89ed-4aa5-b787-ad40bfd376b1": {
+            "type": "question",
+            "settings": {
+              "title": "How much caffeine is in Marquis?",
+              "answer": "<p>Each can contains exactly 100mg of plant-based organic caffeine. At this quality, that’s just the right amount to elevate your energy levels without risking any jitters or crashing.</p>"
+            }
+          },
+          "c2d5714a-f125-46c5-aa61-f1e84df9a207": {
+            "type": "question",
+            "settings": {
+              "title": "What is Marquis flavored with?",
+              "answer": "<p>Real fruit. No chemicals, artificial flavors or sweeteners. Just good old fashioned plants.</p>"
+            }
+          },
+          "374dd389-6511-4975-8ba1-5b0ed5fd9c9d": {
+            "type": "question",
+            "settings": {
+              "title": "Is  Marquis gluten-free, vegetarian, vegan and kosher?",
+              "answer": "<p>Yes, yes, yes and yes again. Plant power for all!</p>"
+            }
+          },
+          "06106a15-255f-4e6f-ad9c-ef3350197429": {
+            "type": "question",
+            "settings": {
+              "title": "Does the drink contain GMOs?",
+              "answer": "<p>No, and they never will! We believe we should be eating and drinking from organic farms, not test tubes.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "cac3d9e0-7d40-4823-a818-6a4ef3c31b87",
+          "e64c55e0-4329-4bdd-bab3-260797f8cf5e",
+          "a3ca74e6-480b-40ac-b7d5-5da34f5452af",
+          "293d8387-89ed-4aa5-b787-ad40bfd376b1",
+          "c2d5714a-f125-46c5-aa61-f1e84df9a207",
+          "374dd389-6511-4975-8ba1-5b0ed5fd9c9d",
+          "06106a15-255f-4e6f-ad9c-ef3350197429"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "faq-template": {
+        "type": "faq-template",
+        "blocks": {
+          "59e9ed04-8fef-475e-8202-5dc1ce499aba": {
+            "type": "question",
+            "settings": {
+              "title": "Can I really cancel at any time?",
+              "answer": "Of course! We want you to be happy with your order. In your Account dashboard, you’re able to edit your order frequency, flavor, and quantity. If you’re sure you want to cancel, you can do so in your Account dashboard as well. No hard feelings!",
+              "faq-section": "subscriptions"
+            }
+          },
+          "5f4220e9-6a58-4d74-809c-f386538955c6": {
+            "type": "question",
+            "settings": {
+              "title": "Do I have to pay for return orders?",
+              "answer": "All Sale items are final and may not be returned, refunded, or exchanged unless they were defective or damaged.",
+              "faq-section": "returns"
+            }
+          },
+          "de16089c-2df5-42f5-bc6a-4e1b0a55d29e": {
+            "type": "question",
+            "settings": {
+              "title": "How can I edit my subscription?",
+              "answer": "Please create a login account where you'll be able to make edits to your subscriptions.",
+              "faq-section": "subscriptions"
+            }
+          },
+          "ccea8c65-60d8-4b66-b423-baeadb4501fb": {
+            "type": "question",
+            "settings": {
+              "title": "What are the benefits of multi-case orders?",
+              "answer": "When you add 2 cases of Marquis you'll receive free shipping and if you add another case you'll receive 10% on top of your order.",
+              "faq-section": "wholesale"
+            }
+          },
+          "f754519a-18a0-4a93-98da-3c7badf8c09f": {
+            "type": "question",
+            "settings": {
+              "title": "What if I don’t like the flavor I choose?",
+              "answer": "Exchanges are accepted within 14 days of receiving your order. The customer pays for return postage.",
+              "faq-section": "subscriptions"
+            }
+          },
+          "c823e454-75ca-4953-9734-c5966b154e48": {
+            "type": "question",
+            "settings": {
+              "title": "What is Marquis’ unique blend of caffeine made of?",
+              "answer": "Marquis caffeine blend is naturally derived from three plant-based ingredients: Yerba Mate, Green Coffee, and Green Tea.",
+              "faq-section": "product-use"
+            }
+          },
+          "d3e756ae-2afe-4106-873a-e7ed0e5c4eb4": {
+            "type": "question",
+            "settings": {
+              "title": "How much caffeine is in Marquis?",
+              "answer": "Each can of Marquis contains 100 milligrams of plant-based organic caffeine.",
+              "faq-section": "product-use"
+            }
+          },
+          "3870c818-eb3d-4f88-aee6-f4846c5b15c6": {
+            "type": "question",
+            "settings": {
+              "title": "If Marquis is sugar free, then how is it sweet?",
+              "answer": "Stevia, which is a plant that doesn’t contain calories. We use a very high quality strain of stevia extract called Rebiana A 98%.",
+              "faq-section": "product-use"
+            }
+          },
+          "b9a236b3-aced-4d02-866c-caf2a6dcd863": {
+            "type": "question",
+            "settings": {
+              "title": "Is there alcohol in Marquis?",
+              "answer": "No, that’s for you to add.",
+              "faq-section": "all"
+            }
+          },
+          "be32733d-1b7a-40f4-b4ce-669e446cd673": {
+            "type": "question",
+            "settings": {
+              "title": "Why are there carbs listed on the nutrition label in Marquis, but you say it’s carb free?",
+              "answer": "The carbs provided by the erythritol are not absorbed by the body; therefore, Marquis is zero net carbs.",
+              "faq-section": "all"
+            }
+          },
+          "42ca2aa0-fe6d-4313-8725-f0114d6fa955": {
+            "type": "question",
+            "settings": {
+              "title": "What is Erythritol?",
+              "answer": "Erythritol is a natural sweetener commonly used with Stevia. It is made from USDA Organic, Non-GMO corn. (er-rith-re-tal) is a naturally occurring sugar alcohol, produced commercially by fermentation of a carbohydrate substrate. Our erythritol is certified USDA Organic, Non-GMO Project Verified, Calorie-Free, and registers Zero on the Glycemic Index.",
+              "faq-section": "all"
+            }
+          },
+          "4ccd19a9-9e38-4b42-9305-38f612485bfa": {
+            "type": "question",
+            "settings": {
+              "title": "What is Reverse Osmosis?",
+              "answer": "This water purification method uses a semipermeable membrane which filters out contaminants and other harmful compounds such as lead, arsenic and nitrates.",
+              "faq-section": "all"
+            }
+          },
+          "4abd7d50-6076-4751-8c6a-064883148454": {
+            "type": "question",
+            "settings": {
+              "title": "Does Marquis have vitamins?",
+              "answer": "Yes, Marquis contains your daily dose of Vitamin C and 4 types of B vitamins.",
+              "faq-section": "all"
+            }
+          },
+          "d21efac7-23c7-4cd1-9c15-6d0e91e9447d": {
+            "type": "question",
+            "settings": {
+              "title": "Where do the antioxidants in Marquis come from?",
+              "answer": "Marquis is packed with antioxidants that all come from our one-of-a-kind blend of Yerba Mate, Green Coffee, and Green Tea.",
+              "faq-section": "all"
+            }
+          },
+          "ae6a72d5-aceb-4a54-b6ec-9c678fbf7f56": {
+            "type": "question",
+            "settings": {
+              "title": "Is Marquis certified USDA Organic?",
+              "answer": "Yes, and nothing can change our mind.",
+              "faq-section": "all"
+            }
+          },
+          "752c8d88-0f7e-4f48-817c-820d8b66e8a8": {
+            "type": "question",
+            "settings": {
+              "title": "Is Marquis safe for vegans and vegetarians?",
+              "answer": "Yes, Marquis is certified vegan and vegetarian!",
+              "faq-section": "all"
+            }
+          },
+          "e806e736-4e62-410f-be61-325560e34f3d": {
+            "type": "question",
+            "settings": {
+              "title": "Do I have to pay for shipping?",
+              "answer": "If you add 2 or more cases of Marquis you'll receive Free Shipping.",
+              "faq-section": "shipping-deliveries"
+            }
+          },
+          "4bd09874-e792-4be8-89fd-13212cd74b4b": {
+            "type": "question",
+            "settings": {
+              "title": "How long will it take to receive my order?",
+              "answer": "Orders typically take up to 24 hours to process, and shipping typically takes 3-7 days.",
+              "faq-section": "shipping-deliveries"
+            }
+          }
+        },
+        "block_order": [
+          "59e9ed04-8fef-475e-8202-5dc1ce499aba",
+          "5f4220e9-6a58-4d74-809c-f386538955c6",
+          "de16089c-2df5-42f5-bc6a-4e1b0a55d29e",
+          "ccea8c65-60d8-4b66-b423-baeadb4501fb",
+          "f754519a-18a0-4a93-98da-3c7badf8c09f",
+          "c823e454-75ca-4953-9734-c5966b154e48",
+          "d3e756ae-2afe-4106-873a-e7ed0e5c4eb4",
+          "3870c818-eb3d-4f88-aee6-f4846c5b15c6",
+          "b9a236b3-aced-4d02-866c-caf2a6dcd863",
+          "be32733d-1b7a-40f4-b4ce-669e446cd673",
+          "42ca2aa0-fe6d-4313-8725-f0114d6fa955",
+          "4ccd19a9-9e38-4b42-9305-38f612485bfa",
+          "4abd7d50-6076-4751-8c6a-064883148454",
+          "d21efac7-23c7-4cd1-9c15-6d0e91e9447d",
+          "ae6a72d5-aceb-4a54-b6ec-9c678fbf7f56",
+          "752c8d88-0f7e-4f48-817c-820d8b66e8a8",
+          "e806e736-4e62-410f-be61-325560e34f3d",
+          "4bd09874-e792-4be8-89fd-13212cd74b4b"
+        ],
+        "settings": {
+          "title": "We’re here to help"
+        }
+      },
+      "sponorship-template": {
+        "type": "sponorship-template",
+        "settings": {
+          "title": "Marquis Sponsorship",
+          "sub-title": "Interested in having Marquis sponsor you or your next event? Hit us up and we'll see what we can do!"
+        }
+      },
+      "163835098840c0e6cb": {
+        "type": "index-product",
+        "blocks": {
+          "490fc2d5-9d7e-4e44-9852-dd7fc4776e8a": {
+            "type": "product",
+            "settings": {
+              "title": "marquis-assorted-12-pack"
+            }
+          },
+          "827ce2b9-70bb-41e9-94af-69181f41a80f": {
+            "type": "product",
+            "settings": {
+              "title": "marquis-best-seller-variety-pack"
+            }
+          },
+          "93692122-120d-433b-955d-52d76963c7fa": {
+            "type": "product",
+            "settings": {
+              "title": "marquis-lemon-lavender"
+            }
+          },
+          "00930829-9869-41db-b394-0639c07fbc3e": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-lychee-peach"
+            }
+          },
+          "137a751d-13ff-4756-ac9b-df094ebb572c": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-super-berry"
+            }
+          },
+          "7d196dde-8865-4e59-bb06-4f2a96d10cba": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-citrus-yuzu"
+            }
+          },
+          "8dd62f62-37cc-48d8-bed5-b324e3b5d7ea": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-pineapple-passion"
+            }
+          },
+          "63a88ea0-2a38-4842-afc7-bb2682d211fd": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-mango-ginger"
+            }
+          }
+        },
+        "block_order": [
+          "490fc2d5-9d7e-4e44-9852-dd7fc4776e8a",
+          "827ce2b9-70bb-41e9-94af-69181f41a80f",
+          "93692122-120d-433b-955d-52d76963c7fa",
+          "00930829-9869-41db-b394-0639c07fbc3e",
+          "137a751d-13ff-4756-ac9b-df094ebb572c",
+          "7d196dde-8865-4e59-bb06-4f2a96d10cba",
+          "8dd62f62-37cc-48d8-bed5-b324e3b5d7ea",
+          "63a88ea0-2a38-4842-afc7-bb2682d211fd"
+        ],
+        "settings": {
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "store-locator-template": {
+        "type": "store-locator-template",
+        "blocks": {
+          "aa859f3d-3131-49bb-abf0-82e27edcb45c": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Aliso Viejo",
+              "address": "26932 La Paz Rd Aliso Viejo,CA\t92656",
+              "lat": "33.571497722470845",
+              "long": "-117.70527141620042"
+            }
+          },
+          "51104783-a85f-4a89-835a-4e4885d364d8": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Chino",
+              "address": "5555 Philadelphia St Chino, CA\t91710",
+              "lat": "34.03305949772396",
+              "long": "-117.6814322738577"
+            }
+          },
+          "8523dbea-6c56-4639-b8cd-4bba10329c40": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Commerce",
+              "address": "5600 Whittier Blvd, Commerce, CA 90022",
+              "lat": "34.019905475396726",
+              "long": "-118.15051883015897"
+            }
+          },
+          "6c7eb8eb-83f6-451c-b945-c6779dcb467d": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Costa Mesa",
+              "address": "3030 Harbor Blvd Ste A, Costa Mesa, CA, US, 92626",
+              "lat": "33.681784",
+              "long": "-117.917943"
+            }
+          },
+          "fd59c015-4540-496c-8bef-735b213d15e5": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Culver City",
+              "address": "10820 Jefferson Blvd. Culver City\tCA\t90230",
+              "lat": "33.999405280001824",
+              "long": "-118.39348477881657"
+            }
+          },
+          "cfa448a2-22a3-41a0-9a88-e268f830afb7": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Carson",
+              "address": "651 W Sepulveda Blvd, Carson, CA, US, 90745",
+              "lat": "33.809760",
+              "long": "-118.286099"
+            }
+          },
+          "9861ccee-9e36-416a-8f92-f41e7937613e": {
+            "type": "store",
+            "settings": {
+              "title": "Target - De Soto",
+              "address": "20801 Ventura Blvd, Woodland Hills, CA 91364",
+              "lat": "34.16777769104817",
+              "long": "-118.58466845851102"
+            }
+          },
+          "fce12403-8bab-43ec-b6f9-490b7ef407bc": {
+            "type": "store",
+            "settings": {
+              "title": "Target - DTLA",
+              "address": "735 S. Figueroa St.\tLos Angeles\tCA\t90017",
+              "lat": "34.049418485014115",
+              "long": "-118.26085070269271"
+            }
+          },
+          "2976e8c4-bb2e-4282-89e5-280a749b404f": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Eastvale",
+              "address": "12471 Limonite Ave, Eastvale, CA, US, 91752",
+              "lat": "33.978378",
+              "long": "-117.554171"
+            }
+          },
+          "e8e97105-6626-47c4-918d-92109999e666": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Gardena",
+              "address": "2169 W Redondo Beach Blvd.\tTorrance, CA 90504",
+              "lat": "33.88688663535644",
+              "long": "-118.31653421619082"
+            }
+          },
+          "b1f3be3d-c84f-4ca5-a78f-0ad3948b9583": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Huntington",
+              "address": "9882 Adams Ave, Huntington beach, CA, US, 92646",
+              "lat": "33.670973",
+              "long": "-117.956203"
+            }
+          },
+          "4196e1fd-508a-4ee4-9ffc-3154ff3c1f81": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Hawthorne",
+              "address": "2700 W 120th St, Hawthorne, CA, US, 90250",
+              "lat": "33.921839",
+              "long": "-118.321538"
+            }
+          },
+          "f100e7d5-3a02-4d8e-b10f-6908618fd392": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Irvine Spectrum",
+              "address": "900 Spectrum Center Dr, Irvine, CA, US, 92618",
+              "lat": "33.647857",
+              "long": "-117.740510"
+            }
+          },
+          "f5f145b3-bb51-4a36-951b-f5c05f8c3f9f": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Irvine (UCI)",
+              "address": "4255 Campus drive, Irvine, CA, US, 92612",
+              "lat": "33.649449",
+              "long": "-117.839328"
+            }
+          },
+          "91870bc6-680e-4b1e-8f0f-d1a82cba3e1a": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Irvine Jamboree",
+              "address": "13200 Jamboree Rd, Irvine, CA, US, 92602",
+              "lat": "33.729572",
+              "long": "-117.786582"
+            }
+          },
+          "9f0a7f66-519f-4bd7-b735-1c9d4f529d6f": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Inglewood",
+              "address": "3471 W. Century Blvd, Inglewood, CA, US, 90303",
+              "lat": "33.948312",
+              "long": "-118.333592"
+            }
+          },
+          "2a777603-b528-4ba6-8d80-dfe349ce1582": {
+            "type": "store",
+            "settings": {
+              "title": "Target - LA Westwood",
+              "address": "10861 Weyburn Ave Los Angeles, CA\t90024",
+              "lat": "34.062939521389005",
+              "long": "-118.4438670026922"
+            }
+          },
+          "3e839558-426f-4a10-a42a-f5dae529f0f0": {
+            "type": "store",
+            "settings": {
+              "title": "Target - LA Beverly",
+              "address": "8480 Beverly Blvd Ste 1A Los Angeles, CA 90048",
+              "lat": "34.07546992177998",
+              "long": "-118.37561146036299"
+            }
+          },
+          "bc33380e-9e93-4b69-a84a-7c1926739e58": {
+            "type": "store",
+            "settings": {
+              "title": "Target - S. La Cienega",
+              "address": "3535 S La Cienega Blvd\tLos Angeles\tCA, 90016",
+              "lat": "34.02429924232549",
+              "long": "-118.3736495543418"
+            }
+          },
+          "63b2484b-1559-48fa-9597-556b0be7345f": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Long Beach",
+              "address": " 5760 E 7th St\tLong Beach, CA\t90803",
+              "lat": "33.77459265268127",
+              "long": "-118.1195286161943"
+            }
+          },
+          "82e9de46-a27e-422f-88cb-a4b97255c317": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Long Beach Bellflower",
+              "address": "2270 N Bellflower Blvd, Long Beach, CA 90815",
+              "lat": "33.79814996747106",
+              "long": "-118.12255728735789"
+            }
+          },
+          "9fbcbfb3-5a66-4703-ad08-e2678c66c4a9": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Manhattan Beach",
+              "address": "1200 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+              "lat": "33.88921097305585",
+              "long": "-118.39426271803994"
+            }
+          },
+          "274c2b16-fc76-49bc-a4ec-7482bf705cc2": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Menifee",
+              "address": "30340 Haun Road, Menifee, CA, US, 92584",
+              "lat": "33.680346",
+              "long": "-117.172245"
+            }
+          },
+          "65baa3eb-f3b4-4426-989c-511c5c0834cd": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Norwalk",
+              "address": "10600 Firestone Blvd, Norwalk, CA, US, 90650",
+              "lat": "33.926057",
+              "long": "-118.107617"
+            }
+          },
+          "ef8544c5-ea2b-4f79-87f8-fde329055e8b": {
+            "type": "store",
+            "settings": {
+              "title": "Target - North Hollywood",
+              "address": "11051 Victory Blvd\tNorth Hollywood, CA 91606",
+              "lat": "34.18882962460683",
+              "long": "-118.37140613152395"
+            }
+          },
+          "6dcc5f2f-5199-454c-b90e-b8f36a388101": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Pasadena East",
+              "address": "3121 E. Colorado Blvd, Pasadena, CA, US, 91107",
+              "lat": "34.146931",
+              "long": "-118.084786"
+            }
+          },
+          "fec97e7c-6ea7-47fb-8321-1b703dd92b65": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Redondo Beach",
+              "address": "1601 Kingsdale Ave Redondo Beach\tCA, 90278",
+              "lat": "33.869109579894754",
+              "long": "-118.35766791619122"
+            }
+          },
+          "ac4c336c-7644-46fe-8043-6827d9ff1b0a": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Rancho Santa Margarita Pkwy",
+              "address": "30602 Santa Margarita Pkwy, Rancho Santa Margarita, CA 92688",
+              "lat": "33.64178214762424",
+              "long": "-117.5980943431846"
+            }
+          },
+          "dda447c0-d104-4748-9e9e-c77e6678c5d4": {
+            "type": "store",
+            "settings": {
+              "title": "Target - San Pedro",
+              "address": "1701 N Gaffey St, San Pedro, CA, US, 90731",
+              "lat": "33.760572",
+              "long": "-118.294137"
+            }
+          },
+          "7ae30de3-5b6c-4722-8646-45f2e4f9d2ae": {
+            "type": "store",
+            "settings": {
+              "title": "Target - South Gate",
+              "address": "5700 firestone blvd, South gate, CA, US, 90280",
+              "lat": "33.948079",
+              "long": "-118.168403"
+            }
+          },
+          "4ab619f0-454f-417e-8fbe-5d0394e5beaf": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Sepulveda Blvd",
+              "address": "6000 Sepulveda Blvd Culver City, CA\t90230",
+              "lat": "33.984950670338975",
+              "long": "-118.39460794502337"
+            }
+          },
+          "456412e0-0802-49fe-9571-5aba49e6c491": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Seal Beach",
+              "address": "12300 Seal Beach Blvd Seal Beach, CA 90740",
+              "lat": "33.783167212195785",
+              "long": "-118.06939380085146"
+            }
+          },
+          "c514c700-b2d1-458c-be04-4008976560cb": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Santa Fe",
+              "address": "10621 Carmenita Rd, Santa Fe Springs, CA, US, 90670",
+              "lat": "33.937822",
+              "long": "-118.048169"
+            }
+          },
+          "c430a625-d563-458a-8a9b-5e3b3acce7ef": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Temecula",
+              "address": "29676 Rancho California Rd, Temecula, CA, US, 92591",
+              "lat": "33.506796",
+              "long": "-117.146145"
+            }
+          },
+          "865b1738-bbf0-4220-96d9-c0764f51a390": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Torrance",
+              "address": "3433 Sepulveda Blvd, Torrance, CA, US, 90505",
+              "lat": "33.827009",
+              "long": "-118.345647"
+            }
+          },
+          "fc5f7098-6f8d-4092-8232-f6eb2c5bbeca": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Tustin",
+              "address": "2300 Park Ave, Tustin, CA, US, 92782",
+              "lat": "33.700095",
+              "long": "-117.827476"
+            }
+          },
+          "d5bd2cd9-6c5c-4825-bfba-f8d636941578": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Valencia",
+              "address": "24425 Magic Mountain Pkwy, Valencia, CA 91355",
+              "lat": "34.421293487427505",
+              "long": "-118.56160906035237"
+            }
+          },
+          "59100fcd-c1ba-4077-8b96-ff0f4df8046a": {
+            "type": "store",
+            "settings": {
+              "title": "Target - West Hollywood",
+              "address": "7100 Santa Monica Blvd, STE 201\tWest Hollywood, CA 90046",
+              "lat": "34.08992851040171",
+              "long": "-118.3446592450201"
+            }
+          },
+          "a45fe96b-bdbf-4411-86e0-9dd216b097e5": {
+            "type": "store",
+            "settings": {
+              "title": "Target - West Covina",
+              "address": "2831 E Eastland Ctr Dr West Covina, CA 91791",
+              "lat": "34.07397677849889",
+              "long": "-117.88435951618506"
+            }
+          },
+          "b7ccf5c6-1203-4307-a801-c8ba5dc60c38": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Whittier",
+              "address": "15614 Whittwood Ln, Whittier, CA 90603",
+              "lat": "33.94302049222201",
+              "long": "-117.99657088735353"
+            }
+          },
+          "289e5858-5e94-4965-a10b-c37cf5596f27": {
+            "type": "store",
+            "settings": {
+              "title": "Target - Westminster",
+              "address": "16400 Beach Blvd, Westminster, CA 92683",
+              "lat": "33.72608463032881",
+              "long": "-117.98585290270249"
+            }
+          },
+          "14f2dd1f-a916-4df0-9a12-df0fab9cae24": {
+            "type": "store",
+            "settings": {
+              "title": "Vicente Foods Market",
+              "address": "12027 San Vicente Blvd, Los Angeles, CA, US, 90049",
+              "lat": "34.052372",
+              "long": "-118.473843"
+            }
+          },
+          "13a8097a-9a76-4cc7-8f91-d7c1926480a0": {
+            "type": "store",
+            "settings": {
+              "title": "Zanotto's Market",
+              "address": "1356 S Mary Ave, Sunnyvale, CA, US, 94087",
+              "lat": "37.35117524450167",
+              "long": "-122.0499556127707"
+            }
+          },
+          "dbafc668-b040-4cd5-86d0-97f16b4a1597": {
+            "type": "store",
+            "settings": {
+              "title": "Zanotto's Family Market",
+              "address": "1970 Naglee Ave, San Jose, CA, US, 95126",
+              "lat": "37.32818548810196",
+              "long": "-121.93117735450016"
+            }
+          },
+          "70fc65a6-04a1-4953-ac22-99a5c80e10a1": {
+            "type": "store",
+            "settings": {
+              "title": "Zanotto's Fruitdale Station Market",
+              "address": "1520 Southwest Expy, San Jose, CA 95126",
+              "lat": "37.31048207967594",
+              "long": "-121.91702801772918"
+            }
+          },
+          "64f9f5d0-71e8-4417-9244-7f6ec7558b3d": {
+            "type": "store",
+            "settings": {
+              "title": "Zanotto's Willow Glen Market",
+              "address": "1421 Foxworthy Ave #1119, San Jose, CA 95118",
+              "lat": "37.275707413421316",
+              "long": "-121.8922068428617"
+            }
+          },
+          "18212c87-de95-48ce-b228-8a7b80c4a8f5": {
+            "type": "store",
+            "settings": {
+              "title": "Mr Brews Taphouse",
+              "address": "N91W15720 Falls Pkwy, Menomonee Falls, WI 53051",
+              "lat": "43.18298724264785",
+              "long": "-88.10488322919728"
+            }
+          },
+          "48cee3b8-a515-4ae2-8788-1730d5d794d0": {
+            "type": "store",
+            "settings": {
+              "title": "Cermak Fresh Market",
+              "address": "1541 Miller Park Way, West Milwaukee, WI 53214",
+              "lat": "43.01452808690976",
+              "long": "-87.9696867868746"
+            }
+          },
+          "ac158a65-c082-480a-80c0-84dede3de836": {
+            "type": "store",
+            "settings": {
+              "title": "ampm-Long Beach",
+              "address": "1785 N Bellflower Blvd, Long Beach, CA, US, 90815",
+              "lat": "33.788284",
+              "long": "-118.124715"
+            }
+          },
+          "ea9fab97-d20d-4d5b-9963-96b32199acd0": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "541 W Imperial Hwн \nLa Habra CA, 90631",
+              "lat": "33.917684",
+              "long": "-117.951467"
+            }
+          },
+          "2f032639-30a1-4cde-8aff-dad09df94303": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "519 N Gaffey, San Pedro, CA, US, 90731",
+              "lat": "33.758786",
+              "long": "-118.293087"
+            }
+          },
+          "71041b0c-03ac-4c84-95ee-858675d31299": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "11807 Valley View, Whittier, CA, US, 90604",
+              "lat": "33.922486",
+              "long": "-118.029656"
+            }
+          },
+          "9ae935c1-4aea-4ccb-bf4c-9cbab301fc39": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "11110 Magnolia, Riverside, CA, US, 92505",
+              "lat": "33.902845",
+              "long": "-117.476285"
+            }
+          },
+          "60a376cf-2b7a-461d-baaa-fe3282d58ef7": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "502 N El Camino Real, San Clemente, CA, US, 92672",
+              "lat": "33.425141",
+              "long": "-117.610825"
+            }
+          },
+          "83164596-10a6-4c79-a552-2d30a08ff868": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "706 Pacific Coast Hwy, Huntington Beach, CA, US, 92648",
+              "lat": "33.659233",
+              "long": "-118.004428"
+            }
+          },
+          "859dfcf9-fe3a-4862-885c-b903fc305f7e": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "502 N El Camino Real, San Clemente, CA, US, 92672",
+              "lat": "33.425141",
+              "long": "-117.610825"
+            }
+          },
+          "40df8da9-8428-4174-b4b0-263a59b5cb20": {
+            "type": "store",
+            "settings": {
+              "title": "7-Eleven",
+              "address": "2563 S. Euclid Ave, Ontario, CA, US, 91762",
+              "lat": "34.026771",
+              "long": "-117.649833"
+            }
+          },
+          "d814ce3c-68eb-4cb6-a5c5-922075c1737a": {
+            "type": "store",
+            "settings": {
+              "title": "7 Eleven",
+              "address": "8307 La Cienega Blvd, Inglewood, CA, US, 90301",
+              "lat": "33.963040",
+              "long": "-118.370657"
+            }
+          },
+          "68538c48-b088-429d-a052-2e8edbb2277b": {
+            "type": "store",
+            "settings": {
+              "title": "7 Eleven",
+              "address": "1960 Santa Fe Avenue, Long Beach, CA, US, 90810",
+              "lat": "33.792832",
+              "long": "-118.215153"
+            }
+          },
+          "c7f6b742-f42c-433f-a8cb-6b45a8238fa7": {
+            "type": "store",
+            "settings": {
+              "title": "Shell",
+              "address": "12340 Highland Ave, Rancho Cucamonga, CA, US, 91739",
+              "lat": "34.135611",
+              "long": "-117.535665"
+            }
+          },
+          "82f331c8-35c1-42f9-bcf9-efdf46104498": {
+            "type": "store",
+            "settings": {
+              "title": "Shell",
+              "address": "2718 Iowa Ave, Colton, CA, US, 92324",
+              "lat": "34.022035",
+              "long": "-117.335824"
+            }
+          },
+          "1c1de20f-aabc-4ce1-87ee-1557f45517e4": {
+            "type": "store",
+            "settings": {
+              "title": "Shell",
+              "address": "941 California St, Redlands, CA, US, 92374",
+              "lat": "34.065528",
+              "long": "-117.226388"
+            }
+          },
+          "8a1bde47-1284-4b53-aac7-aa2272fbfc3f": {
+            "type": "store",
+            "settings": {
+              "title": "Chevron",
+              "address": "1461 Superior Blvd, Newport Beach, CA, US, 92663",
+              "lat": "33.627802",
+              "long": "-117.932612"
+            }
+          },
+          "f587edbd-070c-4071-a803-46809786b22f": {
+            "type": "store",
+            "settings": {
+              "title": "Chevron",
+              "address": "2431 S. Euclid Ave, Ontario, CA, US, 91762",
+              "lat": "34.029350",
+              "long": "-117.650302"
+            }
+          },
+          "e14df326-17cd-4845-9cc9-04d23a2506ce": {
+            "type": "store",
+            "settings": {
+              "title": "Circle K",
+              "address": "30535 HWY 79, Temecula, CA, US, 92592",
+              "lat": "33.479892",
+              "long": "-117.102378"
+            }
+          },
+          "c4efa731-cb06-43c3-abbf-76ee72c4278b": {
+            "type": "store",
+            "settings": {
+              "title": "Circle K",
+              "address": "6290 Mission Blvd, Rubidoux, CA, US, 92509",
+              "lat": "34.005541",
+              "long": "-117.424746"
+            }
+          },
+          "ba0f1aab-e598-4f03-b6b6-be61856b8dd9": {
+            "type": "store",
+            "settings": {
+              "title": "Sunrise Natural Foods (Auburn)",
+              "address": "2160 Grass Valley Hwy, Auburn, CA, US, 95603",
+              "lat": "38.934171",
+              "long": "-121.090605"
+            }
+          },
+          "008d3540-0afc-44e8-8481-3dab79ca5b20": {
+            "type": "store",
+            "settings": {
+              "title": "Sunrise Natural Foods (Roseville)",
+              "address": "1950 Douglas Blvd, Roseville, CA, US, 95661",
+              "lat": "38.743763",
+              "long": "-121.253695"
+            }
+          },
+          "29d674e6-5c23-497a-b4a2-e85fe7f3c462": {
+            "type": "store",
+            "settings": {
+              "title": "Big A`s Sandwiches",
+              "address": "2291 Alberta Dr, Napa, CA, US, 94558",
+              "lat": "38.314331",
+              "long": "-122.314605"
+            }
+          },
+          "b234187b-8756-4c59-bf73-e62c3b4c0e3e": {
+            "type": "store",
+            "settings": {
+              "title": "AK Market",
+              "address": "1178 Sunflower Ave, Costa Mesa, CA, US, 92626",
+              "lat": "33.696207",
+              "long": "-117.906544"
+            }
+          },
+          "86fffbd1-1681-4273-8e42-698df24857fb": {
+            "type": "store",
+            "settings": {
+              "title": "Elliotts Natural Foods",
+              "address": "3347 El Camino Ave, Sacramento, CA, US, 95821",
+              "lat": "38.611052",
+              "long": "-121.385711"
+            }
+          },
+          "796e7f72-8e7d-41eb-9f9f-d7a9fa44d58f": {
+            "type": "store",
+            "settings": {
+              "title": "Bagelry (Seabright)",
+              "address": "1636 Seabright Ave, Santa Cruz, CA, US, 95062",
+              "lat": "36.979544",
+              "long": "-122.009643"
+            }
+          },
+          "a031b448-bfe1-4a1e-bdb0-00cce051d078": {
+            "type": "store",
+            "settings": {
+              "title": "Boccatos Grocery",
+              "address": "3127 Manhattan Ave, Hermosa Beach, CA, US, 90254",
+              "lat": "33.875556",
+              "long": "-118.406224"
+            }
+          },
+          "53b86edf-8d89-49ce-82c9-3a3e372c4675": {
+            "type": "store",
+            "settings": {
+              "title": "Loma Linda Market",
+              "address": "11161 Anderson St, Loma Linda, CA, US, 92354",
+              "lat": "34.051735",
+              "long": "-117.263177"
+            }
+          },
+          "2771fdc0-e69b-45aa-b695-4f56d5369e92": {
+            "type": "store",
+            "settings": {
+              "title": "Bianchini's Market",
+              "address": "3130 Alpine Road, Portola Valley, CA, US, 94028",
+              "lat": "37.402352",
+              "long": "-122.193118"
+            }
+          },
+          "abf4b94c-59fd-4abd-8f9a-05beca19ba6b": {
+            "type": "store",
+            "settings": {
+              "title": "California Organics",
+              "address": "135 Argall Way, Nevada City, CA, US, 95959",
+              "lat": "39.252300",
+              "long": "-121.025312"
+            }
+          },
+          "b8bd3620-f440-4c33-8e8e-e74506cb12e2": {
+            "type": "store",
+            "settings": {
+              "title": "Chico Natural Foods Cooperative",
+              "address": "818 Main St, Chico, CA, US, 95928",
+              "lat": "39.725704",
+              "long": "-121.835725"
+            }
+          },
+          "dbe5c0f1-d2b8-4d42-8f8b-2f865eced644": {
+            "type": "store",
+            "settings": {
+              "title": "La Sierra Natural Foods",
+              "address": "11550 Pierce St, Riverside, CA, US, 92505",
+              "lat": "33.914475",
+              "long": "-117.496460"
+            }
+          },
+          "527bfec1-1b24-42c0-b23b-669a45002fcd": {
+            "type": "store",
+            "settings": {
+              "title": "Colonie House Liquor",
+              "address": "22523 Pacific Coast Highway, Malibu, CA, US, 90265",
+              "lat": "34.039872",
+              "long": "-118.665537"
+            }
+          },
+          "7eaf52ee-caf9-4438-80cd-f19a3b0e9f69": {
+            "type": "store",
+            "settings": {
+              "title": "Country Liquor",
+              "address": "21227 Pacific Coast Highway, Malibu, CA, US, 90265",
+              "lat": "34.037355",
+              "long": "-118.637352"
+            }
+          },
+          "2ef3e61f-ab61-4ccc-866d-23553b153041": {
+            "type": "store",
+            "settings": {
+              "title": "Dada Sushi",
+              "address": "40575 California Oaks Rd, Murrieta, CA, US, 92562",
+              "lat": "33.574236",
+              "long": "-117.204089"
+            }
+          },
+          "4098a530-506d-4014-b434-0447c9cee1b8": {
+            "type": "store",
+            "settings": {
+              "title": "U Save Liquor",
+              "address": "4790 Scott's Valley Drive, Scott's Valley, CA, US, 95066",
+              "lat": "37.051312",
+              "long": "-122.014150"
+            }
+          },
+          "f32c077a-2f27-4f65-8fce-f40fc53ece92": {
+            "type": "store",
+            "settings": {
+              "title": "Thrive Juice Lab",
+              "address": "30301 Golden Lantern, Laguna Niguel, CA, US, 92677",
+              "lat": "33.522584",
+              "long": "-117.686654"
+            }
+          },
+          "c8da83ca-2c15-4788-aacd-3bb51531485f": {
+            "type": "store",
+            "settings": {
+              "title": "Thrive Juice Lab",
+              "address": "1280 Bison Ave, Newport Beach, CA, US, 92660",
+              "lat": "33.638420",
+              "long": "-117.863254"
+            }
+          },
+          "f8a12a33-a57b-46c1-ba1b-82a48141f46c": {
+            "type": "store",
+            "settings": {
+              "title": "Down to Earth",
+              "address": "545 Meridian Ave, San Jose, CA, US, 95126",
+              "lat": "37.318643",
+              "long": "-121.914206"
+            }
+          },
+          "f6f06190-148b-4708-8395-d8d209428f54": {
+            "type": "store",
+            "settings": {
+              "title": "Farm Store",
+              "address": "4102 S. University, Pomona, CA, US, 91768",
+              "lat": "34.048382",
+              "long": "-117.819076"
+            }
+          },
+          "8ca0413b-42a1-4309-ba73-2d47add60081": {
+            "type": "store",
+            "settings": {
+              "title": "Eastside Market",
+              "address": "1712 Santa Ana Ave, Costa Mesa, CA, US, 92627",
+              "lat": "33.633337",
+              "long": "-117.914579"
+            }
+          },
+          "8d5a9e27-1ba0-4415-92f8-d3b91ece490c": {
+            "type": "store",
+            "settings": {
+              "title": "Earth's Fresh Food",
+              "address": "3170 Jefferson Blvd, Bill Wallace, CA, US, 95691",
+              "lat": "38.540647",
+              "long": "-121.549533"
+            }
+          },
+          "9005ec74-2d3a-478f-a9a3-91d586993e37": {
+            "type": "store",
+            "settings": {
+              "title": "Sigonas produce",
+              "address": "399 Stanford Shopping center, Palo Alto, CA, US, 94304",
+              "lat": "37.442563",
+              "long": "-122.172734"
+            }
+          },
+          "33f768b6-a3d0-4da3-b152-bba3d5ff6b27": {
+            "type": "store",
+            "settings": {
+              "title": "Emilio`s Beverage Warehouse",
+              "address": "1725 Lakewood Blvd, Bellflower, CA, US, 90706",
+              "lat": "33.888028",
+              "long": "-118.142606"
+            }
+          },
+          "663c976c-90bf-4061-aa39-5f3f438f6f67": {
+            "type": "store",
+            "settings": {
+              "title": "Deliucchis market",
+              "address": "3640 Florence St, Redwood City, CA, US, 94063",
+              "lat": "37.478233",
+              "long": "-122.188453"
+            }
+          },
+          "b9177648-09ee-492e-8c59-053ddcbacafa": {
+            "type": "store",
+            "settings": {
+              "title": "Farm District Marketplace",
+              "address": "328 N Orange St, Glendale, CA, US, 91203",
+              "lat": "34.151033",
+              "long": "-118.256180"
+            }
+          },
+          "a492837d-b411-4e89-97bc-0d072413f4eb": {
+            "type": "store",
+            "settings": {
+              "title": "First & Franklin Matketplace",
+              "address": "1331 1st St, Napa, CA, US, 94559",
+              "lat": "38.294302",
+              "long": "-122.278582"
+            }
+          },
+          "9c1c4186-a645-4e1c-85d4-6efbfc6d4639": {
+            "type": "store",
+            "settings": {
+              "title": "Geyserville Market & Deli",
+              "address": "21010 Geyserville Ave, Geyserville, CA, US, 95441",
+              "lat": "38.706453",
+              "long": "-122.903646"
+            }
+          },
+          "3951236a-c051-444f-8901-e63ffaffa2ca": {
+            "type": "store",
+            "settings": {
+              "title": "Green Fire Hydroponics",
+              "address": "2725 CA-32, Chico, CA, US, 95973",
+              "lat": "39.744268",
+              "long": "-121.889569"
+            }
+          },
+          "77b2e3e5-cde5-4f9e-97f2-ba40d654aa33": {
+            "type": "store",
+            "settings": {
+              "title": "Juice Joint",
+              "address": "32141 Alipaz St, San Juan Capistrano, CA, US, 92675",
+              "lat": "33.495823",
+              "long": "-117.668212"
+            }
+          },
+          "0eae40b1-bb9c-483a-a023-6c264aea3f66": {
+            "type": "store",
+            "settings": {
+              "title": "Gus's Market",
+              "address": "3701 Noriega St, San Francisco, CA, US, 94122",
+              "lat": "37.752857",
+              "long": "-122.503561"
+            }
+          },
+          "b0b66899-d7cf-4559-b33a-8080520681fa": {
+            "type": "store",
+            "settings": {
+              "title": "Super Liquor",
+              "address": "500 W. Lambert Rd, La Habra, CA, US, 90631",
+              "lat": "33.924182",
+              "long": "-117.950757"
+            }
+          },
+          "ac87b09d-10f5-41cd-a100-14c1120f73d8": {
+            "type": "store",
+            "settings": {
+              "title": "Hooves Market",
+              "address": "493 N Gassell St, Orange, CA, US, 92866",
+              "lat": "33.780755",
+              "long": "-117.853123"
+            }
+          },
+          "f80afbc8-9e2d-4b3b-9fd4-518a3b3f17ae": {
+            "type": "store",
+            "settings": {
+              "title": "Winchester Fuels",
+              "address": "40720 Winchester Rd, Temecula, CA, US, 92591",
+              "lat": "33.526093",
+              "long": "-117.157150"
+            }
+          },
+          "a34a1ff0-552f-4f84-bdb3-1e83e403b09b": {
+            "type": "store",
+            "settings": {
+              "title": "West Covina Liquor",
+              "address": "1341 south Azusa Ave, West Covina, CA, US, 91791",
+              "lat": "34.050834",
+              "long": "-117.908537"
+            }
+          },
+          "c1d4b1d5-5d46-4764-a502-4c2fe1be6cea": {
+            "type": "store",
+            "settings": {
+              "title": "Sigonas Produce",
+              "address": "2345 Middlefield Road, Redwood City, CA, US, 94063",
+              "lat": "37.480073",
+              "long": "-122.215995"
+            }
+          },
+          "3ebf8213-d0e2-4888-8c5a-f4b8607f2665": {
+            "type": "store",
+            "settings": {
+              "title": "M D Market",
+              "address": "11812 Old Redwood Hwy, Healdsburg, CA, US, 95448",
+              "lat": "38.577059",
+              "long": "-122.842626"
+            }
+          },
+          "e9988278-bccc-4ff0-a317-61b7b9902eef": {
+            "type": "store",
+            "settings": {
+              "title": "La Bodega",
+              "address": "17204 PCH, Huntington Beach, CA, US, 92649",
+              "lat": "33.712830",
+              "long": "-118.063739"
+            }
+          },
+          "165911ff-b25b-4988-a5ca-e8cd27e33845": {
+            "type": "store",
+            "settings": {
+              "title": "Loma Liquor",
+              "address": "220 Loma Ave, Long Beach, CA, US, 90803",
+              "lat": "33.764164",
+              "long": "-118.150009"
+            }
+          },
+          "ff581855-9bf3-4c58-af41-80ff42cc5b00": {
+            "type": "store",
+            "settings": {
+              "title": "Santa Clara Fresh Produce Market",
+              "address": "805 Scott boulevard, Santa Clara, CA, US, 95050",
+              "lat": "37.344012",
+              "long": "-121.958931"
+            }
+          },
+          "f3ea2a45-4e45-4f80-ad7f-184de2e640ae": {
+            "type": "store",
+            "settings": {
+              "title": "Virgil Market",
+              "address": "780 N Virgil Ave, Los Angeles, CA, US, 90029",
+              "lat": "34.085534",
+              "long": "-118.286613"
+            }
+          },
+          "2e7bc217-f14d-4c0e-8db9-1b6e64e57984": {
+            "type": "store",
+            "settings": {
+              "title": "Fresh Choice Mkt",
+              "address": "440 S. Anaheim Hills, CA, US, 92807",
+              "lat": "33.845349",
+              "long": "-117.775589"
+            }
+          },
+          "abe94deb-0635-478f-bc9f-439bccdd567d": {
+            "type": "store",
+            "settings": {
+              "title": "Naturway Natural Foods",
+              "address": "10309 S Lakewood Blvd, Downey, CA, US, 90241",
+              "lat": "33.946134",
+              "long": "-118.118611"
+            }
+          },
+          "32d5c17c-866c-42f4-b39f-54b3b215dce9": {
+            "type": "store",
+            "settings": {
+              "title": "The Bee Hive",
+              "address": "13308 Whittier Blvd, Whittier, CA, US, 90602",
+              "lat": "33.963317",
+              "long": "-118.033538"
+            }
+          },
+          "6179e1f2-d31d-4ae3-90f1-0ba5bfb309f8": {
+            "type": "store",
+            "settings": {
+              "title": "Oliver`s Stony Point",
+              "address": "461 Stony Point Rd, Santa Rosa, CA, US, 95401",
+              "lat": "38.432550",
+              "long": "-122.743987"
+            }
+          },
+          "a7fc3d5d-2a28-4c58-975d-8b2196129cc5": {
+            "type": "store",
+            "settings": {
+              "title": "Soft Touch Car Wash",
+              "address": "5246 Riverside Dr, Chino, CA, US, 91710",
+              "lat": "34.019532",
+              "long": "-117.690673"
+            }
+          },
+          "9bec8587-8df7-486b-b7d4-2bfb10fdfc02": {
+            "type": "store",
+            "settings": {
+              "title": "Oh Happy Day Natural Food Store & Cafe",
+              "address": "2283 N. Lake Ave, Altadena, CA, US, 91001",
+              "lat": "34.185057",
+              "long": "-118.131789"
+            }
+          },
+          "698eab74-296d-4e16-ad8d-42feb2662f95": {
+            "type": "store",
+            "settings": {
+              "title": "Pacific Ranch Market",
+              "address": "7540 E. Chapman Ave, Orange, CA, US, 92869",
+              "lat": "33.794471",
+              "long": "-117.773321"
+            }
+          },
+          "5e911382-f09a-4c64-9790-e908c630f63d": {
+            "type": "store",
+            "settings": {
+              "title": "Piazza's Fine Foods",
+              "address": "3922 Middlefield Rd, Palo Alto, CA, US, 94303",
+              "lat": "37.418742",
+              "long": "-122.110106"
+            }
+          },
+          "40239168-bdb6-4914-91e8-9b5b40192dc5": {
+            "type": "store",
+            "settings": {
+              "title": "Piazza's Fine Foods",
+              "address": "1218 W Hillsdale Blvd, San Mateo, CA, US, 94403",
+              "lat": "37.533939",
+              "long": "-122.325898"
+            }
+          },
+          "60acafe0-619a-4c93-b8da-e09a04166ad3": {
+            "type": "store",
+            "settings": {
+              "title": "Provision Deli & Bottle Shop",
+              "address": "143 N Glassell St, Orange, CA, US, 92866",
+              "lat": "33.789062",
+              "long": "-117.852989"
+            }
+          },
+          "be583b7a-0fbb-4a53-be4b-fb97ef152983": {
+            "type": "store",
+            "settings": {
+              "title": "Verutti Liquor",
+              "address": "1125 41st Ave, Capitola, CA, US, 95010",
+              "lat": "36.975887",
+              "long": "-121.967240"
+            }
+          },
+          "c57f8c52-7cf2-4703-b5aa-66a3d9accb84": {
+            "type": "store",
+            "settings": {
+              "title": "Rinaldi's Italian Deli",
+              "address": "350 N Sepulveda Blvd, Manhattan Beach, CA, US, 90266",
+              "lat": "33.881456",
+              "long": "-118.395452"
+            }
+          },
+          "b8c2d3d6-f21c-4212-9f7c-6382e673a827": {
+            "type": "store",
+            "settings": {
+              "title": "Sheltons Natural Foods Market",
+              "address": "428 Center St, Healdsburg, CA, US, 95448",
+              "lat": "38.613474",
+              "long": "-122.869466"
+            }
+          },
+          "9ec2837f-e329-4b86-b605-a55d13b03e38": {
+            "type": "store",
+            "settings": {
+              "title": "Scotts Valley Market",
+              "address": "14 Victor Square, Scotts Valley, CA, US, 95066",
+              "lat": "37.060597",
+              "long": "-122.006400"
+            }
+          },
+          "91d372ff-1c31-470e-b95a-ef585fb867c6": {
+            "type": "store",
+            "settings": {
+              "title": "Simply Nutrition",
+              "address": "855 Twelve Bridges Dr 155, Lincoln, CA, US, 95648",
+              "lat": "38.850903",
+              "long": "-121.286029"
+            }
+          },
+          "211427b9-5db8-41a7-aab8-6ef499fe834d": {
+            "type": "store",
+            "settings": {
+              "title": "S&S Organic Produce and Natural Foods",
+              "address": "1924 Mangrove Ave, Chico, CA, US, 95926",
+              "lat": "39.750473",
+              "long": "-121.843852"
+            }
+          },
+          "0bd6b87b-cd2a-429b-abd3-c529d13174e8": {
+            "type": "store",
+            "settings": {
+              "title": "Staff Of Life Watsonville",
+              "address": "906 E Lake Ave, Watsonville, CA, US, 95076",
+              "lat": "36.924116",
+              "long": "-121.745141"
+            }
+          },
+          "9d86cc21-cca5-4e4a-8443-59c0567c9ad5": {
+            "type": "store",
+            "settings": {
+              "title": "Staff Of Life Santa Cruz",
+              "address": "1266 Soquel Ave, Santa Cruz, CA, US, 95062",
+              "lat": "36.980360",
+              "long": "-122.008354"
+            }
+          },
+          "ff6617dd-6bad-4691-acd2-7bb2df975c4a": {
+            "type": "store",
+            "settings": {
+              "title": "Sunshine Foods",
+              "address": "1115 Main St, St Helena, CA, US, 94574",
+              "lat": "38.502730",
+              "long": "-122.467688"
+            }
+          },
+          "1ab342a1-755b-4cb9-94dc-1bbe6a54dfc0": {
+            "type": "store",
+            "settings": {
+              "title": "Taylors Market",
+              "address": "2900 Freeport Blvd, Sacramento, CA, US, 95818",
+              "lat": "38.551815",
+              "long": "-121.488864"
+            }
+          },
+          "2f63806b-24d1-4d92-afca-1d9f561c1881": {
+            "type": "store",
+            "settings": {
+              "title": "Wild Roots Market Boulder Creek",
+              "address": "13159 Central Ave, Boulder Creek, CA, US, 95006",
+              "lat": "37.124784",
+              "long": "-122.122396"
+            }
+          },
+          "1cca1718-984c-44b4-af4a-e025bcea7d0e": {
+            "type": "store",
+            "settings": {
+              "title": "Wild Roots Market Felton",
+              "address": "6240 CA-9, Felton, CA, US, 95018",
+              "lat": "37.051924",
+              "long": "-122.072701"
+            }
+          },
+          "680a95c2-af85-468e-8098-83005b77e48f": {
+            "type": "store",
+            "settings": {
+              "title": "Timmy Ginger`s Sandwich",
+              "address": "7451 Foothills Blvd, Roseville, CA, US, 95747",
+              "lat": "38.771895",
+              "long": "-121.312424"
+            }
+          },
+          "38b74aa2-ec85-49cb-a577-f1ca80bd24bb": {
+            "type": "store",
+            "settings": {
+              "title": "Tom Gerrards Mkt",
+              "address": "705 W. Cypress Ave, Redlands, CA, US, 92373",
+              "lat": "34.042492",
+              "long": "-117.184109"
+            }
+          },
+          "e95ec9ee-75e1-462e-9d41-698691ca8e17": {
+            "type": "store",
+            "settings": {
+              "title": "The Auburn Bodega",
+              "address": "937 Lincoln Way, Auburn, CA, US, 95603",
+              "lat": "38.898765",
+              "long": "-121.070215"
+            }
+          },
+          "88b67529-3cee-44fa-aefc-d2a43c4b63de": {
+            "type": "store",
+            "settings": {
+              "title": "West coast Diesels",
+              "address": "2835 Sebastopol Rd, Santa Rosa, CA, US, 95407",
+              "lat": "38.426671",
+              "long": "-122.751079"
+            }
+          },
+          "d2d66a6d-815e-4d44-aa48-852b9122c563": {
+            "type": "store",
+            "settings": {
+              "title": "Browns Valley Meat",
+              "address": "3263 Browns Valley Rd, Napa, CA, US, 94558",
+              "lat": "38.304330",
+              "long": "-122.329615"
+            }
+          },
+          "4052a709-3f86-4d06-b5cc-736e89bbcfe6": {
+            "type": "store",
+            "settings": {
+              "title": "Agua Caliente Casino Resort Spa",
+              "address": "32250 Bob Hope Drive, Rancho Mirage, CA, US, 92270",
+              "lat": "33.777299",
+              "long": "-116.405602"
+            }
+          },
+          "0ed5813f-c950-4853-988c-1d987f6d22e7": {
+            "type": "store",
+            "settings": {
+              "title": "Boccato's Groceries",
+              "address": "3127 Manhattan Avenue, Hermosa Beach, CA, US, 90254",
+              "lat": "33.875556",
+              "long": "-118.406224"
+            }
+          },
+          "5e448246-8b0c-4840-8987-aa753cf48b23": {
+            "type": "store",
+            "settings": {
+              "title": "Hadley Fruit Orchards",
+              "address": "47993 Morongo Trail, Cabazon, CA, US, 92230",
+              "lat": "33.923453",
+              "long": "-116.806497"
+            }
+          },
+          "468a917e-f6a6-41d2-9ceb-4a05851e0f73": {
+            "type": "store",
+            "settings": {
+              "title": "Max Muscle",
+              "address": "322 Pine Avenue, Long Beach, CA, US, 90802",
+              "lat": "33.771005",
+              "long": "-118.192262"
+            }
+          },
+          "6369ca10-1292-43b5-9047-cfbe05bab892": {
+            "type": "store",
+            "settings": {
+              "title": "Mickey`s Italian Delicatessen & Liquor Store",
+              "address": "101 Hermosa Avenue, Hermosa, CA, US, 90254",
+              "lat": "33.854327",
+              "long": "-118.398191"
+            }
+          },
+          "cc5362e5-0162-4cfe-8eb9-0fe70f357210": {
+            "type": "store",
+            "settings": {
+              "title": "Mo-mentum fitness",
+              "address": "16470 Bolsa Chica St, Huntington Beach, CA, US, 92649",
+              "lat": "33.723270",
+              "long": "-118.041026"
+            }
+          },
+          "219c2910-70c0-4dc9-9801-1873ff66d0f6": {
+            "type": "store",
+            "settings": {
+              "title": "Organic Roots",
+              "address": "40458 Winchester Rd, Temecula, CA, US, 92591",
+              "lat": "33.527968",
+              "long": "-117.150238"
+            }
+          },
+          "8262917a-0eb0-4b8a-8dd9-1b3f5fb536fb": {
+            "type": "store",
+            "settings": {
+              "title": "P3 Strength Camp",
+              "address": "331 S State College Boulevard, Fullerton, CA, US, 92831",
+              "lat": "33.873373",
+              "long": "-117.889892"
+            }
+          },
+          "00c906d6-2e58-476c-b4c3-b0fdb0b5e815": {
+            "type": "store",
+            "settings": {
+              "title": "Lobby Market Sag.Aftra Building",
+              "address": "5757 Wilshire Blvd, Los Angeles, CA, US, 90036",
+              "lat": "34.062813",
+              "long": "-118.353083"
+            }
+          }
+        },
+        "block_order": [
+          "aa859f3d-3131-49bb-abf0-82e27edcb45c",
+          "51104783-a85f-4a89-835a-4e4885d364d8",
+          "8523dbea-6c56-4639-b8cd-4bba10329c40",
+          "6c7eb8eb-83f6-451c-b945-c6779dcb467d",
+          "fd59c015-4540-496c-8bef-735b213d15e5",
+          "cfa448a2-22a3-41a0-9a88-e268f830afb7",
+          "9861ccee-9e36-416a-8f92-f41e7937613e",
+          "fce12403-8bab-43ec-b6f9-490b7ef407bc",
+          "2976e8c4-bb2e-4282-89e5-280a749b404f",
+          "e8e97105-6626-47c4-918d-92109999e666",
+          "b1f3be3d-c84f-4ca5-a78f-0ad3948b9583",
+          "4196e1fd-508a-4ee4-9ffc-3154ff3c1f81",
+          "f100e7d5-3a02-4d8e-b10f-6908618fd392",
+          "f5f145b3-bb51-4a36-951b-f5c05f8c3f9f",
+          "91870bc6-680e-4b1e-8f0f-d1a82cba3e1a",
+          "9f0a7f66-519f-4bd7-b735-1c9d4f529d6f",
+          "2a777603-b528-4ba6-8d80-dfe349ce1582",
+          "3e839558-426f-4a10-a42a-f5dae529f0f0",
+          "bc33380e-9e93-4b69-a84a-7c1926739e58",
+          "63b2484b-1559-48fa-9597-556b0be7345f",
+          "82e9de46-a27e-422f-88cb-a4b97255c317",
+          "9fbcbfb3-5a66-4703-ad08-e2678c66c4a9",
+          "274c2b16-fc76-49bc-a4ec-7482bf705cc2",
+          "65baa3eb-f3b4-4426-989c-511c5c0834cd",
+          "ef8544c5-ea2b-4f79-87f8-fde329055e8b",
+          "6dcc5f2f-5199-454c-b90e-b8f36a388101",
+          "fec97e7c-6ea7-47fb-8321-1b703dd92b65",
+          "ac4c336c-7644-46fe-8043-6827d9ff1b0a",
+          "dda447c0-d104-4748-9e9e-c77e6678c5d4",
+          "7ae30de3-5b6c-4722-8646-45f2e4f9d2ae",
+          "4ab619f0-454f-417e-8fbe-5d0394e5beaf",
+          "456412e0-0802-49fe-9571-5aba49e6c491",
+          "c514c700-b2d1-458c-be04-4008976560cb",
+          "c430a625-d563-458a-8a9b-5e3b3acce7ef",
+          "865b1738-bbf0-4220-96d9-c0764f51a390",
+          "fc5f7098-6f8d-4092-8232-f6eb2c5bbeca",
+          "d5bd2cd9-6c5c-4825-bfba-f8d636941578",
+          "59100fcd-c1ba-4077-8b96-ff0f4df8046a",
+          "a45fe96b-bdbf-4411-86e0-9dd216b097e5",
+          "b7ccf5c6-1203-4307-a801-c8ba5dc60c38",
+          "289e5858-5e94-4965-a10b-c37cf5596f27",
+          "14f2dd1f-a916-4df0-9a12-df0fab9cae24",
+          "13a8097a-9a76-4cc7-8f91-d7c1926480a0",
+          "dbafc668-b040-4cd5-86d0-97f16b4a1597",
+          "70fc65a6-04a1-4953-ac22-99a5c80e10a1",
+          "64f9f5d0-71e8-4417-9244-7f6ec7558b3d",
+          "18212c87-de95-48ce-b228-8a7b80c4a8f5",
+          "48cee3b8-a515-4ae2-8788-1730d5d794d0",
+          "ac158a65-c082-480a-80c0-84dede3de836",
+          "ea9fab97-d20d-4d5b-9963-96b32199acd0",
+          "2f032639-30a1-4cde-8aff-dad09df94303",
+          "71041b0c-03ac-4c84-95ee-858675d31299",
+          "9ae935c1-4aea-4ccb-bf4c-9cbab301fc39",
+          "60a376cf-2b7a-461d-baaa-fe3282d58ef7",
+          "83164596-10a6-4c79-a552-2d30a08ff868",
+          "859dfcf9-fe3a-4862-885c-b903fc305f7e",
+          "40df8da9-8428-4174-b4b0-263a59b5cb20",
+          "d814ce3c-68eb-4cb6-a5c5-922075c1737a",
+          "68538c48-b088-429d-a052-2e8edbb2277b",
+          "c7f6b742-f42c-433f-a8cb-6b45a8238fa7",
+          "82f331c8-35c1-42f9-bcf9-efdf46104498",
+          "1c1de20f-aabc-4ce1-87ee-1557f45517e4",
+          "8a1bde47-1284-4b53-aac7-aa2272fbfc3f",
+          "f587edbd-070c-4071-a803-46809786b22f",
+          "e14df326-17cd-4845-9cc9-04d23a2506ce",
+          "c4efa731-cb06-43c3-abbf-76ee72c4278b",
+          "ba0f1aab-e598-4f03-b6b6-be61856b8dd9",
+          "008d3540-0afc-44e8-8481-3dab79ca5b20",
+          "29d674e6-5c23-497a-b4a2-e85fe7f3c462",
+          "b234187b-8756-4c59-bf73-e62c3b4c0e3e",
+          "86fffbd1-1681-4273-8e42-698df24857fb",
+          "796e7f72-8e7d-41eb-9f9f-d7a9fa44d58f",
+          "a031b448-bfe1-4a1e-bdb0-00cce051d078",
+          "53b86edf-8d89-49ce-82c9-3a3e372c4675",
+          "2771fdc0-e69b-45aa-b695-4f56d5369e92",
+          "abf4b94c-59fd-4abd-8f9a-05beca19ba6b",
+          "b8bd3620-f440-4c33-8e8e-e74506cb12e2",
+          "dbe5c0f1-d2b8-4d42-8f8b-2f865eced644",
+          "527bfec1-1b24-42c0-b23b-669a45002fcd",
+          "7eaf52ee-caf9-4438-80cd-f19a3b0e9f69",
+          "2ef3e61f-ab61-4ccc-866d-23553b153041",
+          "4098a530-506d-4014-b434-0447c9cee1b8",
+          "f32c077a-2f27-4f65-8fce-f40fc53ece92",
+          "c8da83ca-2c15-4788-aacd-3bb51531485f",
+          "f8a12a33-a57b-46c1-ba1b-82a48141f46c",
+          "f6f06190-148b-4708-8395-d8d209428f54",
+          "8ca0413b-42a1-4309-ba73-2d47add60081",
+          "8d5a9e27-1ba0-4415-92f8-d3b91ece490c",
+          "9005ec74-2d3a-478f-a9a3-91d586993e37",
+          "33f768b6-a3d0-4da3-b152-bba3d5ff6b27",
+          "663c976c-90bf-4061-aa39-5f3f438f6f67",
+          "b9177648-09ee-492e-8c59-053ddcbacafa",
+          "a492837d-b411-4e89-97bc-0d072413f4eb",
+          "9c1c4186-a645-4e1c-85d4-6efbfc6d4639",
+          "3951236a-c051-444f-8901-e63ffaffa2ca",
+          "77b2e3e5-cde5-4f9e-97f2-ba40d654aa33",
+          "0eae40b1-bb9c-483a-a023-6c264aea3f66",
+          "b0b66899-d7cf-4559-b33a-8080520681fa",
+          "ac87b09d-10f5-41cd-a100-14c1120f73d8",
+          "f80afbc8-9e2d-4b3b-9fd4-518a3b3f17ae",
+          "a34a1ff0-552f-4f84-bdb3-1e83e403b09b",
+          "c1d4b1d5-5d46-4764-a502-4c2fe1be6cea",
+          "3ebf8213-d0e2-4888-8c5a-f4b8607f2665",
+          "e9988278-bccc-4ff0-a317-61b7b9902eef",
+          "165911ff-b25b-4988-a5ca-e8cd27e33845",
+          "ff581855-9bf3-4c58-af41-80ff42cc5b00",
+          "f3ea2a45-4e45-4f80-ad7f-184de2e640ae",
+          "2e7bc217-f14d-4c0e-8db9-1b6e64e57984",
+          "abe94deb-0635-478f-bc9f-439bccdd567d",
+          "32d5c17c-866c-42f4-b39f-54b3b215dce9",
+          "6179e1f2-d31d-4ae3-90f1-0ba5bfb309f8",
+          "a7fc3d5d-2a28-4c58-975d-8b2196129cc5",
+          "9bec8587-8df7-486b-b7d4-2bfb10fdfc02",
+          "698eab74-296d-4e16-ad8d-42feb2662f95",
+          "5e911382-f09a-4c64-9790-e908c630f63d",
+          "40239168-bdb6-4914-91e8-9b5b40192dc5",
+          "60acafe0-619a-4c93-b8da-e09a04166ad3",
+          "be583b7a-0fbb-4a53-be4b-fb97ef152983",
+          "c57f8c52-7cf2-4703-b5aa-66a3d9accb84",
+          "b8c2d3d6-f21c-4212-9f7c-6382e673a827",
+          "9ec2837f-e329-4b86-b605-a55d13b03e38",
+          "91d372ff-1c31-470e-b95a-ef585fb867c6",
+          "211427b9-5db8-41a7-aab8-6ef499fe834d",
+          "0bd6b87b-cd2a-429b-abd3-c529d13174e8",
+          "9d86cc21-cca5-4e4a-8443-59c0567c9ad5",
+          "ff6617dd-6bad-4691-acd2-7bb2df975c4a",
+          "1ab342a1-755b-4cb9-94dc-1bbe6a54dfc0",
+          "2f63806b-24d1-4d92-afca-1d9f561c1881",
+          "1cca1718-984c-44b4-af4a-e025bcea7d0e",
+          "680a95c2-af85-468e-8098-83005b77e48f",
+          "38b74aa2-ec85-49cb-a577-f1ca80bd24bb",
+          "e95ec9ee-75e1-462e-9d41-698691ca8e17",
+          "88b67529-3cee-44fa-aefc-d2a43c4b63de",
+          "d2d66a6d-815e-4d44-aa48-852b9122c563",
+          "4052a709-3f86-4d06-b5cc-736e89bbcfe6",
+          "0ed5813f-c950-4853-988c-1d987f6d22e7",
+          "5e448246-8b0c-4840-8987-aa753cf48b23",
+          "468a917e-f6a6-41d2-9ceb-4a05851e0f73",
+          "6369ca10-1292-43b5-9047-cfbe05bab892",
+          "cc5362e5-0162-4cfe-8eb9-0fe70f357210",
+          "219c2910-70c0-4dc9-9801-1873ff66d0f6",
+          "8262917a-0eb0-4b8a-8dd9-1b3f5fb536fb",
+          "00c906d6-2e58-476c-b4c3-b0fdb0b5e815"
+        ],
+        "settings": {
+          "google_map_api_key": "AIzaSyBiD1nuh44ZW2-Q39iPkEhszHNL8sxqhMk",
+          "map_center_lat": "37.1842331",
+          "map_center_long": "-118.691928",
+          "map_center_zoom": "6"
+        }
+      },
+      "index-product": {
+        "type": "index-product",
+        "blocks": {
+          "30fb56cb-7d69-49db-8085-a47fff45a557": {
+            "type": "product",
+            "settings": {
+              "title": "marquis-assorted-12-pack"
+            }
+          },
+          "7605b509-caeb-487d-9903-64515bb2797a": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-super-berry"
+            }
+          },
+          "f14c0caa-fa90-4c12-b8d5-aa71201d5967": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-citrus-yuzu"
+            }
+          },
+          "cdced7ee-90e5-44a9-ace9-193ab1ae1ec2": {
+            "type": "product",
+            "settings": {
+              "title": "case-of-marquis-mango-ginger"
+            }
+          }
+        },
+        "block_order": [
+          "30fb56cb-7d69-49db-8085-a47fff45a557",
+          "7605b509-caeb-487d-9903-64515bb2797a",
+          "f14c0caa-fa90-4c12-b8d5-aa71201d5967",
+          "cdced7ee-90e5-44a9-ace9-193ab1ae1ec2"
+        ],
+        "settings": {}
+      },
+      "subscribe-hero": {
+        "type": "subscribe-hero",
+        "settings": {
+          "hero-bg": "shopify://shop_images/Subscription_Header_002_96ad93c5-68c8-469b-845c-ceeb419fee74.png",
+          "page-title": "Clean caffeine starts today",
+          "page-sub-title": "No strings, no commitment, free shipping. We’ll make sure you find the flavor for you.",
+          "btn_text": "Subscribe Now",
+          "first-color": "#d8e7e0",
+          "second-color": "#d2e8de"
+        }
+      },
+      "subscribe-text-block": {
+        "type": "subscribe-text-block",
+        "blocks": {
+          "2db4eead-6a00-414e-9727-19294b9da68d": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/Sub_Save_Welcome.png",
+              "block-title": "Get a welcome bonus",
+              "block-content": "If you’re a new subscriber, enjoy 10% off your first order."
+            }
+          },
+          "d56409dc-bd24-4c6b-a764-a5c186bd2002": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/Sub_Save_Pay_Less.png",
+              "block-title": "Pay less for every case",
+              "block-content": "Subscribers get 10% off, free shipping, and auto-deliveries on every order."
+            }
+          },
+          "50515bfb-c088-4aea-9858-a7be8fb23d42": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/Sub_Save_Cancel.png",
+              "block-title": "Adjust or cancel anytime",
+              "block-content": "Just like your high school crush, we hate commitment; so you can adjust or cancel your subscription whenever you like."
+            }
+          },
+          "127ed104-bf77-45a7-8899-df3c5a6c44dd": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/Sub_Save_Order_More.png",
+              "block-title": "Order more, save more",
+              "block-content": "Get discounts up to 10% off when you sign up for three or more cases per order."
+            }
+          }
+        },
+        "block_order": [
+          "2db4eead-6a00-414e-9727-19294b9da68d",
+          "d56409dc-bd24-4c6b-a764-a5c186bd2002",
+          "50515bfb-c088-4aea-9858-a7be8fb23d42",
+          "127ed104-bf77-45a7-8899-df3c5a6c44dd"
+        ],
+        "settings": {}
+      },
+      "subscribe-badges": {
+        "type": "subscribe-badges",
+        "blocks": {
+          "f48959c9-7fca-4e7d-9e50-788b1a7b84cf": {
+            "type": "badge",
+            "settings": {
+              "image-preview": "shopify://shop_images/detail-icon-1.png",
+              "badge-title": "100mg Tri-blend Caffeine"
+            }
+          },
+          "3c7a13ae-0bc8-42e1-96bc-8adad5381f93": {
+            "type": "badge",
+            "settings": {
+              "image-preview": "shopify://shop_images/detail-icon-2.png",
+              "badge-title": "Loaded with vitamins and antioxidants"
+            }
+          },
+          "854f426d-23f3-4ce7-a487-a295347d21fe": {
+            "type": "badge",
+            "settings": {
+              "image-preview": "shopify://shop_images/detail-icon-3.png",
+              "badge-title": "Non-GMO, vegan, and gluten-free"
+            }
+          },
+          "bb32e84b-c228-45b0-ada9-aadd37e6fca4": {
+            "type": "badge",
+            "settings": {
+              "image-preview": "shopify://shop_images/detail-icon-4.png",
+              "badge-title": "No sugar, no calories, no artificial coloring"
+            }
+          }
+        },
+        "block_order": [
+          "f48959c9-7fca-4e7d-9e50-788b1a7b84cf",
+          "3c7a13ae-0bc8-42e1-96bc-8adad5381f93",
+          "854f426d-23f3-4ce7-a487-a295347d21fe",
+          "bb32e84b-c228-45b0-ada9-aadd37e6fca4"
+        ],
+        "settings": {}
+      },
+      "subscribe-faq": {
+        "type": "subscribe-faq",
+        "blocks": {
+          "525c4020-105d-423c-8dfc-48407cfb47a1": {
+            "type": "question",
+            "settings": {
+              "title": "Can I really cancel at any time?",
+              "answer": "<p>Of course! We want you to be happy with your order. In your Account dashboard, you’re able to edit your order frequency, flavor, and quantity. If you’re sure you want to cancel, you can do so in your Account dashboard as well. No hard feelings!</p>"
+            }
+          },
+          "5905097f-eaa9-48a3-8430-0e2deea9ae52": {
+            "type": "question",
+            "settings": {
+              "title": "Do I have to pay for shipping?",
+              "answer": "<p>If you add 2 or more cases of Marquis you'll receive Free Shipping.</p>"
+            }
+          },
+          "6c208542-cf7e-4d40-bbf1-d56812f87aa9": {
+            "type": "question",
+            "settings": {
+              "title": "What if I don’t like the flavor I choose?",
+              "answer": "<p>Please login into your account where you'll be able to make edits to your subscriptions.</p>"
+            }
+          },
+          "bbb06a94-faa6-40f8-af05-cf897340508e": {
+            "type": "question",
+            "settings": {
+              "title": "What are the benefits of multi-case orders?",
+              "answer": "<p>When you add 2 cases of Marquis you'll receive free shipping and if you add another case you'll receive 10% on top of your order.</p>"
+            }
+          },
+          "8505664b-3e0a-41be-b97f-9186ac7b9ec0": {
+            "type": "question",
+            "settings": {
+              "title": "How can I edit my subscription?",
+              "answer": "<p>Please login into your account where you'll be able to make edits to your subscriptions.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "525c4020-105d-423c-8dfc-48407cfb47a1",
+          "5905097f-eaa9-48a3-8430-0e2deea9ae52",
+          "6c208542-cf7e-4d40-bbf1-d56812f87aa9",
+          "bbb06a94-faa6-40f8-af05-cf897340508e",
+          "8505664b-3e0a-41be-b97f-9186ac7b9ec0"
+        ],
+        "settings": {
+          "title": "Questions about subscribing?"
+        }
+      },
+      "wholesale-template": {
+        "type": "wholesale-template",
+        "settings": {
+          "hero-bg": "shopify://shop_images/Marquis_Wholesale.jpg",
+          "title": "Wholesale",
+          "sub-title": "Give your business and your customers a lift, with Marquis",
+          "description": "To become an authorized retailer with Marquis, fill out the form below and a member of our team will get back to you."
+        }
+      },
+      "promotions-template": {
+        "type": "promotions-template",
+        "settings": {
+          "title": "Promotions Request",
+          "description": "Please note these items only require general messaging that is based upon the promotion size. Types of POS are only available per request, custom work please allow 1-2 weeks for design production & delivery of marketing assets."
+        }
+      },
+      "about-header": {
+        "type": "about-header",
+        "settings": {
+          "title": "Over 197,049 cans",
+          "sub-title": "of Marquis proudly donated."
+        }
+      },
+      "about-us": {
+        "type": "about-us",
+        "blocks": {
+          "2d19028e-4939-46bb-bc1e-7bed6fcce557": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/22_Marquis_Founders.png",
+              "block-title": "Why did we start Marquis?",
+              "block-content": "Our story began between a boardroom and a night club. Our routine was coffee in the morning, an energy drink after lunch, and a vodka-energy cocktail at night. Over time, we found that this toxic mix of large amounts of sugar and low quality caffeine was wreaking havoc on our minds and bodies. While there were healthier alternatives on the market, they all fell short on taste. \nSo we fixed that."
+            }
+          },
+          "3d2ef7ed-6984-4386-8dfd-a668cc6696ae": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/We_want_to_fuel_change.jpg",
+              "block-title": "We want to fuel change.",
+              "block-content": "We don’t pretend we’re changing the world, but our ambition is no less lofty; to help you change your world. It doesn’t matter who you are, or where you’re from. With hard work, and a little help from Marquis, we know everyone can win everyday. Because, in each can is the confidence to get the kids to school on time, meet a deadline or ace an exam."
+            }
+          },
+          "33b5c671-5acd-4cbd-8e29-fa38a2e320a5": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/Big_Beverage_510x510_a1b95228-b600-460d-b598-4c978f843ed2.png",
+              "block-title": "We blow the whistle on Big Beverage.",
+              "block-content": "With drinks packed full of sugar, artificial chemicals and too much caffeine, the beverage industry is damaging people’s health, and it needs to stop. So, we’re starting a clean caffeine revolution and fighting back against lab-made corporate drinks. We know we’re the underdog, but that only motivates us more to spread the word and ensure everyone has access to responsible amounts of clean, green caffeine."
+            }
+          },
+          "a49bf5c1-19f0-488f-a926-1b4d229e685a": {
+            "type": "blocks",
+            "settings": {
+              "image-preview": "shopify://shop_images/1FTP_B1B_launch-content_static-01.jpg",
+              "block-title": "We believe in giving back to our community.",
+              "block-content": "We use most of our energy trying to lift yours but, if we ever have any spare, we always try to do some good. That's why 1% of our revenue is invested in the planet to help fight climate change, and why we provide free cans to first responders and healthcare workers. This ensures Marquis is good for your tastebuds, your body, the country, and our planet."
+            }
+          }
+        },
+        "block_order": [
+          "2d19028e-4939-46bb-bc1e-7bed6fcce557",
+          "3d2ef7ed-6984-4386-8dfd-a668cc6696ae",
+          "33b5c671-5acd-4cbd-8e29-fa38a2e320a5",
+          "a49bf5c1-19f0-488f-a926-1b4d229e685a"
+        ],
+        "settings": {}
+      },
+      "about-differences": {
+        "type": "about-differences",
+        "settings": {
+          "title": "Marquis vs Big Beverage",
+          "sub-title": "Take a look at how we stack up against the competition.",
+          "desktop-image": "shopify://shop_images/Comparison_Chart_Grey_-_SB.png",
+          "mobile-image": "shopify://shop_images/Comparison_Chart_Grey_-_SB.png"
+        }
+      },
+      "index-review": {
+        "type": "index-review",
+        "settings": {
+          "title": "Marquis is making waves",
+          "shop_now_link": ""
+        }
+      },
+      "about-recommend": {
+        "type": "about-recommend",
+        "blocks": {
+          "0d9374d6-e32f-441f-9389-f474321dc22b": {
+            "type": "products",
+            "settings": {
+              "recommend-product": "case-of-marquis-lychee-peach"
+            }
+          },
+          "deecbac4-e6b0-481f-b331-92420074f348": {
+            "type": "products",
+            "settings": {
+              "recommend-product": "case-of-marquis-super-berry"
+            }
+          },
+          "b02eba0f-9b16-40fb-af20-3fe1da94fdf8": {
+            "type": "products",
+            "settings": {
+              "recommend-product": "case-of-marquis-citrus-yuzu"
+            }
+          },
+          "5ec2654a-ed7d-41d5-a290-880c3d19dd2f": {
+            "type": "products",
+            "settings": {
+              "recommend-product": "case-of-marquis-mango-ginger"
+            }
+          }
+        },
+        "block_order": [
+          "0d9374d6-e32f-441f-9389-f474321dc22b",
+          "deecbac4-e6b0-481f-b331-92420074f348",
+          "b02eba0f-9b16-40fb-af20-3fe1da94fdf8",
+          "5ec2654a-ed7d-41d5-a290-880c3d19dd2f"
+        ],
+        "settings": {
+          "title": "Find your flavor, guaranteed"
+        }
+      },
+      "product-reviews": {
+        "type": "product-reviews",
+        "settings": {}
+      },
+      "product-recommended-list": {
+        "type": "product-recommended-list",
+        "settings": {}
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "settings": {}
+      },
+      "1640758285d4294507": {
+        "type": "index-welcome-global",
+        "settings": {
+          "title": "Caffeine with Benefits",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "product-badges-and-difference-global": {
+        "type": "product-badges-and-difference-global",
+        "settings": {}
+      },
+      "blog-content": {
+        "type": "blog-content",
+        "blocks": {
+          "d8e21934-9502-40f4-9946-2d3dbfdd7c79": {
+            "type": "article",
+            "settings": {
+              "article": "marquis-world/does-it-matter-where-your-caffeine-comes-from"
+            }
+          },
+          "10d0c7ff-2874-491a-926b-dc3fc9e02e22": {
+            "type": "article",
+            "settings": {
+              "article": "marquis-world/does-it-matter-where-your-caffeine-comes-from-part-2"
+            }
+          }
+        },
+        "block_order": [
+          "d8e21934-9502-40f4-9946-2d3dbfdd7c79",
+          "10d0c7ff-2874-491a-926b-dc3fc9e02e22"
+        ],
+        "settings": {}
+      },
+      "page-default": {
+        "type": "page-default",
+        "settings": {}
+      },
+      "16418294416305336d": {
+        "type": "index-chart",
+        "settings": {
+          "title": "Your Alternative to Anything",
+          "desktop_image": "shopify://shop_images/Comparison_Chart_Grey_-_SB.png",
+          "mobile_image": "shopify://shop_images/Comparison_Chart_Grey_-_SB_Mobile.png",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "164209457735c94eec": {
+        "type": "index-find-us",
+        "disabled": true,
+        "settings": {
+          "title": "Find Us Near You",
+          "btn_link": "shopify://pages/store-locator",
+          "btn_text": "Discover our Locations",
+          "gradient_color_1": "#ffffff",
+          "gradient_color_2": "#284734",
+          "background_image": "shopify://shop_images/Erewhon-Retailer.jpg"
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "87df8c4c-6a96-440c-a5ee-c4716345bd9d": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>50% OFF SITEWIDE WHEN YOU ORDER 4 CASES OR MORE!<a href=\"https://drinkmarquis.com/products/marquis-assorted-12-pack\">USE CODE: JULY AT CHECKOUT</a></strong>"
+            }
+          },
+          "b5b59160-1f9d-4432-ab0d-faad05deb24a": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>NEW FLAVOR<a href=\"https://drinkmarquis.com/products/marquis-lemon-lavender\">SHOP LEMON LAVENDER</a></strong>"
+            }
+          },
+          "e2df4bff-218e-4f26-8989-d7714d044fc9": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>$20 OFF ON 2 CASES PLUS FREE SHIPPING THIS WEEKEND ONLY!<a href=\"https://drinkmarquis.com/products/marquis-assorted-12-pack\">SHOP NOW - USE CODE: MDW20 AT CHECKOUT</a></strong>"
+            }
+          },
+          "410b2b66-4d9a-42dc-9e3e-857292422aa3": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>BUY MORE SAVE MORE</strong> I <strong>10% OFF 3 CASES</strong> I <strong>30% OFF 4 CASES</strong> I <strong>50% OFF 5+ CASES</strong> I <strong>DISCOUNT APPLIED AT CHECKOUT</strong>"
+            }
+          },
+          "announcement_bar_status_mx44WD": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "announcement_bar_status_d8NXTb": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "announcement_bar_status_am4Lab": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "announcement_bar_status_nhVbXA": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "announcement_bar_status_JFXkit": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "announcement_bar_status_rUMPYz": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>EARLY BLACK FRIDAY ALERT: 50% OFF SITEWIDE - NOW THROUGH CYBER MONDAY!</strong>"
+            }
+          },
+          "5af2b8e8-7e1a-4f66-b9ba-78769e113063": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "c0892574-49a8-49fa-bd9b-12b3354c7087": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "ae178372-11c8-4dca-99cd-1c3a51bceef6": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "8ab5b731-172d-47df-aec7-b559928e27ff": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "b3820558-2017-466d-b47e-40eedd4f6110": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "87eb38f0-a566-455c-93a8-4239df8258c5": {
+            "type": "announcement_bar_status",
+            "settings": {
+              "title": "<strong>RECEIVE A DISCOUNT ON YOUR FIRST ORDER + FREE SHIPPING WHEN YOU SIGN UP!</strong>"
+            }
+          },
+          "a8034b23-4d61-4ca3-b51b-bf6f16bb1cb2": {
+            "type": "announcement_bar_status",
+            "disabled": true,
+            "settings": {
+              "title": "<strong>TAKE 50% OFF WITH CODE: NRG50 AT CHECKOUT</strong>"
+            }
+          }
+        },
+        "block_order": [
+          "87df8c4c-6a96-440c-a5ee-c4716345bd9d",
+          "b5b59160-1f9d-4432-ab0d-faad05deb24a",
+          "e2df4bff-218e-4f26-8989-d7714d044fc9",
+          "410b2b66-4d9a-42dc-9e3e-857292422aa3",
+          "announcement_bar_status_mx44WD",
+          "announcement_bar_status_d8NXTb",
+          "announcement_bar_status_am4Lab",
+          "announcement_bar_status_nhVbXA",
+          "announcement_bar_status_JFXkit",
+          "announcement_bar_status_rUMPYz",
+          "5af2b8e8-7e1a-4f66-b9ba-78769e113063",
+          "c0892574-49a8-49fa-bd9b-12b3354c7087",
+          "ae178372-11c8-4dca-99cd-1c3a51bceef6",
+          "8ab5b731-172d-47df-aec7-b559928e27ff",
+          "b3820558-2017-466d-b47e-40eedd4f6110",
+          "87eb38f0-a566-455c-93a8-4239df8258c5",
+          "a8034b23-4d61-4ca3-b51b-bf6f16bb1cb2"
+        ],
+        "settings": {
+          "announcement_bar_time": 250,
+          "announcement_bar_color": "#294634",
+          "announcement_bar_text_color": "#fdf7f0"
+        }
+      },
+      "small-cart": {
+        "type": "small-cart",
+        "blocks": {
+          "e32cedec-a115-40f0-96e2-5a15eb934e7e": {
+            "type": "products",
+            "settings": {
+              "title": "marquis-assorted-12-pack"
+            }
+          },
+          "9f1bf42f-d211-498c-8255-486b87bf3163": {
+            "type": "products",
+            "settings": {
+              "title": "marquis-lemon-lavender"
+            }
+          },
+          "72595113-60ae-4769-be5d-6439aa4a69f6": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-lychee-peach"
+            }
+          },
+          "43dacf76-3d92-4e62-8c68-2b0433e3f36d": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-super-berry"
+            }
+          },
+          "608e4521-7d5f-4ea1-93f4-d57cda553805": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-pineapple-passion"
+            }
+          },
+          "042ba15f-5b48-40b4-a7f4-326250d27eec": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-citrus-yuzu"
+            }
+          },
+          "66a20f61-00b8-4dd4-9f10-26534a15f949": {
+            "type": "products",
+            "settings": {
+              "title": "case-of-marquis-mango-ginger"
+            }
+          }
+        },
+        "block_order": [
+          "e32cedec-a115-40f0-96e2-5a15eb934e7e",
+          "9f1bf42f-d211-498c-8255-486b87bf3163",
+          "72595113-60ae-4769-be5d-6439aa4a69f6",
+          "43dacf76-3d92-4e62-8c68-2b0433e3f36d",
+          "608e4521-7d5f-4ea1-93f4-d57cda553805",
+          "042ba15f-5b48-40b4-a7f4-326250d27eec",
+          "66a20f61-00b8-4dd4-9f10-26534a15f949"
+        ],
+        "settings": {
+          "cart-text": "Add your favorite items to your cart.",
+          "case_1_text": "Add 1 case to your cart to unlock Free Shipping",
+          "case_2_text": "Add 1 case to your cart to unlock 10% Off",
+          "case_2_subtext": "Free Shipping",
+          "case_3_subtext": "10% Off"
+        }
+      },
+      "article-content": {
+        "type": "article-content",
+        "settings": {}
+      },
+      "article-recently-posts": {
+        "type": "article-recently-posts",
+        "settings": {}
+      },
+      "lead-capture-template": {
+        "type": "lead-capture-template",
+        "settings": {
+          "image": "shopify://shop_images/Earth-Day.jpg",
+          "title": "Everyday is Earth Day!",
+          "sub-title": "This Week a $1 is Donated to GROW GOOD FARMS for  Every Can of Marquis Purchased. Enter for a Chance to WIN  $25 Organic Roots Gift Card + Marquis Variety 12-pack!",
+          "content": "<p>By subscribing, you agree to receive recurring automated marketing email messages (e.g. cart reminders) at the email address provided. Consent is not a condition to purchase. Unsubscribe or OPT-OUT of email communication at any time.</p><p>By submitting this form and signing up for texts, you consent to receive marketing text messages (e.g. promos, cart reminders) from Marquis at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available). <a href=\"https://drinkmarquis.com/pages/privacy-policy\" title=\"https://drinkmarquis.com/pages/privacy-policy\">Privacy Policy</a> & <a href=\"https://drinkmarquis.com/pages/legal\" title=\"https://drinkmarquis.com/pages/legal\">Terms</a>. No Purchase Necessary.</p>"
+        }
+      },
+      "press-template": {
+        "type": "press-template",
+        "blocks": {
+          "b4f89cc1-87e2-422a-adfc-af212138f2a2": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "This week's new products: Marquis warms up winter with tropical flavors",
+              "link": "https://www.bevnet.com/news/2023/this-weeks-new-products-sparkling-ice-marquis-warm-up-winter-with-tropical-flavors"
+            }
+          },
+          "a278d97e-26b0-4b22-b475-9f706e11d350": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/los-angeles-unscripted-logo-black.png",
+              "content": "Marquis debuts on KTLA Healthy Vibes segment. Co-Founders Chris & Danny share their store on why they started Marquis.",
+              "link": "https://ktla.com/la-unscripted/healthy-vibez/healthy-vibes-marquis-drinks/"
+            }
+          },
+          "135e30b6-78e3-42c0-abc9-90f6404c6e63": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/los-angeles-magazine-logo-black.png",
+              "content": "Discover a New Way to Caffeinate in L.A. with Marquis",
+              "link": "https://www.lamag.com/sponsored/discover-a-new-way-to-caffeinate-in-l-a-with-marquis/"
+            }
+          },
+          "dba46e34-75c1-42c6-b3a0-8f0a4cbde290": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "Marquis Releases New Pineapple Passion Flavor",
+              "link": "https://www.bevnet.com/news/2023/marquis-releases-new-pineapple-passion-flavor/"
+            }
+          },
+          "dadb977a-4d8f-4432-8094-7152e96b3f56": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Talkshoplive.png",
+              "content": "Drink recipe alert! Chris, Danny and Madison make a fun summery cocktail with the new flavor.",
+              "link": "https://talkshop.live/watch/wHQGpVHRgnS8"
+            }
+          },
+          "ffda89eb-41af-4d63-a3f7-fc44d301c621": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/EatDrinkLA.png",
+              "content": "5 New Canned Drinks for Any Mood",
+              "link": "https://www.eatdrinkla.com/5-new-canned-drinks-for-any-mood/"
+            }
+          },
+          "de951cdd-674a-4678-b104-98d0ba27afe9": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "Ray Latif, the Editor and Producer of the Taste Radio podcast interview Marquis Co ﻿Founders about latest brand news and updates.",
+              "link": ""
+            }
+          },
+          "22f418a5-7b8e-461b-b618-d6c383b35824": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/California-Meetings-Events_0_0.png",
+              "content": "A Marquis cocktail collaboration at Andaz West Hollywood.",
+              "link": "https://ca.meetingsmags.com/marquis-cocktail-collaboration-andaz-west-hollywod"
+            }
+          },
+          "bf95d4a9-b8c3-4b7a-8498-b7bfac8c4532": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Talkshoplive.png",
+              "content": "Can you guess what's in the cocktail? Marquis Co-Founders Chris and Danny play fun guessing game on Talkshoplive to celebrate Food & Drink Week.",
+              "link": "https://talkshop.live/watch/_voiJiOwl5st"
+            }
+          },
+          "c638a2f5-200d-443a-bc8d-f5c15bd521ae": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Progressive-Grocer-logo.png",
+              "content": "Marquis selected as winner in 2022 Editors' Picks. Best new products worthy of retailer, consumer attention.",
+              "link": "https://issuu.com/ensembleiq/docs/pg_0922?fr=sOTIwODgwODQ2MQ"
+            }
+          },
+          "57574fd3-998f-48b2-a5c0-0f6ef16c4c66": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/IFT_FIRST_Logo_fd4fbbe4-f9bf-4fd1-af53-9ec3ca5d2b35.png",
+              "content": "New coffee and tea products are quenching consumer thirst for specialty alternatives.",
+              "link": "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2022/july/features/specialty-foods-go-glam"
+            }
+          },
+          "866a4aef-9627-4531-8645-2bea07aa4bc0": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "Marquis announces new partnership with luxury supermarket chain. Marquis’ full portfolio of better-for-you tri-blend caffeinated beverages are available for purchase at all 7 Erewhon store locations.",
+              "link": "https://www.bevnet.com/news/2022/marquis-expands-into-all-7-erewhon-retail-locations"
+            }
+          },
+          "341afce7-8280-4c84-8661-9a735e60df64": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+              "content": "9 clean energy beverages for a focused buzz...",
+              "link": "https://www.newhope.com/food-and-beverage/unboxed-9-clean-energy-beverages-focused-buzz/gallery?slide=6"
+            }
+          },
+          "e3b8212e-dc85-4142-a716-68a39d9b5f00": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Hunker_logo.png",
+              "content": "We've rounded up 80+ AAPI-owned home and lifestyle brands that you can shop and support now...",
+              "link": "https://www.hunker.com/13763757/aapi-business-directory"
+            }
+          },
+          "bdc301af-3620-4e06-859c-f79978189a9f": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Brit_Co.png",
+              "content": "24 AAPI Founders We Love to Support -- AAPI founders who are proof of that richness in diversity and inspire us every day with their fresh ideas to make the world a better...",
+              "link": "https://www.brit.co/aapi-founders/"
+            }
+          },
+          "6b35192c-7f64-46ab-98e5-a83a1df4f4dd": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "Marquis has added a Lychee Peach flavor to its caffeinated beverage lineup. A “familiar and approachable” flavor...",
+              "link": "https://www.bevnet.com/news/2022/this-weeks-new-products-new-probiotic-sodas-flavors-plant-based-milks-and-a-new-look-for-golden-tiger"
+            }
+          },
+          "c540cd2f-9065-4ffa-84ca-bf4c356003b8": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/CaffeineMan_Logo.png",
+              "content": "YouTube personality CaffeineMan reviews Marquis and answers this question: Is it the healthiest & best tasting of the healthy energy drinks?",
+              "link": "https://www.youtube.com/watch?v=iyccKp3HIkU&t=190s"
+            }
+          },
+          "c4b61991-50a8-4a26-8669-4b493f85b51f": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/DTC.png",
+              "content": "Podcast Listen. All Kill No Filler Host Eric Dyck interviews Marquis Director of Marketing Zach Volpo and shares how he tripled the brand's velocity on Amazon.",
+              "link": "https://www.youtube.com/watch?v=dgew2C6eWC8"
+            }
+          },
+          "8dc30450-8325-4eec-b885-11959bf57bae": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Talkshoplive.png",
+              "content": "Talkshoplive host Madison Brodsky interviews Marquis Co-Founders Christopher Lai and Danny Huang introducing first-of-its kind tri-blend caffeine beverages.",
+              "link": "https://talkshop.live/watch/U8GkwKTdwRnO?utm_source=search&utm_medium=desktop&utm_campaign=search"
+            }
+          },
+          "9bbeafe9-00da-4392-a899-0b868f83f168": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+              "content": "Marquis launches its first new flavor as rebrand drives triple-digit growth.",
+              "link": "https://www.newhope.com/business-resources/marquis-launches-its-first-new-flavor-rebrand-drives-triple-digit-growth-press"
+            }
+          },
+          "faf685c3-278b-40a6-9a1c-4d868bb9e0ad": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Prevention.png",
+              "content": "Prevention Picks: 14 beauty and wellness products our editors are swearing by in April.",
+              "link": "https://www.prevention.com/life/g39653306/prevention-picks-april-2022/"
+            }
+          },
+          "51ede524-7ed9-45df-9a28-75df42c4d85b": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Talkshoplive.png",
+              "content": "Talkshoplive host Madison Brodsky interviews Marquis Co-Founders Christopher Lai and Danny Huang introducing first-of-its kind tri-blend caffeine beverages.",
+              "link": "https://talkshop.live/watch/pq8KkO4XuSRY/7544"
+            }
+          },
+          "4d974dcf-7b84-4e0a-b25d-5891d775af53": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Food_Business_News.png",
+              "content": "New beverage innovations from 2022 Natural Products Expo West...",
+              "link": "https://www.foodbusinessnews.net/articles/20921-slideshow-beverage-innovations-from-natural-products-expo-west"
+            }
+          },
+          "f8c0da93-7351-431b-8085-3b8fc980401a": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Sweety_High.png",
+              "content": "Marquis drinks provide natural caffeination without the crash—and they REALLY work! I agreed to try them out myself for a review and taste test to see if they really do get the job done...",
+              "link": "https://www.sweetyhigh.com/read/marquis-energy-drink-review-taste-test-031522"
+            }
+          },
+          "96d4769d-b74b-4e4e-80d1-9e3b86730840": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Voyage_LA.png",
+              "content": "VoyageLA interviews Marquis Co-Founders Christopher Lai and Danny Huang discussing life and business.",
+              "link": "http://voyagela.com/interview/exploring-life-business-with-christopher-lai-co-founder-ceo-danny-huang-co-founder-president-of-marquis/"
+            }
+          },
+          "bfbffc50-b3fa-439e-a9fc-37443ac718a8": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/New_Hope_Networks-_Natural_Food_Merchendiser.png",
+              "content": "Non-alcoholic beverages go beyond zero proof in response to younger generations leading the way in finding alternative ways to unwind and blow off steam...",
+              "link": "https://secure.viewer.zmags.com/publication/b0a199b8?utm_campaign=HLN00NHN-HS-NFM%20Digital%20Edition_030122&utm_emailname=HLN00NFM-Digital_HS_030122&utm_medium=email&utm_source=Eloqua&utm_MDMContactID=af054531-09ac-453f-b2b9-963145a8f381&utm_campaigntype=Newsletter&utm_sub=%F0%9F%8C%B4%20March%2FApril%2FMay%20Digital%20Edition&eM=cc7af1d0876b124c9ae97a2f931d3409b97a18932b3e6709e9311b9217da5dc5&eventSeriesCode=ES_NWHOPEDGTL&eventEditionCode=HLN00NHN&sessionCode=S_NFMDIGEDN#/b0a199b8/16"
+            }
+          },
+          "16996dad-7714-47db-a6a5-e313545f6baa": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Authority_Magazine.png",
+              "content": "\"5 things I wish someone told me before I became a Founder.\" Interview with Marquis Co-Founders Christopher Lai and Danny Huang.",
+              "link": "https://medium.com/authority-magazine/christopher-lai-and-danny-huang-of-marquis-5-things-i-wish-someone-told-me-before-i-became-a-2317a2b4ffd7"
+            }
+          },
+          "40672697-8ebb-4a74-a36d-cc2325741bbc": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/FoodNavigator_bb620c15-31d0-4081-a20c-7c0128356940.png",
+              "content": "Marquis is starting off the year with a bold new look as it continues to transcend its energy drink origins and draw attention to the plant-powered benefits of its clean caffeinated beverages.",
+              "link": "https://www.foodnavigator-usa.com/Article/2022/01/26/marquis-talks-clean-caffeine-revolution-from-alternative-to-on-trend"
+            }
+          },
+          "66a88b2c-529c-4f10-bf25-e2485bfcbac6": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/NutraIngredient_s_NutraCast_Podcast_4345ef09-98e1-481f-93ef-abecfd9d08f3.png",
+              "content": "Podcast listen. Marquis on cracking the code in functional beverages -- Marquis speaks to new and innovative ways to stand out by offering unique and distinct products to capture consumers' attention.",
+              "link": "https://www.nutraingredients-usa.com/Article/2022/02/11/NutraCast-Marquis-on-cracking-the-code-in-functional-beverages"
+            }
+          },
+          "e846d31d-0780-4f19-8501-11f87ef8a463": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Just-Drinks.png",
+              "content": "Marquis has revamped the packaging and formulation adding monk fruit to its list of ingredients as a calorie-free sugar substitute that offers health benefits and natural sweetening.",
+              "link": "https://www.just-drinks.com/news/new-look-unveiled-for-marquis-functional-soft-drink/"
+            }
+          },
+          "e765b904-0671-43d5-bac0-cb2f3cca425a": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/BevNET.png",
+              "content": "Marquis unveils new modern can design with bright bold colors and enhanced flavors.",
+              "link": "https://www.bevnet.com/news/2022/marquis-unveils-new-modern-can-design-with-bright-bold-colors-and-enhanced-flavors/"
+            }
+          },
+          "d7354735-dcb4-49c6-806b-53df904b72e8": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/Trend_Hunter.png",
+              "content": "TrendHunter reviews Marquis and it's full line-up of sparkling tri-blend caffeine beverages...",
+              "link": "https://www.trendhunter.com/trends/marquis"
+            }
+          },
+          "6194fc8b-a199-4ffc-a17a-487a2e900d1a": {
+            "type": "press",
+            "settings": {
+              "image_preview": "shopify://shop_images/rest-clicks-logo.png",
+              "content": "9 Popular Sugar-Free Energy Drinks To Try",
+              "link": "https://restaurantclicks.com/best-sugar-free-energy-drinks/"
+            }
+          }
+        },
+        "block_order": [
+          "b4f89cc1-87e2-422a-adfc-af212138f2a2",
+          "a278d97e-26b0-4b22-b475-9f706e11d350",
+          "135e30b6-78e3-42c0-abc9-90f6404c6e63",
+          "dba46e34-75c1-42c6-b3a0-8f0a4cbde290",
+          "dadb977a-4d8f-4432-8094-7152e96b3f56",
+          "ffda89eb-41af-4d63-a3f7-fc44d301c621",
+          "de951cdd-674a-4678-b104-98d0ba27afe9",
+          "22f418a5-7b8e-461b-b618-d6c383b35824",
+          "bf95d4a9-b8c3-4b7a-8498-b7bfac8c4532",
+          "c638a2f5-200d-443a-bc8d-f5c15bd521ae",
+          "57574fd3-998f-48b2-a5c0-0f6ef16c4c66",
+          "866a4aef-9627-4531-8645-2bea07aa4bc0",
+          "341afce7-8280-4c84-8661-9a735e60df64",
+          "e3b8212e-dc85-4142-a716-68a39d9b5f00",
+          "bdc301af-3620-4e06-859c-f79978189a9f",
+          "6b35192c-7f64-46ab-98e5-a83a1df4f4dd",
+          "c540cd2f-9065-4ffa-84ca-bf4c356003b8",
+          "c4b61991-50a8-4a26-8669-4b493f85b51f",
+          "8dc30450-8325-4eec-b885-11959bf57bae",
+          "9bbeafe9-00da-4392-a899-0b868f83f168",
+          "faf685c3-278b-40a6-9a1c-4d868bb9e0ad",
+          "51ede524-7ed9-45df-9a28-75df42c4d85b",
+          "4d974dcf-7b84-4e0a-b25d-5891d775af53",
+          "f8c0da93-7351-431b-8085-3b8fc980401a",
+          "96d4769d-b74b-4e4e-80d1-9e3b86730840",
+          "bfbffc50-b3fa-439e-a9fc-37443ac718a8",
+          "16996dad-7714-47db-a6a5-e313545f6baa",
+          "40672697-8ebb-4a74-a36d-cc2325741bbc",
+          "66a88b2c-529c-4f10-bf25-e2485bfcbac6",
+          "e846d31d-0780-4f19-8501-11f87ef8a463",
+          "e765b904-0671-43d5-bac0-cb2f3cca425a",
+          "d7354735-dcb4-49c6-806b-53df904b72e8",
+          "6194fc8b-a199-4ffc-a17a-487a2e900d1a"
+        ],
+        "settings": {
+          "title": "MARQUIS PRESS",
+          "sub-title": "Send press & media inquiries to marquis@powerdigital.com"
+        }
+      },
+      "85a9ecb9-d603-4f7d-acd6-ddee0b9ad7b3": {
+        "type": "index-embedd",
+        "disabled": true,
+        "settings": {
+          "heading": "Video Test",
+          "embedd": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eUh1Cf5MjLY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "mobile_padding": "",
+          "desk_padding": ""
+        }
+      },
+      "c3025181-bfde-4140-92a4-8d9952a368e9": {
+        "type": "global-hero",
+        "settings": {
+          "invert": true,
+          "heading": "RETHINK HOW <br>  YOU DRINK <br> CAFFEINE",
+          "content": "",
+          "cta": "Shop Now",
+          "cta_link": "https://drinkmarquis.com/products/marquis-lemon-lavender",
+          "image": "shopify://shop_images/LEMON_LAVENDER_HERO_HEADER_40248922-f9d0-48d6-9f21-6bbf0320cfe3.png",
+          "heading_color": "#294634",
+          "content_color": "#284734",
+          "cta_bg_color": "#294634",
+          "cta_color": "#ffffff",
+          "bg_color": "#d9e8e1"
+        }
+      }
+    },
+    "content_for_index": [
+      "1637141110d4e76a55",
+      "c3025181-bfde-4140-92a4-8d9952a368e9",
+      "1637141107db736dbd",
+      "1637141113f2ca1850",
+      "1637141851186d6990",
+      "163714121794aa5a06",
+      "16418294416305336d",
+      "1640758285d4294507",
+      "163835098840c0e6cb",
+      "85a9ecb9-d603-4f7d-acd6-ddee0b9ad7b3",
+      "1637662599cadf18ec",
+      "1637141858918daa1a",
+      "164209457735c94eec",
+      "1637141870705638b0"
+    ],
+    "blocks": {
+      "319724205969189013": {
+        "type": "shopify://apps/form-builder-with-file-upload/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {}
+      },
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "right"
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  }
+}

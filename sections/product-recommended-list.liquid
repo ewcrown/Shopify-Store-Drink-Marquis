@@ -1,0 +1,60 @@
+<section class="recommend-flavor">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {% if collection.handle == 'merchandise' %}
+                    <div class="section-title">Find your flavor, guaranteed</div>
+                {% else %}
+                    <div class="section-title">Fancy another flavor?</div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+
+            {% assign counter = 1 %}
+            {% for product_handle in product.metafields.arena.recommended_product %}
+                {% assign product = all_products[product_handle] %}
+                {% if product.title != blank and counter < 4 %}
+                    <div class="col-md-4 col-6 column">
+                        <div class="flover-wrap">
+                            <div class="image-wrap">
+                                <a href="{{ product.url }}">
+                                    {% if product.metafields.arena.product_alter_image != blank %}
+                                        <img class="main-image" src="{{ product.metafields.arena.product_alter_image  }}" alt="{{ product.title | escape }}"/>
+                                    {% else %}
+                                        <img class="main-image lazyload" src="{{ product.featured_image | img_url: "10x" }}" alt="{{ product.title | escape }}"
+                                             data-src="{{ product.featured_image  | img_url: '400x' }}"
+                                             data-widths="[400]"
+                                             data-sizes="auto"
+                                             tabindex="-1"
+                                        />
+                                    {% endif %}
+
+                                    {% if product.metafields.arena.product_alter_hover_image != blank %}
+                                        <img src="{{ product.metafields.arena.product_alter_hover_image }}" alt="{{ product.title | escape }}" />
+                                    {% else %}
+                                        {% if product.images[1] != blank %}
+                                            <img src="{{ product.images[1] | img_url: "10x" }}" alt="{{ product.title | escape }}"
+                                                 class="lazyload"
+                                                 data-src="{{ product.images[1]  | img_url: '400x' }}"
+                                                 data-widths="[400]"
+                                                 data-sizes="auto"
+                                                 tabindex="-1"
+                                            />
+                                        {% endif %}
+                                    {% endif %}
+                                </a>
+                            </div>
+                            <div class="footer-wrap">
+                                <div class="title"><a href="{{ product.url }}">{{ product.title }}</a></div>
+                                <a href="{{ block.settings.recommend-product.url }}" class="meta">Find your flavor</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% assign counter = counter | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+</section>

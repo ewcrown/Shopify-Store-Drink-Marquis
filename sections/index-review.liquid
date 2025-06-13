@@ -1,0 +1,79 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.review{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.review{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="review">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">{{ section.settings.title }}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="review-judgeme_widgets">
+                    {% render 'judgeme_widgets', widget_type: 'judgeme_featured_carousel', concierge_install: false %}
+                </div>
+            </div>
+        </div>
+        {% comment %}
+        <div class="row">
+            <div class="col-12">
+                <div class="bottom-row">
+                    {% if section.settings.shop_now_link != blank %}
+                        <div class="btn-link"><a href="{{ section.settings.shop_now_link }}" class="btn-link btn-border-green btn-shop">Shop Now</a></div>
+                    {% else %}
+                        <div class="btn-link"><a href="#" class="btn-link btn-border-green btn-shop">Shop Now</a></div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endcomment %}
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Index - Review",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default": "Marquis is making waves"
+        },
+        {
+            "type": "url",
+            "id": "shop_now_link",
+            "label": "Shop Now Link"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Index - Review"
+        }
+    ]
+}
+{% endschema %}

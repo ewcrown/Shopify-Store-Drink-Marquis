@@ -1,0 +1,114 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.welcome{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.welcome{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="welcome">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ section.settings.title }}</h2>
+            </div>
+        </div>
+        <div class="benefits-wrap display-flex">
+
+                <div class="benefit-item">
+                    <div class="image-wrap">
+                        <img src="{{ settings.badge_1_image | img_url:"10x" }}" alt="{{ settings.badge_1_title | escape }}"
+                             class="lazyload"
+                             data-src="{{ settings.badge_1_image  | img_url: '300x' }}"
+                             data-widths="[300]"
+                             data-sizes="auto"
+                             tabindex="-1"
+                        />
+                    </div>
+                    <div class="title">{{ settings.badge_1_title }}</div>
+                    <div class="description">{{ settings.badge_1_description }}</div>
+                </div>
+
+            <div class="benefit-item">
+                <div class="image-wrap">
+                    <img src="{{ settings.badge_2_image | img_url:"10x" }}" alt="{{ settings.badge_2_title | escape }}"
+                         class="lazyload"
+                         data-src="{{ settings.badge_2_image  | img_url: '300x' }}"
+                         data-widths="[300]"
+                         data-sizes="auto"
+                         tabindex="-1"
+                    />
+                </div>
+                <div class="title">{{ settings.badge_2_title }}</div>
+                <div class="description">{{ settings.badge_2_description }}</div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="image-wrap">
+                    <img src="{{ settings.badge_3_image | img_url:"10x" }}" alt="{{ settings.badge_3_title | escape }}"
+                         class="lazyload"
+                         data-src="{{ settings.badge_3_image  | img_url: '300x' }}"
+                         data-widths="[300]"
+                         data-sizes="auto"
+                         tabindex="-1"
+                    />
+                </div>
+                <div class="title">{{ settings.badge_3_title }}</div>
+                <div class="description">{{ settings.badge_3_description }}</div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="image-wrap">
+                    <img src="{{ settings.badge_4_image | img_url:"10x" }}" alt="{{ settings.badge_4_title | escape }}"
+                         class="lazyload"
+                         data-src="{{ settings.badge_4_image  | img_url: '300x' }}"
+                         data-widths="[300]"
+                         data-sizes="auto"
+                         tabindex="-1"
+                    />
+                </div>
+                <div class="title">{{ settings.badge_4_title }}</div>
+                <div class="description">{{ settings.badge_4_description }}</div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Index - Welcome Global",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default" : "CAFFEINE WITH BENEFITS"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        }
+    ],
+    "presets": [
+        {
+        "name": "Index - Welcome Global"
+        }
+    ]
+}
+{% endschema %}

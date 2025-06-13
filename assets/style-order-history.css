@@ -1,0 +1,279 @@
+.order-history-page footer .walve-footer {
+  background-color: #FFFFFC; }
+
+.order-history-page-wrap {
+  padding-top: 223px;
+  padding-bottom: 146px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .order-history-page-wrap {
+      padding-top: 124px;
+      padding-bottom: 146px; } }
+  .order-history-page-wrap section.account-info .breadcrumbs {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8A8A;
+    margin-bottom: 70px;
+    padding-left: 118px; }
+    @media only screen and (max-width: 991px) {
+      .order-history-page-wrap section.account-info .breadcrumbs {
+        padding-left: 0px; } }
+    @media only screen and (max-width: 767px) {
+      .order-history-page-wrap section.account-info .breadcrumbs {
+        display: none; } }
+    .order-history-page-wrap section.account-info .breadcrumbs ul li {
+      display: inline-block;
+      padding-right: 26px;
+      margin-right: 14px;
+      position: relative; }
+      .order-history-page-wrap section.account-info .breadcrumbs ul li.link:after {
+        content: '';
+        width: 8px;
+        height: 14px;
+        position: absolute;
+        display: block;
+        background-image: url(arrow-link-back.svg);
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        top: 3px;
+        right: 3px; }
+    .order-history-page-wrap section.account-info .breadcrumbs ul a {
+      color: #8A8A8A; }
+  .order-history-page-wrap section.account-info .navigation-wrap {
+    padding-left: 118px;
+    position: relative; }
+    @media only screen and (max-width: 1400px) {
+      .order-history-page-wrap section.account-info .navigation-wrap {
+        padding-left: 30%; } }
+    @media only screen and (max-width: 991px) {
+      .order-history-page-wrap section.account-info .navigation-wrap {
+        padding-left: 0px; } }
+    @media only screen and (max-width: 767px) {
+      .order-history-page-wrap section.account-info .navigation-wrap .page-navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 16px 7px;
+        border-top: 0.546512px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 0.546512px solid rgba(0, 0, 0, 0.2); } }
+    .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li {
+      list-style: none;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 24px; }
+      @media only screen and (max-width: 767px) {
+        .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li {
+          text-align: center;
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 15px;
+          display: block;
+          padding-right: 25px;
+          width: 19.5%; }
+          .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li:last-child {
+            padding-right: 0px;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            text-align: right; } }
+      .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li.active a, .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li:hover a {
+        color: #284734;
+        -webkit-transition: 0.2s;
+        transition: 0.2s; }
+        .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li.active a:before, .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li:hover a:before {
+          width: 100%;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+      .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li a {
+        color: #878787;
+        display: inline-block;
+        position: relative;
+        -webkit-transition: 0.2s;
+        transition: 0.2s; }
+        @media only screen and (max-width: 767px) {
+          .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li a {
+            color: #373732; } }
+        .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li a:before {
+          content: '';
+          width: 0px;
+          height: 2px;
+          position: absolute;
+          display: block;
+          bottom: -2px;
+          background-color: #284734;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+          @media only screen and (max-width: 767px) {
+            .order-history-page-wrap section.account-info .navigation-wrap .page-navigation li a:before {
+              content: '';
+              width: 0px;
+              height: 0.5px;
+              position: absolute;
+              display: block;
+              bottom: 2px; } }
+  .order-history-page-wrap section.account-info .content-wrap {
+    padding-top: 3px;
+    padding-left: 8px; }
+    @media only screen and (max-width: 767px) {
+      .order-history-page-wrap section.account-info .content-wrap {
+        padding-top: 35px;
+        padding-left: 19px;
+        padding-right: 13px; } }
+    .order-history-page-wrap section.account-info .content-wrap .content-block {
+      margin-bottom: 76px;
+      position: relative; }
+      .order-history-page-wrap section.account-info .content-wrap .content-block .block-title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #000000;
+        padding-bottom: 33px;
+        padding-right: 100px; }
+        @media only screen and (max-width: 767px) {
+          .order-history-page-wrap section.account-info .content-wrap .content-block .block-title {
+            font-size: 22px;
+            line-height: 26px;
+            padding-bottom: 22px;
+            padding-right: 0px; } }
+    .order-history-page-wrap section.account-info .content-wrap .orders-wrap {
+      position: relative;
+      margin-left: -3px; }
+      .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item {
+        margin-bottom: 30px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        @media only screen and (max-width: 767px) {
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item {
+            margin-bottom: 92px; } }
+        .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info {
+          border: #B1B1B1 solid 3px;
+          width: 56.4%; }
+          @media only screen and (max-width: 991px) {
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info {
+              width: 100%;
+              margin-bottom: 16px; } }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .top-row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            padding: 12px 15px;
+            border-bottom: 1px solid #B1B1B1;
+            font-size: 14px;
+            line-height: 108%;
+            color: #000000; }
+            @media only screen and (max-width: 767px) {
+              .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .top-row {
+                padding: 12px 15px 9px; } }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products {
+            padding: 16px 17px 17px 15px; }
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item {
+              margin-bottom: 11px;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                      justify-content: space-between; }
+              @media only screen and (max-width: 767px) {
+                .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item {
+                  margin-bottom: 39px; } }
+              .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item:last-child {
+                margin-bottom: 0px; }
+              .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: 80%; }
+                .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .image-wrap {
+                  width: 96px;
+                  height: 96px; }
+                  .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .image-wrap img {
+                    -o-object-fit: cover;
+                       object-fit: cover;
+                    -o-object-position: center;
+                       object-position: center;
+                    width: 100%;
+                    height: 100%; }
+                .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .content {
+                  padding-left: 21px;
+                  width: calc(100% - 96px); }
+                  .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .content .title {
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #141414;
+                    margin-bottom: 5px;
+                    font-weight: 700; }
+                    .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .content .title a {
+                      color: #141414; }
+                  .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .content .info {
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #636363;
+                    margin-bottom: 1.5px; }
+                    .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .product-info .content .info.price {
+                      font-size: 12px;
+                      line-height: 14px;
+                      color: #353535; }
+              .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .total-price {
+                width: 20%;
+                text-align: right; }
+                @media only screen and (max-width: 767px) {
+                  .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .total-price {
+                    display: none; } }
+                .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-info .products .item .total-price span {
+                  font-size: 13px;
+                  line-height: 20px;
+                  text-align: right;
+                  color: #8C8C8C;
+                  position: relative;
+                  top: -1px; }
+        .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status {
+          width: calc(100% - 56.4%);
+          padding-left: 21px;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          padding-top: 1px; }
+          @media only screen and (max-width: 991px) {
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status {
+              width: 100%;
+              padding-left: 0px; } }
+          @media only screen and (max-width: 767px) {
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status {
+              padding-left: 3px; } }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .status {
+            font-size: 18px;
+            line-height: 20px;
+            color: #000000;
+            margin-bottom: 18px; }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .delivery {
+            margin-bottom: 16px; }
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .delivery span {
+              display: block;
+              color: #5E5E5E;
+              font-size: 13px;
+              line-height: 19px; }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .order-number {
+            color: #5E5E5E;
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 16px; }
+          .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .links a {
+            color: #5E5E5E;
+            font-size: 13px;
+            line-height: 20px;
+            text-decoration: underline;
+            display: block; }
+            .order-history-page-wrap section.account-info .content-wrap .orders-wrap .order-item .order-status .links a:hover {
+              text-decoration: none; }
+
+/*# sourceMappingURL=style-order-history.css.map */

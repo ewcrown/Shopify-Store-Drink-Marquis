@@ -1,0 +1,28 @@
+<section class="article-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <article>
+                    <div class="header">
+                        <div class="top-row">
+                            <a href="{{ blog.url }}" class="link-back">BACK TO BLOG</a>
+                        </div>
+                        <h1 class="post-title">
+                            {{ article.title }}
+                        </h1>
+                        <div class="excerpt">
+                            <p>{{ article.metafields.arena.sub-title }}</p>
+                        </div>
+                        <div class="meta">By {{ article.author }} <span>{{ article.created_at | date: "%B %d, %Y" }}</span></div>
+                    </div>
+                    <div class="image-preview">
+                        <img src="{{ article.image.src | img_url: "1000x" }}" alt="">
+                    </div>
+                    <div class="body">
+                        {{ article.content }}
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

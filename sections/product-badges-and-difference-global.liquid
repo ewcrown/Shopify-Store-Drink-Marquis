@@ -1,0 +1,153 @@
+<section class="gradient-section {{product.metafields.arena.product_background }}" id="badges">
+    <div class="canvas-wrap" data-bubble-img="{{ "img_figma.png" | asset_url }}"></div>
+    {% if product.metafields.arena.badge_image != blank %}
+        <div class="sub-section-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        {% comment %}
+                        <div class="details-wrap display-flex">
+                            <div class="detail-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_1_image  | img_url: '300x' }}" alt="{{ settings.badge_1_title | escape }}" />
+                                </div>
+                                <div class="description">{{ settings.badge_1_title }}</div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_2_image  | img_url: '300x' }}" alt="{{ settings.badge_2_title | escape }}" />
+                                </div>
+                                <div class="description">{{ settings.badge_2_title }}</div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_3_image  | img_url: '300x' }}" alt="{{ settings.badge_3_title | escape }}" />
+                                </div>
+                                <div class="description">{{ settings.badge_3_title }}</div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_4_image  | img_url: '300x' }}" alt="{{ settings.badge_4_title | escape }}" />
+                                </div>
+                                <div class="description">{{ settings.badge_4_title }}</div>
+                            </div>
+                        </div>
+                        {% endcomment %}
+
+                        <div class="benefits-wrap display-flex">
+                            <div class="benefit-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_1_image | img_url:"10x" }}" alt="{{ settings.badge_1_title | escape }}"
+                                         class="lazyload"
+                                         data-src="{{ settings.badge_1_image  | img_url: '300x' }}"
+                                         data-widths="[300]"
+                                         data-sizes="auto"
+                                         tabindex="-1"
+                                    />
+                                </div>
+                                <div class="title">{{ settings.badge_1_title }}</div>
+                                <div class="description">{{ settings.badge_1_description }}</div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_2_image | img_url:"10x" }}" alt="{{ settings.badge_2_title | escape }}"
+                                        class="lazyload"
+                                        data-src="{{ settings.badge_2_image  | img_url: '300x' }}"
+                                        data-widths="[300]"
+                                        data-sizes="auto"
+                                        tabindex="-1"
+                                    />
+                                </div>
+                                <div class="title">{{ settings.badge_2_title }}</div>
+                                <div class="description">{{ settings.badge_2_description }}</div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_3_image | img_url:"10x" }}" alt="{{ settings.badge_3_title | escape }}"
+                                        class="lazyload"
+                                        data-src="{{ settings.badge_3_image  | img_url: '300x' }}"
+                                        data-widths="[300]"
+                                        data-sizes="auto"
+                                        tabindex="-1"
+                                    />
+                                </div>
+                                <div class="title">{{ settings.badge_3_title }}</div>
+                                <div class="description">{{ settings.badge_3_description }}</div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="image-wrap">
+                                    <img src="{{ settings.badge_4_image | img_url:"10x" }}" alt="{{ settings.badge_4_title | escape }}"
+                                        class="lazyload"
+                                        data-src="{{ settings.badge_4_image  | img_url: '300x' }}"
+                                        data-widths="[300]"
+                                        data-sizes="auto"
+                                        tabindex="-1"
+                                    />
+                                </div>
+                                <div class="title">{{ settings.badge_4_title }}</div>
+                                <div class="description">{{ settings.badge_4_description }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% endif %}
+
+    {% if product.metafields.arena.difference_image != blank %}
+        <div class="sub-section-differences">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sub-section-title">{% if product.metafields.arena.difference_title != blank %}{{ product.metafields.arena.difference_title }}{% else %}What’s the difference?{% endif %}</div>
+                        <div class="image-wrap">
+                            <img class="desktop-image" src="{{ product.metafields.arena.difference_image }}" alt="Whats the difference" />
+                            <img class="mobile-image" src="{{ product.metafields.arena.difference_image_mobile }}" alt="Whats the difference" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    {% if product.metafields.arena.why_we_made_image_1 != blank and product.metafields.arena.why_we_made_image_2 != blank %}
+        <div class="sub-section-why-we-made">
+            <div class="sub-container display-flex">
+                <div class="column left-column">
+                    <div class="content-wrap">
+                        <div class="sub-section-title">{% if product.metafields.arena.why_we_made_title != blank %}{{ product.metafields.arena.why_we_made_title }}{% else %}WHY WE MADE MARQUIS{% endif %}</div>
+                        <div class="content">
+                            {{product.metafields.arena.why_we_made_description}}
+                        </div>
+                    </div>
+                </div>
+                <div class="column center-column">
+                    <div class="image-wrap">
+                        <img src="{{ product.metafields.arena.why_we_made_image_1 }}" alt="WHY WE MADE MARQUIS" />
+                    </div>
+                </div>
+                <div class="column right-column">
+                    <div class="image-wrap">
+                        <img src="{{ product.metafields.arena.why_we_made_image_2 }}" alt="WHY WE MADE MARQUIS" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</section>
+<style>
+    .canvas-wrap {
+        position: fixed;
+        z-index: 0;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .canvas-wrap canvas {
+        width: 100%;
+    }
+</style>

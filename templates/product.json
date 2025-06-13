@@ -1,0 +1,172 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-main-info": {
+      "type": "product-main-info",
+      "blocks": {
+        "4b7614d3-db8e-4117-aea2-54791ac80e80": {
+          "type": "product",
+          "settings": {
+            "product": "marquis-assorted-12-pack"
+          }
+        },
+        "a05b1e46-f986-4e3e-b454-e5ed6d9a375c": {
+          "type": "product",
+          "settings": {
+            "product": "marquis-best-seller-variety-pack"
+          }
+        },
+        "7d09f3bc-a629-4315-96cd-f38da1909407": {
+          "type": "product",
+          "settings": {
+            "product": "marquis-lemon-lavender"
+          }
+        },
+        "0ff50e76-ea83-4273-b46e-50b94e749490": {
+          "type": "product",
+          "settings": {
+            "product": "case-of-marquis-pineapple-passion"
+          }
+        },
+        "87ef01fe-b978-4f1d-a16e-3cc0caa0eae3": {
+          "type": "product",
+          "settings": {
+            "product": "case-of-marquis-lychee-peach"
+          }
+        },
+        "aef9a5f7-f159-4595-ba3b-e6ce5b7890a9": {
+          "type": "product",
+          "settings": {
+            "product": "case-of-marquis-super-berry"
+          }
+        },
+        "e26d9ce7-157e-487d-a456-95b7c73a7bb2": {
+          "type": "product",
+          "settings": {
+            "product": "case-of-marquis-citrus-yuzu"
+          }
+        },
+        "23ce0b82-8ce1-4dbf-b59a-7abd64919efd": {
+          "type": "product",
+          "settings": {
+            "product": "case-of-marquis-mango-ginger"
+          }
+        }
+      },
+      "block_order": [
+        "4b7614d3-db8e-4117-aea2-54791ac80e80",
+        "a05b1e46-f986-4e3e-b454-e5ed6d9a375c",
+        "7d09f3bc-a629-4315-96cd-f38da1909407",
+        "0ff50e76-ea83-4273-b46e-50b94e749490",
+        "87ef01fe-b978-4f1d-a16e-3cc0caa0eae3",
+        "aef9a5f7-f159-4595-ba3b-e6ce5b7890a9",
+        "e26d9ce7-157e-487d-a456-95b7c73a7bb2",
+        "23ce0b82-8ce1-4dbf-b59a-7abd64919efd"
+      ],
+      "settings": {
+        "shipping_box_1": "<p>Order <span>2 Cases:</span></p><p>Get Free Shipping</p>",
+        "shipping_box_2": "<p>Order <span>3 Cases:</span></p><p>Get Free Shipping + 10% Off</p>",
+        "cta_bg_color": ""
+      }
+    },
+    "product-badges-and-difference-global": {
+      "type": "product-badges-and-difference-global",
+      "settings": {}
+    },
+    "product-text-blocks-with-images": {
+      "type": "product-text-blocks-with-images",
+      "settings": {}
+    },
+    "faq-short-list": {
+      "type": "faq-short-list",
+      "blocks": {
+        "b0d3fb65-4ce8-41f1-90f1-51e35b510f04": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I find the full list of ingredients?",
+            "answer": "<p><strong>Mango Ginger:</strong></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Mango Flavor, Organic Green Tea Extract, Citric Acid, Organic Hawaiian Ginger Flavor, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract </p><p><strong>Super Berry:</strong></p><p></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Green Tea Extract, Citric Acid, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Fruit and Vegetable Juice (for Color), Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract, Organic Yerba Mate Extract, Organic Caffeine, Organic Stevia Extract</p><p><strong>Citrus Yuzu:</strong></p><p></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Citrus Flavor, Organic Yuzu Flavor, Organic Green Tea Extract, Citric Acid, Organic Tangerine Flavor, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract </p><p><strong> Lychee Peach:<br/></strong></p><p></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Peach Flavor, Organic Lychee Flavor, Organic Green Tea Extract, Citric Acid, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract </p><p><strong>Pineapple passion:</strong></p><p></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Pineapple Flavor, Organic Passionfruit Flavor, Organic Green Tea Extract, Citric Acid, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract </p><p><strong>Lemon Lavender:</strong></p><p>Carbonated Filtered Water, Organic Erythritol, Organic Lemon Juice (From Concentrate), Organic Lemon Flavor, Organic Lavender Extract, Organic Green Tea Extract, Citric Acid, Proprietary Vitamin Blend (Ascorbic Acid - Vitamin C, Niacinamide - Vitamin B3, Calcium D-Pantothenate - Vitamin B5, Pyridoxine Hydrochloride - Vitamin B6, Cyanocobalamin - Vitamin B12), Organic Monk Fruit Extract, Organic Yerba Mate Extract, Organic Green Coffee Caffeine, Organic Stevia Extract </p>"
+          }
+        },
+        "78486e8b-23db-4467-ab72-83ab8ab7ecab": {
+          "type": "question",
+          "settings": {
+            "title": "Why did we make Marquis?",
+            "answer": "<p>Before we started Marquis, our routine was riddled with drip coffee and energy drinks. Over time, we found that this toxic mix of large amounts of sugar and low quality caffeine was wreaking havoc on our minds and bodies. So, we designed our own clean, vitamin-rich caffeine beverage carefully calibrated for the perfect lift.</p>"
+          }
+        },
+        "97bee71f-00c1-4991-bd37-5316b104ae83": {
+          "type": "question",
+          "settings": {
+            "title": "What is Marquis’ unique caffeine blend made of?",
+            "answer": "<p>Organic & unprocessed plants; specifically Yerba Mate leaves, Green Coffee beans, and Green Tea.</p>"
+          }
+        },
+        "693ef018-0282-41c0-bf5c-3a49c8a91ac2": {
+          "type": "question",
+          "settings": {
+            "title": "How much caffeine is in Marquis?",
+            "answer": "<p>Each can contains exactly 100mg of plant-based organic caffeine. At this quality, that’s just the right amount to elevate your energy levels without risking any jitters or crashing.</p>"
+          }
+        },
+        "18c6732c-38b2-4dec-a62d-23af197fa67b": {
+          "type": "question",
+          "settings": {
+            "title": "What is Marquis flavored with?",
+            "answer": "<p>Real fruit. No chemicals, artificial flavors or sweeteners. Just good old fashioned plants.</p>"
+          }
+        },
+        "2a90ab15-f3b8-4314-9b6d-675756e194a6": {
+          "type": "question",
+          "settings": {
+            "title": "Is  Marquis gluten-free, vegetarian, vegan and kosher?",
+            "answer": "<p>Yes, yes, yes and yes again. Plant power for all!</p>"
+          }
+        },
+        "a617b90e-86d0-4710-ac82-01c48cb9f34c": {
+          "type": "question",
+          "settings": {
+            "title": "Does the drink contain GMOs?",
+            "answer": "<p>No, and they never will! We believe we should be eating and drinking from organic farms, not test tubes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b0d3fb65-4ce8-41f1-90f1-51e35b510f04",
+        "78486e8b-23db-4467-ab72-83ab8ab7ecab",
+        "97bee71f-00c1-4991-bd37-5316b104ae83",
+        "693ef018-0282-41c0-bf5c-3a49c8a91ac2",
+        "18c6732c-38b2-4dec-a62d-23af197fa67b",
+        "2a90ab15-f3b8-4314-9b6d-675756e194a6",
+        "a617b90e-86d0-4710-ac82-01c48cb9f34c"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "product-reviews": {
+      "type": "product-reviews",
+      "settings": {}
+    },
+    "product-recommended-list": {
+      "type": "product-recommended-list",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "product-main-info",
+    "product-badges-and-difference-global",
+    "product-text-blocks-with-images",
+    "faq-short-list",
+    "product-reviews",
+    "product-recommended-list"
+  ]
+}

@@ -1,0 +1,45 @@
+{{ 'style-account-subscription.css' | asset_url | stylesheet_tag }}
+{% if customer %}
+<div class="page-wrap account-subscription-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="account-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li class="link"><a href="/account">My Account</a></li>
+                            <li>Subscriptions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="navigation-wrap">
+                        {% include "account-sidebar-menu", active_menu: 'subscriptions'  %}
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="content-wrap">
+                        <div class="content-block">
+                            <div class="block-title">Subscriptions</div>
+                            <div class="subscriptions-wrap">
+
+                                <div id="customer-portal-root"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+{% else %}
+    <script>
+        document.location.href='/';
+    </script>
+{% endif %}
+
+
+

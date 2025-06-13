@@ -1,0 +1,28 @@
+<div class="cocktail-recipe" {% if hide_recipe == 1 %}style="display: none" {% endif %} id="recipe_{{ global_counter }}">
+    <div class="header">
+        <div class="title">{{ coctail_title }}</div>
+        <div class="excerpt">{{ page.metafields.arena.marqology_subtitle[counter] }}</div>
+    </div>
+    <div class="image-preview">
+        <img src="{{ page.metafields.arena.marquology_image[counter] }}" alt="{{ coctail_title | escape }}" />
+    </div>
+    {% if  page.metafields.arena.marquology_ingredients[counter] != blank %}
+        <div class="ingedients block-info">
+            <div class="title">Ingredients</div>
+            <div class="content">
+                <span>{{ page.metafields.arena.marquology_ingredients[counter] }}</span>
+            </div>
+        </div>
+    {% endif %}
+    {% if page.metafields.arena.marquology_garnish != blank %}
+        <div class="garnish block-info">
+            <div class="title">Garnish</div>
+            <div class="content">
+                <span>{{ page.metafields.arena.marquology_garnish[counter] }}</span>
+            </div>
+        </div>
+    {% endif %}
+    <div class="description">
+        {{ page.metafields.arena.marquology_description[counter] }}
+    </div>
+</div>

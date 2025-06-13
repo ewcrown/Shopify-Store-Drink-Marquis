@@ -1,0 +1,48 @@
+{{ 'style-forgot.css' | asset_url | stylesheet_tag }}
+<div class="page-wrap forgot-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="forgot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                        <div class="section-title">Register</div>
+
+                        {% form 'create_customer', class:"account-form", id: "register_new_user" %}
+
+                            <div class="field-wrap">
+                                <input type="text" placeholder="First Name" name="customer[first_name]" id="first_name_reg"/>
+                            </div>
+                            <div class="field-wrap">
+                                <input type="text" placeholder="Last Name" name="customer[last_name]" id="last_name_reg"/>
+                            </div>
+                            <div class="field-wrap">
+                                <input type="email" placeholder="Email" name="customer[email]" id="email_reg"/>
+                            </div>
+                            <div class="field-wrap">
+                                <input type="password" placeholder="Password" name="customer[password]" id="password_reg"/>
+                            </div>
+
+                            <div class="error-form">
+                                {{ form.errors | default_errors }}
+                            </div>
+
+                            <div class="field-wrap">
+                                <input type="submit" value="Register">
+                            </div>
+                            <div class="form-content">
+                                <div class="checkbox-wrap">
+                                    <label for="input-privacy">
+                                        <input id="input-privacy" class="input-checkbox" type="checkbox" checked>
+                                        <span class="custom-checkbox"></span>
+                                        <span>Keep me up to date with the latest from Marquis</span>
+                                    </label>
+                                </div>
+                                <p>Already have an account? <a class="login-register-forms" href="/account/login" data-form-name="login">Login</a></p>
+                            </div>
+
+                        {% endform %}
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->

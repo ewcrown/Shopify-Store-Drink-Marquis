@@ -1,0 +1,126 @@
+{{ 'style-store-location.css' | asset_url | stylesheet_tag }}
+
+<div class="page-wrap store-location-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: center;min-height: 700px;padding-top: 200px;" id="loading-map">
+                    <img src="{{ "map_icon.png" | asset_url }}" /> <div style="padding-top: 10px;">Loading. Please wait!</div>
+                </div>
+            </div>
+            <div class="row" id="map_page" style="display: none">
+                <div class="col-md-4">
+                    <div class="left-column">
+                        <h1 class="section-title">Find a Store</h1>
+
+                            <div class="block-title">SEARCH BY</div>
+                            <div class="input-wrap">
+                                <form name="filterform" class="search-locator">
+                                    <input class="input-field" type="text" name="filterinput" id="filterinput" placeholder="Enter City, State or Postcode"/>
+                                </form>
+                            </div>
+
+                        <div class="search-resaults-wrap">
+                            <div class="block-title">RESULTS</div>
+                            <div class="search-resaults">
+                                <div id="mylist">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="no-resaults" style="display: none;">No results</div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="right-column">
+                        <div class="map-wrap">
+                            <div id="map-canvas"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+<style>
+    .input-wrap a{
+        display: none;
+    }
+    #map-canvas{
+        width: 100%;
+        height: 754px;
+    }
+</style>
+{% comment %}
+This part of code for Google Maps
+{% endcomment %}
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=true&key={{ section.settings.google_map_api_key }}"></script>
+<script type="text/javascript">
+    var icon_url = "{{ 'map_icon.png' | asset_url }}";
+    var default_lat = "{{ section.settings.map_center_lat }}";
+    var default_long = "{{ section.settings.map_center_long }}";
+    var default_zoom = {{ section.settings.map_center_zoom }};
+    var csv_file = "{{ settings.csv_file_url }}";
+</script>
+
+
+{% schema %}
+    {
+        "settings": [
+            {
+                "type": "text",
+                "id": "google_map_api_key",
+                "label": "Google Map Api Key"
+            },
+            {
+                "id": "map_center_lat",
+                "type": "text",
+                "label": "Map Center Lat"
+            },
+            {
+                "id": "map_center_long",
+                "type": "text",
+                "label": "Map Center Long"
+            },
+            {
+                "id": "map_center_zoom",
+                "type": "text",
+                "label": "Map Zoom"
+            }
+        ],
+        "name": "Stores List",
+        "blocks": [
+            {
+            "type": "store",
+            "name": "Store",
+            "settings": [
+                {
+                    "id": "title",
+                    "type": "text",
+                    "label": "Name"
+                },
+                {
+                    "id": "address",
+                    "type": "textarea",
+                    "label": "Address"
+                },
+                {
+                    "id": "lat",
+                    "type": "text",
+                    "label": "Lat"
+                },
+                {
+                    "id": "long",
+                    "type": "text",
+                    "label": "Long"
+                }
+            ]
+            }
+        ]
+    }
+{% endschema %}
+<style>
+    .store-location-page-wrap section.content .left-column .search-resaults .item .number{
+        background: url('{{ "map_icon.png" | asset_url }}') no-repeat !important;
+    }
+</style>

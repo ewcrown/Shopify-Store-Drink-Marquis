@@ -1,0 +1,9 @@
+<ul class="page-navigation">
+    <li class="{% if active_menu == 'account' %} active {% endif %}"><a href="/account">Account Information</a></li>
+    <li class="{% if active_menu == 'order-history' %} active {% endif %}"><a href="/pages/order-history">Order History</a></li>
+    {% comment %}
+    <li class="{% if active_menu == 'subscriptions' %} active {% endif %}"><a href="/pages/my-subscriptions">Subscriptions</a></li>
+    {% endcomment %}
+    <li class="{% if active_menu == 'subscriptions' %} active {% endif %}"><a href="/tools/recurring/login/">Subscriptions</a></li>
+    <li>{{ 'Sign Out' | customer_logout_link }}</li>
+</ul>

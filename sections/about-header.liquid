@@ -1,0 +1,32 @@
+{{ 'style-about.css' | asset_url | stylesheet_tag }}
+
+<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">{{ section.settings.title }}</div>
+                <div class="sub-title">{{ section.settings.sub-title }}</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+
+{
+    "name": "Page heder",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "sub-title",
+            "label": "Sub title"
+        }
+    ]
+}
+
+{% endschema %}

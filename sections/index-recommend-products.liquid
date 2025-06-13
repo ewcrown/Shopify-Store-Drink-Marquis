@@ -1,0 +1,187 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.recommend-products{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.recommend-products{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="recommend-products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="product-wrap left-auto">
+                    <div class="header">
+                        <div class="label citrus-bg"><span>{{ section.settings.left_title }}</span></div>
+                        <a href="{{ section.settings.left_btn_link }}">
+                            <div class="image-wrap">
+                                <img src="{{ section.settings.left-image | img_url: "50x" }}" alt="{{ section.settings.left_title | escape }}"
+                                     class="lazyload"
+                                     data-src="{{ section.settings.left-image  | img_url: '500x' }}"
+                                     data-widths="[500]"
+                                     data-sizes="auto"
+                                     tabindex="-1"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="body">
+                        <div class="title"><a href="{{ section.settings.left_btn_link }}">{{ section.settings.left_sub_title }}</a></div>
+                        <div class="description">
+                            {{ section.settings.left_text }}
+                        </div>
+                        {% if section.settings.left_btn_text != blank %}
+                            <div class="btn-link"><a href="{{ section.settings.left_btn_link }}" class="btn-link btn-opacity-08 btn-shop">{{ section.settings.left_btn_text }}</a></div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-wrap right-auto">
+                    <div class="header">
+                        <div class="label mango-bg"><span>{{ section.settings.right_title }}</span></div>
+                        <a href="{{ section.settings.right_btn_link }}">
+                            <div class="image-wrap">
+                                <img src="{{ section.settings.right-image | img_url: "50x" }}" alt="{{ section.settings.right_title | escape }}"
+                                     class="lazyload"
+                                     data-src="{{ section.settings.right-image  | img_url: '500x' }}"
+                                     data-widths="[500]"
+                                     data-sizes="auto"
+                                     tabindex="-1"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="body">
+                        <div class="title"><a href="{{ section.settings.right_btn_link }}">{{ section.settings.right_sub_title }}</a></div>
+                        <div class="description">
+                            {{ section.settings.right_text }}
+                        </div>
+                        {% if section.settings.right_btn_text != blank %}
+                            <div class="btn-link"><a href="{{ section.settings.right_btn_link }}" class="btn-link btn-opacity-08 btn-shop">{{ section.settings.right_btn_text }}</a></div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if section.settings.cta_bg_color != blank %}
+    <style>
+      .btn-link{
+        background-color:{{ section.settings.cta_bg_color }} !important;
+        color:{{section.settings.cta_text_color}} !important;
+      }
+    </style>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Index - Recommend",
+    "settings": [
+        {
+            "type": "text",
+            "id": "left_title",
+            "label": "Left Title",
+            "default" : "Fan FAVORITE"
+        },
+        {
+            "type": "text",
+            "id": "left_sub_title",
+            "label": "Left Sub Title",
+            "default" : "Super berry"
+        },
+        {
+            "type": "richtext",
+            "id": "left_text",
+            "label": "Left Description",
+            "default" : "<p>A sugar-free, sparkling mix of lemon and raspberry crafted with our clean tri-blend caffeine. Yerba mate, green coffee, and green tea delivers the smooth energy, vitamins, and antioxidants you need whenever you need them.</p>"
+        },
+        {
+            "type": "image_picker",
+            "id": "left-image",
+            "label": "Left image"
+        },
+        {
+            "type": "text",
+            "id": "left_btn_text",
+            "label": "Left CTA Text",
+            "default" : "Shop Now"
+        },
+        {
+            "type": "url",
+            "id": "left_btn_link",
+            "label": "Left Link"
+        },
+        {
+            "type": "text",
+            "id": "right_title",
+            "label": "Right Title",
+            "default" : "TRY THEM ALL"
+        },
+        {
+            "type": "text",
+            "id": "right_sub_title",
+            "label": "Right Sub Title",
+            "default" : "Variety Pack"
+        },
+        {
+            "type": "richtext",
+            "id": "right_text",
+            "label": "Right Description",
+            "default" : " <p>Ea mollitia fugit. Ut consectetur eaque. Iure expedita expedita. Explicabo libero veniam eum. Eos debitis cupiditate et sunt aliquam sunt qui. Autem dolorem quia ut ab quos. Ut consectetur eaque. Iure expedita expedita. Explicabo libero veniam eum.</p>"
+        },
+        {
+            "type": "image_picker",
+            "id": "right-image",
+            "label": "right image"
+        },
+        {
+            "type": "text",
+            "id": "right_btn_text",
+            "label": "Right CTA Text",
+            "default" : "Shop Now"
+        },
+        {
+            "type": "url",
+            "id": "right_btn_link",
+            "label": "Right Button Link"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "color",
+            "id": "cta_bg_color",
+            "label": "CTA BG Color"
+        },
+        {
+            "type": "color",
+            "id": "cta_text_color",
+            "label": "CTA TEXT Color"
+        }
+    ],
+    "presets": [
+    {
+        "name": "Index - Recommend"
+    }
+    ]
+}
+{% endschema %}

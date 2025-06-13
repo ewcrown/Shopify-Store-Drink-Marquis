@@ -1,0 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-merchandise-main-info": {
+      "type": "product-merchandise-main-info",
+      "settings": {}
+    },
+    "product-recommended-list": {
+      "type": "product-recommended-list",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "product-merchandise-main-info",
+    "product-recommended-list"
+  ]
+}

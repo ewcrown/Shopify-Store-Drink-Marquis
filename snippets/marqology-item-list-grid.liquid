@@ -1,0 +1,17 @@
+<div class="list-item navigation_cocktail {% if active == 1 %}active{% endif %}" id="navigation_recipe_{{ global_counter }}"
+     data-flavor-filter="{{ page.metafields.arena.flavor_name[counter] }}"
+     data-liquor-filter="{{ page.metafields.arena.liquor_name[counter] }}"
+     data-recipe="recipe_{{ global_counter }}"
+     data-already-filtered = ""
+>
+    <div class="image-preview">
+        <a href="javascript:void(0);" onclick="openRecipe('recipe_{{ global_counter }}')">
+            <img src="{{ page.metafields.arena.marquology_image[counter] }}" alt="{{ coctail_title | escape }}" />
+        </a>
+    </div>
+    <div class="content">
+        <a href="javascript:void(0);" onclick="openRecipe('recipe_{{ global_counter }}')">
+            <span>{{ coctail_title }}</span>
+        </a>
+    </div>
+</div>

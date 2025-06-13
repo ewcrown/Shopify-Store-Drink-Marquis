@@ -1,0 +1,83 @@
+{% assign module = section.settings %}
+
+<section class="collection-hero pdm-section {% if module.invert %}invert{% endif %}" {% if module.bg_color != blank %}style="background-color:{{ module.bg_color }};"{% endif %}>
+    <div class="container container--medium">
+        <div class="collection-hero__image">
+            <img src="{{ module.image | img_url: "1000x" }}" alt="{{ module.heading }}" />
+        </div>
+        <div class="collection-hero__content" {% if module.content_color != blank %}style="color:{{ module.content_color }};"{% endif %}>
+            <h1 {% if module.heading_color != blank %}style="color:{{ module.heading_color }};"{% endif %}>{{ module.heading }}</h1>
+            {{ module.content }}
+            <a class="btn" href="{{ module.cta_link }}" style="{% if module.cta_bg_color != blank %}background-color:{{ module.cta_bg_color }};{% endif %}{% if module.cta_color != blank %}color:{{ module.cta_color }};{% endif %}">{{ module.cta }}</a>
+        </div>
+    </div>
+  <div class="collection-hero__wave"></div>
+</section>
+
+{% schema %}
+  {
+    "name": "Global Hero",
+    "settings": [
+        {
+          "type": "checkbox",
+          "id": "invert",
+          "label": "Invert?"
+        },
+        {
+            "type": "textarea",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+        },
+        {
+            "type": "text",
+            "id": "cta",
+            "label": "CTA"
+        },
+        {
+            "type": "text",
+            "id": "cta_link",
+            "label": "CTA Link"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading Color"
+        },
+        {
+            "type": "color",
+            "id": "content_color",
+            "label": "Content Color"
+        },
+        {
+            "type": "color",
+            "id": "cta_bg_color",
+            "label": "CTA BG Color"
+        },
+        {
+            "type": "color",
+            "id": "cta_color",
+            "label": "CTA Color"
+        },
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background Color"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Global Hero"
+      }
+    ]
+  }
+{% endschema %}

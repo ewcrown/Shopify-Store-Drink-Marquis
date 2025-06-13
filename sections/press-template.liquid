@@ -1,0 +1,77 @@
+{{ 'style-press.css' | asset_url | stylesheet_tag }}
+
+<div class="page-wrap press-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="section-title">{{ section.settings.title }}</h1>
+                    <div class="sub-title">{{ section.settings.sub-title }}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="press-grid">
+                        {% for block in section.blocks %}
+                        <div class="press-item-warp">
+                            <div class="press-item">
+                                <div class="image-wrap">
+                                    <img src="{{ block.settings.image_preview | img_url: 'medium' }}" alt="">
+                                </div>
+                                <div class="content-wrap">{{ block.settings.content }}</div>
+                                <div class="link">
+                                    <a href="{{ block.settings.link }}" target="_blank">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+
+{% schema %}
+
+{
+    "name": "Page header",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Sub title"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Press",
+            "type": "press",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image_preview",
+                    "label": "Image preview"
+                },
+                {
+                    "type": "textarea",
+                    "id": "content",
+                    "label": "Content"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        }
+    ]
+}
+
+{% endschema %}

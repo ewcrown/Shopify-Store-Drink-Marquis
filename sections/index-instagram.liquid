@@ -1,0 +1,92 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.instagram{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.instagram{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="instagram">
+    <div class="feed-wrap">
+        <div class="title">{{ section.settings.title }}</div>
+        <div class="image-wrap">
+            {{ section.settings.code_for_feed }}
+        </div>
+        <div class="btn-link"><a href="{{ section.settings.button_url }}" target="_blank" class="btn-link btn-bg-green">{{ section.settings.button_title }}</a></div>
+    </div>
+</section>
+
+{% if section.settings.cta_bg_color != blank %}
+    <style>
+      .instagram .btn-link{
+        background-color: {{ section.settings.cta_bg_color }} !important;
+        color: {{ section.settings.cta_text_color }} !important;
+      }
+    </style>
+{% endif %}
+
+
+{% schema %}
+{
+"name": "Index - Instagram",
+"settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Keep up with clean caffeine"
+    },
+    {
+        "type": "textarea",
+        "id": "code_for_feed",
+        "label": "Code for feed",
+        "default": "<div id=\"insta-feed\"></div>"
+    },
+    {
+        "type": "text",
+        "id": "button_title",
+        "label": "Button Title",
+        "default": "@DRINKMARQUIS"
+    },
+    {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+    },
+    {
+        "type": "text",
+        "id": "mobile_padding",
+        "label": "Mobile Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "text",
+        "id": "desk_padding",
+        "label": "Desktop Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "color",
+        "id": "cta_bg_color",
+        "label": "CTA BG Color"
+    },
+    {
+        "type": "color",
+        "id": "cta_text_color",
+        "label": "CTA TEXT Color"
+    }
+],
+"presets": [
+{
+"name": "Index - Instagram"
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,325 @@
+{{ 'style-product.css' | asset_url | stylesheet_tag }}
+
+<section class="header">
+    <div class="container">
+        <meta itemprop="name" content="{{ product.title }}" />
+        <meta itemprop="url" content="{{ shop.url }}{{ product.url }}" />
+        <meta itemprop="image" content="http:{{ product.featured_image.src | product_img_url: 'grande' | remove: 'http:' | remove: 'https:' }}" />
+
+        {% for variant in product.variants %}
+            <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <meta itemprop="price" content="{{ variant.price | divided_by: 100.00 }}">
+                <meta itemprop="priceCurrency" content="{{ shop.currency }}" />
+                {% if product.available %}
+                    <link itemprop="availability" href="http://schema.org/InStock" />
+                {% else %}
+                    <link itemprop="availability" href="http://schema.org/OutOfStock" />
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-md-6">
+                {% include "product-gallery" %}
+            </div>
+            <div class="col-md-6">
+                <div class="product-info">
+                    <div class="select-field select-product">
+                        <h1 class="current" style="line-height: 100%;">{{ product.title }}</h1>
+                        <ul class="select-options">
+                        {% for block in section.blocks %}
+                            <li onclick="document.location.href='{{ all_products[block.settings.product].url }}'">{{ all_products[block.settings.product].title }}</li>
+                        {% endfor %}
+                            {% comment %}
+                                {% for product_value in collections.all.products %}
+                                    {% if product_value.type == 'Drink' and product_value.available == true and product_value.id != product.id %}
+                                        <li onclick="document.location.href='{{ product_value.url }}'">{{ product_value.title }}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endcomment %}
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <div class="image-wrap">
+                            {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
+                        </div>
+                    </div>
+                    <div class="description">
+                        {{ product.description }}
+                    </div>
+                    <div class="subscribe-wrap">
+
+                        {% include "order-form", multiproducts: 0 %}
+
+                    </div>
+                    <div class="additional-info">
+                        <div class="top-row display-flex">
+                            <div class="anchor">
+                                <a class="link help-circle  product-details-popup" href="javascript:void(0);">Product Details</a>
+                            </div>
+                            <div class="question">
+                                <a class="link mail-icon" href="/pages/contact-us">Questions? Send us a message.</a>
+                            </div>
+                        </div>
+                        <div class="bottom-row display-flex subs-adj">
+                            <div class="item-wrap">
+                                <div class="boxes">
+                                    <span class="icon-box"></span>
+                                    <span class="icon-box"></span>
+                                </div>
+                                <div class="description">
+                                    {{ section.settings.shipping_box_1 }}
+                                </div>
+                            </div>
+                            <div class="item-wrap">
+                                <div class="boxes">
+                                    <span class="icon-box"></span>
+                                    <span class="icon-box"></span>
+                                    <span class="icon-box"></span>
+                                </div>
+                                <div class="description">
+                                    {{ section.settings.shipping_box_2 }}
+                                </div>
+                            </div>
+                            <div class="item-wrap show-subs">
+                                <div class="description">
+                                  <strong>No commitment,</strong>
+                                  <span>Cancel anytime</span>
+                                </div>
+                            </div>
+                            <div class="item-wrap show-subs">
+                                <div class="description">
+                                   <strong>Free Shipping,</strong>
+                                   <span>when you subscribe & save</span>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="checkbox-wrap-list">
+                        <div class="default-check">
+                        {{ product.metafields.custom.check_marks }}
+                        </div>
+                        <div class="subs-check">
+                          <ul> 
+                            <li>No commitment, cancel anytime</li>  
+                            <li>Free Shipping, when you subscribe & save</li> 
+                          </ul> 
+                        </div>
+                        
+                      </div>
+                      <div class="bottom-accordion display-flex">
+                        <div class="container-custom">
+                                {% if product.metafields.custom.ingredients != blank %}
+                        		<div class="accordion">Ingredients</div>
+                        			<div class="panel">
+                        				{{ product.metafields.custom.ingredients }}
+                        			</div>
+                                {% endif %}
+                                {% if product.metafields.custom.nutrition_facts != blank %}
+                        		<div class="accordion">Nutrition Facts</div>
+                        			<div class="panel">
+                        				{{ product.metafields.custom.nutrition_facts }}
+                        			</div>
+                                {% endif %}
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="popup-product-details">
+    <div class="popup-container">
+        <div class="content-wrap">
+            <div class="top-row">
+                <div class="title">Product Details</div>
+                <span class="close-popup"></span>
+            </div>
+            <div class="content">
+                {{product.metafields.arena.product_details_popup}}
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.checkbox-wrap-list {
+  padding: 25px 0px 0;
+}
+.checkbox-wrap-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.checkbox-wrap-list li{
+  list-style: none;
+  width: 50%;
+  position: relative;
+      font-size: 20px;
+    line-height: 24px;
+    color: #284734;
+    position: relative;
+    margin-bottom: 12px;
+  padding-left: 34px;
+}
+.checkbox-wrap-list li:before{
+  list-style: none;
+  background: url(https://drinkmarquis.com/cdn/shop/t/44/assets/check-list.svg);
+  background: url(https://cdn.shopify.com/s/files/1/1512/5894/files/check-list.svg?v=1689969429);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+    left: 0px;
+    content: " ";
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.checkbox-wrap-list.active-subs li:before{
+  background: url(https://cdn.shopify.com/s/files/1/1512/5894/files/check-list.svg?v=1689969429);
+}
+.product-heading {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.container-custom {
+	max-width: 1240px;
+	padding: 0px;
+}
+.accordion {
+  cursor: pointer;
+    padding: 15px 20px 15px 0;
+    width: 100%;
+    border-bottom: 1px solid #bbbbbb;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.8rem;
+ /*   background-color: #ebf9fe;
+    margin-bottom: 2px;*/
+}
+	
+ .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.accordion.active + .panel {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ .active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+  .active, .accordion:hover {
+  font-weight: 500;
+}
+ .panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+	
+ .panel p{
+  padding: 20px;
+  font-size: 1.6rem;
+}
+.panel ul{
+  margin: 40px 0;
+}
+.panel ul > li{
+  font-size: 1.4rem;
+}
+.subscribe-save {
+  display: none; 
+      background: #284734;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+  
+@media only screen and (max-width: 767px) {
+  
+  .product-page-wrap section.header .gallary-wrap.desktop-gallary {
+    display: block !important;
+    margin-bottom: 30px;
+  }
+}
+</style>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+{% if section.settings.cta_bg_color != blank %}
+    <style>
+      .btn-link{
+        background-color:{{ section.settings.cta_bg_color }} !important;
+      }
+    </style>
+{% endif %}
+
+<script>
+        var product_json_data =  {{ product | json }} ;
+        {% if product.metafields.arena.pack_count != blank %}
+            var product_pack_count = {{ product.metafields.arena.pack_count }};
+        {% else %}
+            var product_pack_count = '';
+        {% endif %}
+  </script>
+
+{% schema %}
+{
+    "name": "Product Template",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "shipping_box_1",
+            "label": "Shipping Box 1",
+            "default": "<p>Order <span>2 Cases:</span></p><p>Get Free Shipping</p>"
+        },
+        {
+            "type": "textarea",
+            "id": "shipping_box_2",
+            "label": "Shipping Box 2",
+            "default": "<p>Order <span>3 Cases:</span></p><p>Get Free Shipping + 10% Off</p>"
+        },
+        {
+          "type": "color",
+          "id": "cta_bg_color",
+          "label": "CTA BG Color"
+        }
+    ],
+    "blocks" : [
+        {
+            "name": "Product",
+            "type": "product",
+            "settings":[
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "Product"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

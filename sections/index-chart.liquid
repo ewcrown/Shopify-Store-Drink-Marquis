@@ -1,0 +1,70 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.differences{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.differences{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="differences">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sub-section-title">{{ section.settings.title }}</div>
+                <div class="image-wrap">
+                    <img class="desktop-image" src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="">
+                    <img class="mobile-image" src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+
+{
+    "name": "Index - Chart",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "image_picker",
+            "id": "desktop_image",
+            "label": "Desktop chart"
+        },
+        {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Mobile chrart"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        }
+    ],
+    "presets": [
+        {
+        "name": "Index - Chart"
+        }
+    ]
+}
+
+{% endschema %}

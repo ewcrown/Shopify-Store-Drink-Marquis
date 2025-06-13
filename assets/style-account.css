@@ -1,0 +1,473 @@
+.account-page footer .walve-footer {
+  background-color: #FFFFFC; }
+
+.account-page-wrap {
+  padding-top: 223px;
+  padding-bottom: 146px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .account-page-wrap {
+      padding-top: 124px;
+      padding-bottom: 146px; } }
+  .account-page-wrap section.account-info .breadcrumbs {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8A8A;
+    margin-bottom: 70px;
+    padding-left: 118px; }
+    @media only screen and (max-width: 991px) {
+      .account-page-wrap section.account-info .breadcrumbs {
+        padding-left: 0px; } }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .breadcrumbs {
+        display: none; } }
+    .account-page-wrap section.account-info .breadcrumbs ul li {
+      display: inline-block;
+      padding-right: 26px;
+      margin-right: 14px;
+      position: relative; }
+      .account-page-wrap section.account-info .breadcrumbs ul li.link:after {
+        content: '';
+        width: 8px;
+        height: 14px;
+        position: absolute;
+        display: block;
+        background-image: url(arrow-link-back.svg);
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        top: 3px;
+        right: 3px; }
+    .account-page-wrap section.account-info .breadcrumbs ul a {
+      color: #8A8A8A; }
+  .account-page-wrap section.account-info .navigation-wrap {
+    padding-left: 118px;
+    position: relative; }
+    @media only screen and (max-width: 1400px) {
+      .account-page-wrap section.account-info .navigation-wrap {
+        padding-left: 30%; } }
+    @media only screen and (max-width: 991px) {
+      .account-page-wrap section.account-info .navigation-wrap {
+        padding-left: 0px; } }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .navigation-wrap .page-navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 16px 7px;
+        border-top: 0.546512px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 0.546512px solid rgba(0, 0, 0, 0.2); } }
+    .account-page-wrap section.account-info .navigation-wrap .page-navigation li {
+      list-style: none;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 24px; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .navigation-wrap .page-navigation li {
+          text-align: center;
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 15px;
+          display: block;
+          padding-right: 25px;
+          width: 19.5%; }
+          .account-page-wrap section.account-info .navigation-wrap .page-navigation li:last-child {
+            padding-right: 0px;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            text-align: right; } }
+      @media only screen and (max-width: 427px) {
+        .account-page-wrap section.account-info .navigation-wrap .page-navigation li {
+          font-size: 12px; } }
+      .account-page-wrap section.account-info .navigation-wrap .page-navigation li.active a, .account-page-wrap section.account-info .navigation-wrap .page-navigation li:hover a {
+        color: #284734;
+        -webkit-transition: 0.2s;
+        transition: 0.2s; }
+        .account-page-wrap section.account-info .navigation-wrap .page-navigation li.active a:before, .account-page-wrap section.account-info .navigation-wrap .page-navigation li:hover a:before {
+          width: 100%;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+      .account-page-wrap section.account-info .navigation-wrap .page-navigation li a {
+        color: #878787;
+        display: inline-block;
+        position: relative;
+        -webkit-transition: 0.2s;
+        transition: 0.2s; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .navigation-wrap .page-navigation li a {
+            color: #373732; } }
+        .account-page-wrap section.account-info .navigation-wrap .page-navigation li a:before {
+          content: '';
+          width: 0px;
+          height: 2px;
+          position: absolute;
+          display: block;
+          bottom: -2px;
+          background-color: #284734;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .navigation-wrap .page-navigation li a:before {
+              content: '';
+              width: 0px;
+              height: 0.5px;
+              position: absolute;
+              display: block;
+              bottom: 2px; } }
+  .account-page-wrap section.account-info .content-wrap {
+    padding-top: 3px;
+    padding-left: 8px;
+    width: 56.315%; }
+    @media only screen and (max-width: 1200px) {
+      .account-page-wrap section.account-info .content-wrap {
+        width: 70%; } }
+    @media only screen and (max-width: 991px) {
+      .account-page-wrap section.account-info .content-wrap {
+        width: 100%; } }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .content-wrap {
+        padding-top: 36px;
+        padding-left: 16px;
+        padding-right: 16px; } }
+    .account-page-wrap section.account-info .content-wrap .message-wrap {
+      border-radius: 100px;
+      font-size: 13px;
+      line-height: 100%;
+      color: #373732;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 5px 40px 5px 12px;
+      min-height: 32px;
+      margin-bottom: -1px; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .content-wrap .message-wrap {
+          font-size: 12px;
+          line-height: 24px; } }
+      .account-page-wrap section.account-info .content-wrap .message-wrap.success {
+        background: #CFDCB1; }
+    .account-page-wrap section.account-info .content-wrap .content-block {
+      margin-bottom: 76px;
+      position: relative; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .content-wrap .content-block {
+          margin-bottom: 54px; } }
+      .account-page-wrap section.account-info .content-wrap .content-block.address-block {
+        margin-bottom: 58px; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .content-wrap .content-block.address-block {
+            margin-bottom: 31px; } }
+      .account-page-wrap section.account-info .content-wrap .content-block .block-title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #000000;
+        padding-bottom: 15px;
+        padding-right: 100px; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .content-wrap .content-block .block-title {
+            font-size: 22px;
+            line-height: 26px; } }
+      .account-page-wrap section.account-info .content-wrap .content-block .info-wrap {
+        padding-top: 16px; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .content-wrap .content-block .info-wrap {
+            padding-top: 5px; } }
+        .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row {
+          padding-bottom: 12px;
+          border-bottom: 1px solid #E4E4E4;
+          margin-bottom: 29px;
+          font-size: 13px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: rgba(0, 0, 0, 0.4);
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row {
+              font-size: 12px;
+              line-height: 15px;
+              padding-bottom: 8px;
+              margin-bottom: 18px; } }
+          @media only screen and (max-width: 427px) {
+            .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row {
+              font-size: 8px;
+              line-height: 10px;
+              padding-bottom: 5px; } }
+          .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-name {
+            width: 20%;
+            padding-left: 3px; }
+          .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-value {
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            text-transform: none;
+            width: 50%; }
+            @media only screen and (max-width: 767px) {
+              .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-value {
+                font-size: 12px;
+                line-height: 15px;
+                padding-left: 8px; } }
+            @media only screen and (max-width: 427px) {
+              .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-value {
+                font-size: 8px;
+                line-height: 10px; } }
+            .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-value.password {
+              font-size: 33px;
+              position: relative;
+              top: 2px;
+              left: -4px;
+              letter-spacing: -0.01em; }
+              @media only screen and (max-width: 767px) {
+                .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-value.password {
+                  top: 3px;
+                  left: -3px;
+                  font-size: 21px; } }
+          .account-page-wrap section.account-info .content-wrap .content-block .info-wrap .info-row .field-edit {
+            width: 38px;
+            text-align: right; }
+      .account-page-wrap section.account-info .content-wrap .content-block.address-block .add-new-address {
+        font-size: 13px;
+        line-height: 24px;
+        color: #373732;
+        text-transform: uppercase;
+        position: absolute;
+        top: 9px;
+        right: 0px;
+        padding-left: 35px;
+        padding-right: 3px; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .content-wrap .content-block.address-block .add-new-address {
+            font-size: 12px;
+            line-height: 24px;
+            padding-right: 0px;
+            top: 2px;
+            padding-left: 25px; } }
+        .account-page-wrap section.account-info .content-wrap .content-block.address-block .add-new-address::before {
+          content: '';
+          width: 22px;
+          height: 22px;
+          position: absolute;
+          display: block;
+          background-image: url(account-plus.svg);
+          border-radius: 50%;
+          background-color: #284734;
+          background-position: center;
+          background-repeat: no-repeat;
+          left: 0px;
+          top: 1px; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .content-wrap .content-block.address-block .add-new-address::before {
+              content: '';
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              display: block;
+              background-size: 6px 6px;
+              top: 4px; } }
+      .account-page-wrap section.account-info .content-wrap .content-block .address-wrap {
+        border-bottom: 1px solid #E4E4E4;
+        padding-bottom: 27px;
+        padding-top: 17px;
+        margin-bottom: 11px; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .content-wrap .content-block .address-wrap {
+            padding-top: 21px;
+            padding-bottom: 19px;
+            margin-bottom: 0px; } }
+        .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .address-name {
+          font-size: 16px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #000000;
+          margin-bottom: 24px; }
+        .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .display-flex {
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between; }
+        .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .column span {
+          display: block;
+          font-size: 16px;
+          line-height: 24px; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .column span {
+              font-size: 12px;
+              line-height: 16px; } }
+        .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .column .action-btn {
+          font-size: 13px;
+          line-height: 24px;
+          text-align: right;
+          color: rgba(0, 0, 0, 0.4);
+          text-transform: uppercase; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .column .action-btn {
+              position: relative;
+              top: -3px;
+              font-size: 12px; } }
+          .account-page-wrap section.account-info .content-wrap .content-block .address-wrap .column .action-btn a {
+            color: rgba(0, 0, 0, 0.4); }
+  @media only screen and (max-width: 767px) {
+    .account-page-wrap section.account-info .edit-address-form {
+      padding-top: 5px; } }
+  .account-page-wrap section.account-info .edit-address-form label {
+    font-size: 14px;
+    line-height: 150%;
+    color: #494949;
+    margin-bottom: 5px; }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .edit-address-form label {
+        font-size: 11px;
+        line-height: 154%;
+        margin-bottom: 2px; } }
+  .account-page-wrap section.account-info .edit-address-form .display-flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .account-page-wrap section.account-info .edit-address-form .display-flex.bottom-row {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .edit-address-form .display-flex.bottom-row {
+          margin-top: 7px; } }
+  .account-page-wrap section.account-info .edit-address-form .input-field {
+    margin-bottom: 20px;
+    width: 48.51%; }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .edit-address-form .input-field {
+        width: 47.675%;
+        margin-bottom: 13px; } }
+    .account-page-wrap section.account-info .edit-address-form .input-field input[type=text],
+    .account-page-wrap section.account-info .edit-address-form .input-field input[type=email] {
+      background: #FFFFFF;
+      border: 1px solid #E8E8E8;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      height: 42px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-left: 10px;
+      width: 100%; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .edit-address-form .input-field input[type=text],
+        .account-page-wrap section.account-info .edit-address-form .input-field input[type=email] {
+          height: 40px; } }
+    .account-page-wrap section.account-info .edit-address-form .input-field input[type=submit] {
+      height: 38px;
+      background-color: #284734;
+      border: none;
+      font-size: 12px;
+      line-height: 150%;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      padding: 0px 12px; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .edit-address-form .input-field input[type=submit] {
+          font-size: 11px;
+          line-height: 150%;
+          padding: 0px 13px;
+          height: 34px; } }
+    .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field {
+      position: relative;
+      margin-bottom: 0px;
+      top: -1px; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field {
+          top: 2px; } }
+      .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field label {
+        padding-left: 28px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        position: relative;
+        z-index: 5; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field label {
+            padding-left: 22px; } }
+      .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .input-checkbox {
+        position: absolute;
+        opacity: 0; }
+        .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .input-checkbox:checked ~ .custom-checkbox:before {
+          opacity: 1;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+      .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .custom-checkbox {
+        background: #FFFFFF;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        border: 1px solid #BEBEBE; }
+        @media only screen and (max-width: 767px) {
+          .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .custom-checkbox {
+            width: 16px;
+            height: 16px; } }
+        .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .custom-checkbox:before {
+          content: '';
+          width: 14px;
+          height: 9px;
+          position: absolute;
+          display: block;
+          background-image: url(checkbox-checked.svg);
+          background-size: cover;
+          top: 5px;
+          left: 3px;
+          opacity: 0;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+          @media only screen and (max-width: 767px) {
+            .account-page-wrap section.account-info .edit-address-form .input-field.checkbox-field .custom-checkbox:before {
+              content: '';
+              width: 10px;
+              height: 7px;
+              position: absolute;
+              display: block;
+              background-size: cover;
+              top: 4px;
+              left: 2px; } }
+  .account-page-wrap section.account-info .edit-address-form .buttons-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 0px; }
+    @media only screen and (max-width: 767px) {
+      .account-page-wrap section.account-info .edit-address-form .buttons-wrap {
+        padding-top: 1px; } }
+    .account-page-wrap section.account-info .edit-address-form .buttons-wrap .cancel-btn {
+      font-size: 12px;
+      line-height: 150%;
+      color: #6D6D6D;
+      text-transform: uppercase;
+      margin-right: 28px;
+      cursor: pointer; }
+      @media only screen and (max-width: 767px) {
+        .account-page-wrap section.account-info .edit-address-form .buttons-wrap .cancel-btn {
+          font-size: 11px;
+          line-height: 150%;
+          margin-right: 23px; } }
+
+/*# sourceMappingURL=style-account.css.map */

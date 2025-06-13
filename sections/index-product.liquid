@@ -1,0 +1,123 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.product{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.product{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="product" id="subscribe_block">
+    <div class="container">
+        {% if page.template_suffix == 'subscribe' %}
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">Start your subscription today</div>
+                    <div class="sub-title">No commitment, cancel anytime.</div>
+                </div>
+            </div>
+        {% endif %}
+
+        {% assign counter = 1 %}
+        {% for block in section.blocks %}
+            {% assign product = all_products[block.settings.title] %}
+                <div {% if counter > 1 %}style="display: none"{% endif %} class="row index-products-list-block" data-pack-count="{{ product.metafields.arena.pack_count }}" data-product-id="{{ product.id }}" data-product-handle="{{ product.handle }}" id="product_block_index_{{ product.id }}">
+                    <div class="col-md-6">
+                        <div class="product-image">
+                            <a href="{{ product.url }}">
+                                <img src="{{ product.images[0].src | img_url: "50x" }}" alt="{{ product.title | escape }}"
+                                     class="lazyload"
+                                     data-src="{{ product.images[0].src  | img_url: '800x' }}"
+                                     data-widths="[800]"
+                                     data-sizes="auto"
+                                     tabindex="-1"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-info">
+                            <div class="select-field select-product">
+                                <span class="current">{{ product.title }}</span>
+                                <ul class="select-options">
+                                    {% for block in section.blocks %}
+                                        {% if block.settings.title != product.handle %}
+                                            <li onclick="selectProductIndex({{ block.settings.title.id }});">{{ block.settings.title.title }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="reviews">
+                                <div class="image-wrap">
+                                    {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
+                                </div>
+                            </div>
+                            <div class="description">
+                                {{ product.description }}
+                            </div>
+                            <div class="subscribe-wrap">
+                                {% include "order-form", multiproducts: 1 %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% assign counter = counter |  plus: 1 %}
+        {% endfor %}
+
+        <script>
+            var index_list_products = [
+            {% for block in section.blocks %}
+            {% assign product = all_products[block.settings.title] %}
+                {
+                    {{ product.id }}:[
+                    {{ product | json }}
+                    ]
+                },
+            {% endfor %}
+            ];
+        </script>
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Index - Products Slider",
+    "settings": [
+      {
+          "type": "text",
+          "id": "mobile_padding",
+          "label": "Mobile Padding (10px 10px 10px 10px)"
+      },
+      {
+          "type": "text",
+          "id": "desk_padding",
+          "label": "Desktop Padding (10px 10px 10px 10px)"
+      }
+    ],
+    "blocks": [
+        {
+            "name": "Product",
+            "type": "product",
+            "settings":[
+                {
+                    "type": "product",
+                    "id": "title",
+                    "label": "Product"
+                }
+            ]
+        }
+    ],
+    "presets": [
+    {
+    "name": "Index - Products Slider"
+    }
+    ]
+}
+{% endschema %}

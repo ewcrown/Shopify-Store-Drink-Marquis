@@ -1,0 +1,76 @@
+<style>
+    .subscride-options .description{
+      font-size: 20px;
+      line-height: 1.25;
+    }
+  @media (min-width: 960px){
+     .subscride-options .description{
+        font-size: 1.25rem;
+      }
+  }
+</style>
+
+<section class="subscride-options">
+    <div class="canvas-wrap" data-bubble-img="{{ "img_figma.png" | asset_url }}"></div>
+    <div class="options-wrap">
+        {% assign count = 1 %}
+        {% for block in section.blocks %}
+            {% assign mod = forloop.index | modulo: 2 %}
+            <div class="option-row {% if mod == 0 %}image-right{% else %}image-left{% endif %}">
+                <div class="image-wrap">
+                    <img src="{{ block.settings.image-preview | img_url: 'master'}}" alt="">
+                </div>
+                <div class="content-wrap">
+                    <div class="content">
+                        <div class="title">{{ block.settings.block-title }}</div>
+                        <div class="description">{{ block.settings.block-content }}</div>
+                    </div>
+                </div>
+            </div>
+            {% assign counter = counter | plus:1 %}
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Text bloks",
+        "blocks": [
+            {
+                "name": "Blocks",
+                "type": "blocks",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image-preview",
+                        "label": "Image preview"
+                    },
+                    {
+                        "type": "text",
+                        "id": "block-title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "block-content",
+                        "label": "Content"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
+
+<style>
+    .canvas-wrap {
+        position: fixed;
+        z-index: 0;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .canvas-wrap canvas {
+        width: 100%;
+    }
+</style>

@@ -1,0 +1,75 @@
+<header>
+    <div class="bar-wrap">
+        <div class="marquee top-bar" {% if section.settings.announcement_bar_color != blank %}style="background-color: {{ section.settings.announcement_bar_color }}!important; "{% endif %}>
+            <div class="marquee__inner" {% if section.settings.announcement_bar_text_color != blank %}style="color: {{ section.settings.announcement_bar_text_color }}!important; "{% endif %}>
+                {% for block in section.blocks %}
+                    <span>{{ block.settings.title }}</span>
+                {% endfor %}
+                {% for block in section.blocks %}
+                    <span>{{ block.settings.title }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</header>
+{% schema %}
+{
+    "name": "Announcement Bar",
+    "settings": [
+        {
+            "type": "number",
+            "id": "announcement_bar_time",
+            "label": "Announcement Bar Amination in sec",
+            "default": 40
+        },
+        {
+            "type": "color",
+            "id": "announcement_bar_color",
+            "label": "Announcement Bar Background Color"
+        },
+        {
+            "type": "color",
+            "id": "announcement_bar_text_color",
+            "label": "Announcement Bar Text Color"
+        }
+    ],
+    "blocks": [
+    {
+        "type": "announcement_bar_status",
+        "name": "Announcement Bar",
+        "settings": [
+            {
+                "type": "textarea",
+                "id": "title",
+                "label": "Announcement Bar Title"
+            }
+        ]
+    }
+    ]
+}
+{% endschema %}
+
+<style>
+    .marquee{
+        width:100%;
+        white-space:nowrap;
+        overflow:hidden;
+    }
+    .marquee .marquee__inner {
+        /* color:#212121;
+        font-size:25px; */
+        display:inline-block;
+        padding-left:10%;
+        -webkit-animation: marquee {{ section.settings.announcement_bar_time }}s infinite linear;
+        animation: marquee {{ section.settings.announcement_bar_time }}s infinite linear;
+    }
+
+    @-webkit-keyframes marquee {
+        0%{-webkit-transform: translate(0, 0);}
+        100%{-webkit-transform: translate(-100%, 0);}
+    }
+    @keyframes marquee{
+        0%{transform: translate(0, 0);}
+        100%{transform: translate(-100%, 0)}
+    }
+</style>

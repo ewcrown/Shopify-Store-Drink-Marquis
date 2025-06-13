@@ -1,0 +1,65 @@
+<section class="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">{{ section.settings.title }}</div>
+                <div class="faq-wrap">
+                    {% assign count = 1 %}
+                    {% for block in section.blocks %}
+                        {% if block.settings.title != '' %}
+                            <div class="item-wrap">
+                                <div class="question" data-question-id="{{ count }}">
+                                    <span>{{ block.settings.title }}</span>
+                                </div>
+                                <div class="answer" data-answer-id="{{ count }}">
+                                    <span>{{ block.settings.answer }}</span>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% assign count = count | plus:1  %}
+                    {% endfor %}
+                </div>
+                <div class="bottom-row">
+                    <div class="btn-wrap">
+                        <a class="btn-link btn-bg-green scroll_to_subscribe" href="javascript:void(0);">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+    {
+        "name": "FAQ short list",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            }
+        ],
+        "blocks": [
+        {
+            "name": "Question/Answer",
+            "type": "question",
+            "settings":[
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ]
+        }
+        ],
+        "presets": [
+            {
+                "name": "FAQ short list"
+            }
+        ]
+}
+{% endschema %}

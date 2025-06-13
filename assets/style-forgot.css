@@ -1,0 +1,209 @@
+.forgot-page footer .walve-footer {
+  background-color: #FFFFFC; }
+
+.forgot-page-wrap {
+  padding-top: 218px;
+  padding-bottom: 326px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .forgot-page-wrap {
+      padding-top: 116px; } }
+  .forgot-page-wrap section.forgot.success .description {
+    display: none; }
+  .forgot-page-wrap section.forgot.success form {
+    display: none; }
+  .forgot-page-wrap section.forgot.success .success-msg {
+    display: block; }
+  .forgot-page-wrap section.forgot .success-msg {
+    display: none;
+    padding-bottom: 78px; }
+  .forgot-page-wrap section.forgot .section-title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #284734;
+    font-weight: 700;
+    margin-bottom: 22px; }
+    @media only screen and (max-width: 767px) {
+      .forgot-page-wrap section.forgot .section-title {
+        font-size: 30px;
+        line-height: 52px; } }
+  .forgot-page-wrap section.forgot .description {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #284734;
+    opacity: 0.6;
+    margin-bottom: 68px; }
+    @media only screen and (max-width: 767px) {
+      .forgot-page-wrap section.forgot .description {
+        width: 90%;
+        margin: 0px auto 50px; } }
+  .forgot-page-wrap section.forgot form {
+    width: 400px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 767px) {
+      .forgot-page-wrap section.forgot form {
+        width: 100%; } }
+    .forgot-page-wrap section.forgot form input[type=text],
+    .forgot-page-wrap section.forgot form input[type=email],
+    .forgot-page-wrap section.forgot form input[type=password] {
+      font-size: 19px;
+      letter-spacing: 0.02em;
+      color: #000000;
+      width: 100%;
+      padding: 0px 24px;
+      background: #FFFFFF;
+      border: 1px solid #A0A0A0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 100px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 48px;
+      margin-bottom: 14px; }
+      @media only screen and (max-width: 767px) {
+        .forgot-page-wrap section.forgot form input[type=text],
+        .forgot-page-wrap section.forgot form input[type=email],
+        .forgot-page-wrap section.forgot form input[type=password] {
+          height: 45px;
+          font-size: 17.86px;
+          margin-bottom: 13px;
+          padding: 0px 22px; } }
+      .forgot-page-wrap section.forgot form input[type=text]::-webkit-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=email]::-webkit-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=password]::-webkit-input-placeholder {
+        color: #A0A0A0; }
+      .forgot-page-wrap section.forgot form input[type=text]:-ms-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=email]:-ms-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=password]:-ms-input-placeholder {
+        color: #A0A0A0; }
+      .forgot-page-wrap section.forgot form input[type=text]::-ms-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=email]::-ms-input-placeholder,
+      .forgot-page-wrap section.forgot form input[type=password]::-ms-input-placeholder {
+        color: #A0A0A0; }
+      .forgot-page-wrap section.forgot form input[type=text]::placeholder,
+      .forgot-page-wrap section.forgot form input[type=email]::placeholder,
+      .forgot-page-wrap section.forgot form input[type=password]::placeholder {
+        color: #A0A0A0; }
+    .forgot-page-wrap section.forgot form input[type=submit] {
+      font-size: 19px;
+      line-height: 23px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      background: #284734;
+      border-radius: 100px;
+      border: none;
+      width: 100%;
+      height: 48px;
+      margin-bottom: 26px; }
+      @media only screen and (max-width: 767px) {
+        .forgot-page-wrap section.forgot form input[type=submit] {
+          height: 45px;
+          font-size: 17.86px; } }
+    .forgot-page-wrap section.forgot form p {
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      color: #A0A0A0;
+      text-align: center; }
+    .forgot-page-wrap section.forgot form a {
+      color: #A0A0A0; }
+    .forgot-page-wrap section.forgot form .checkbox-wrap {
+      text-align: left;
+      position: relative;
+      margin-top: -6px;
+      margin-bottom: 21px; }
+      @media only screen and (max-width: 767px) {
+        .forgot-page-wrap section.forgot form .checkbox-wrap {
+          margin-top: -2px;
+          margin-bottom: 0px; } }
+      .forgot-page-wrap section.forgot form .checkbox-wrap label {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        color: #A0A0A0;
+        padding-left: 31px;
+        cursor: pointer; }
+        @media only screen and (max-width: 767px) {
+          .forgot-page-wrap section.forgot form .checkbox-wrap label {
+            font-size: 15px;
+            line-height: 18px;
+            padding-left: 27px;
+            margin-bottom: 18px; } }
+        .forgot-page-wrap section.forgot form .checkbox-wrap label a {
+          color: #A0A0A0;
+          text-decoration: underline; }
+      .forgot-page-wrap section.forgot form .checkbox-wrap .input-checkbox {
+        position: absolute;
+        opacity: 0;
+        z-index: -1; }
+        .forgot-page-wrap section.forgot form .checkbox-wrap .input-checkbox:checked ~ .custom-checkbox:before {
+          opacity: 1;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+      .forgot-page-wrap section.forgot form .checkbox-wrap .custom-checkbox {
+        width: 21px;
+        height: 21px;
+        border: 2px solid #A0A0A0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border-radius: 3px;
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: -1px; }
+        @media only screen and (max-width: 767px) {
+          .forgot-page-wrap section.forgot form .checkbox-wrap .custom-checkbox {
+            width: 18px;
+            height: 18px; } }
+        .forgot-page-wrap section.forgot form .checkbox-wrap .custom-checkbox:before {
+          content: '';
+          width: 7px;
+          height: 11px;
+          display: block;
+          position: absolute;
+          border: solid #284734;
+          border-width: 0px 2px 2px 0px;
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg);
+          top: 1px;
+          left: 5px;
+          opacity: 0;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+          @media only screen and (max-width: 767px) {
+            .forgot-page-wrap section.forgot form .checkbox-wrap .custom-checkbox:before {
+              width: 5px;
+              height: 10px; } }
+  .forgot-page-wrap section.forgot .success-msg {
+    padding-top: 86px;
+    text-align: center; }
+    .forgot-page-wrap section.forgot .success-msg p {
+      font-size: 22px;
+      line-height: 24px;
+      color: #373732;
+      margin-bottom: 13px; }
+      .forgot-page-wrap section.forgot .success-msg p a {
+        font-size: 13px;
+        line-height: 24px;
+        color: #373732;
+        opacity: 0.6; }
+
+/*# sourceMappingURL=style-forgot.css.map */

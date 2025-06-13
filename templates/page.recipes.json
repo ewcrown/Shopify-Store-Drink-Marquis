@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "about-header": {
+      "type": "about-header",
+      "settings": {
+        "title": "Over 197,049 cans",
+        "sub-title": "of Marquis proudly donated."
+      }
+    },
+    "about-us": {
+      "type": "about-us",
+      "blocks": {
+        "40d7b022-c3a6-4bec-904d-ebf15fdeef97": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/22_Marquis_Founders.png",
+            "block-title": "Why did we start Marquis?",
+            "block-content": "Our story began between a boardroom and a night club. Our routine was coffee in the morning, an energy drink after lunch, and a vodka-energy cocktail at night. Over time, we found that this toxic mix of large amounts of sugar and low quality caffeine was wreaking havoc on our minds and bodies. While there were healthier alternatives on the market, they all fell short on taste. \nSo we fixed that."
+          }
+        },
+        "91664dc4-3924-400f-8e9a-ad13cbc329c3": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/We_want_to_fuel_change.jpg",
+            "block-title": "We want to fuel change.",
+            "block-content": "We don’t pretend we’re changing the world, but our ambition is no less lofty; to help you change your world. It doesn’t matter who you are, or where you’re from. With hard work, and a little help from Marquis, we know everyone can win everyday. Because, in each can is the confidence to get the kids to school on time, meet a deadline or ace an exam."
+          }
+        },
+        "9bff86b4-5eae-4d4e-945c-2a0749268cd4": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Big_Beverage_510x510_a1b95228-b600-460d-b598-4c978f843ed2.png",
+            "block-title": "We blow the whistle on Big Beverage.",
+            "block-content": "With drinks packed full of sugar, artificial chemicals and too much caffeine, the beverage industry is damaging people’s health, and it needs to stop. So, we’re starting a clean caffeine revolution and fighting back against lab-made corporate drinks. We know we’re the underdog, but that only motivates us more to spread the word and ensure everyone has access to responsible amounts of clean, green caffeine."
+          }
+        },
+        "db9dc9b1-ec94-45cf-929a-640e723833df": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Earth-Day.jpg",
+            "block-title": "We believe in giving back to our community.",
+            "block-content": "We use most of our energy trying to lift yours but, if we ever have any spare, we always try to do some good. That's why 1% of our revenue is invested in the planet to help fight climate change, and why we provide free cans to first responders and healthcare workers. This ensures Marquis is good for your tastebuds, your body, the country, and our planet."
+          }
+        }
+      },
+      "block_order": [
+        "40d7b022-c3a6-4bec-904d-ebf15fdeef97",
+        "91664dc4-3924-400f-8e9a-ad13cbc329c3",
+        "9bff86b4-5eae-4d4e-945c-2a0749268cd4",
+        "db9dc9b1-ec94-45cf-929a-640e723833df"
+      ],
+      "settings": {}
+    },
+    "about-differences": {
+      "type": "about-differences",
+      "settings": {
+        "title": "Marquis vs Big Beverage",
+        "sub-title": "Take a look at how we stack up against the competition.",
+        "desktop-image": "shopify://shop_images/Comparison_Chart_Grey_-_SB.png",
+        "mobile-image": "shopify://shop_images/Comparison_Chart_Grey_-_SB_Mobile.png"
+      }
+    },
+    "index-review": {
+      "type": "index-review",
+      "settings": {
+        "title": "Marquis is making waves",
+        "shop_now_link": "",
+        "mobile_padding": "",
+        "desk_padding": ""
+      }
+    },
+    "about-recommend": {
+      "type": "about-recommend",
+      "blocks": {
+        "49ebfb9a-638b-47bf-8134-4491225b4e20": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "marquis-assorted-12-pack"
+          }
+        },
+        "0ba12fdd-b1c7-4f1a-b976-876e2a54ad2e": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "case-of-marquis-pineapple-passion"
+          }
+        },
+        "6a7bd7c4-dfa3-41c7-b6e4-6b599ff6252c": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "case-of-marquis-lychee-peach"
+          }
+        },
+        "edcbe29c-5b93-4c57-815c-a67d98626c95": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "case-of-marquis-super-berry"
+          }
+        },
+        "192a58ad-8ceb-4517-9ea6-b9a031684b6e": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "case-of-marquis-citrus-yuzu"
+          }
+        },
+        "1365acd1-638b-4351-9573-7d2270d568fb": {
+          "type": "products",
+          "settings": {
+            "recommend-product": "case-of-marquis-mango-ginger"
+          }
+        }
+      },
+      "block_order": [
+        "49ebfb9a-638b-47bf-8134-4491225b4e20",
+        "0ba12fdd-b1c7-4f1a-b976-876e2a54ad2e",
+        "6a7bd7c4-dfa3-41c7-b6e4-6b599ff6252c",
+        "edcbe29c-5b93-4c57-815c-a67d98626c95",
+        "192a58ad-8ceb-4517-9ea6-b9a031684b6e",
+        "1365acd1-638b-4351-9573-7d2270d568fb"
+      ],
+      "settings": {
+        "title": "Find your flavor, guaranteed"
+      }
+    }
+  },
+  "order": [
+    "about-header",
+    "about-us",
+    "about-differences",
+    "index-review",
+    "about-recommend"
+  ]
+}

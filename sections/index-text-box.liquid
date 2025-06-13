@@ -1,0 +1,159 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.blog-posts{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.blog-posts{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="blog-posts">
+    <div class="container">
+        <div class="row top-row">
+            <div class="col-md-7 column-image">
+                <div class="image-wrap">
+                    <img src="{{ section.settings.image_block_1 | img_url:"50x" }}" alt="{{ section.settings.title_block_1 | escape }}"
+                         class="lazyload"
+                         data-src="{{ section.settings.image_block_1  | img_url: '700x' }}"
+                         data-widths="[700]"
+                         data-sizes="auto"
+                         tabindex="-1"
+                    />
+                </div>
+            </div>
+            <div class="col-md-5 column-content">
+                <div class="content-wrap">
+                    <div class="title">{{ section.settings.title_block_1 }}</div>
+                    <div class="description">{{ section.settings.description_block_1 }}</div>
+
+                    {% if section.settings.shop_now_link_1 != blank %}
+                        <div class="btn-link"><a href="{{ section.settings.shop_now_link_1 }}" class="btn-link btn-light-green btn-shop">{{ section.settings.shop_now_link_title_1 }}</a></div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-row">
+            <div class="col-md-5 column-content">
+                <div class="content-wrap">
+                    <div class="title">{{ section.settings.title_block_2 }}</div>
+                    <div class="description">{{ section.settings.description_block_2 }}</div>
+
+                    {% if section.settings.shop_now_link_2 != blank %}
+                        <div class="btn-link"><a href="{{ section.settings.shop_now_link_2 }}" class="btn-link btn-light-green btn-shop">{{ section.settings.shop_now_link_title_2 }}</a></div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-7 column-image">
+                <div class="image-wrap">
+                    <img src="{{ section.settings.image_block_2 | img_url:"50x" }}" alt="{{ section.settings.title_block_2 | escape }}"
+                         class="lazyload"
+                         data-src="{{ section.settings.image_block_2  | img_url: '700x' }}"
+                         data-widths="[700]"
+                         data-sizes="auto"
+                         tabindex="-1"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if section.settings.cta_bg_color != blank %}
+    <style>
+      .blog-posts .btn-link{
+        background-color: {{ section.settings.cta_bg_color }} !important;
+        color: {{ section.settings.cta_text_color }} !important;
+      }
+    </style>
+{% endif %}
+
+{% schema %}
+{
+"name": "Index - Text Box",
+"settings": [
+    {
+        "type": "text",
+        "id": "title_block_1",
+        "label": "Title Block 1"
+    },
+    {
+        "type": "textarea",
+        "id": "description_block_1",
+        "label": "Description Block 1"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_block_1",
+        "label": "Image Block 1"
+    },
+    {
+        "type": "text",
+        "id": "shop_now_link_title_1",
+        "label": "Shop Now Title 1"
+    },
+    {
+        "type": "url",
+        "id": "shop_now_link_1",
+        "label": "Shop Now Link Block 1"
+    },
+    {
+        "type": "text",
+        "id": "title_block_2",
+        "label": "Title Block 2"
+    },
+    {
+        "type": "textarea",
+        "id": "description_block_2",
+        "label": "Description Block 2"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_block_2",
+        "label": "Image Block 2"
+    },
+    {
+        "type": "text",
+        "id": "shop_now_link_title_2",
+        "label": "Shop Now Title 2"
+    },
+    {
+        "type": "url",
+        "id": "shop_now_link_2",
+        "label": "Shop Now Link Block 2"
+    },
+    {
+        "type": "text",
+        "id": "mobile_padding",
+        "label": "Mobile Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "text",
+        "id": "desk_padding",
+        "label": "Desktop Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "color",
+        "id": "cta_bg_color",
+        "label": "CTA BG Color"
+    },
+    {
+        "type": "color",
+        "id": "cta_text_color",
+        "label": "CTA TEXT Color"
+    }
+],
+"presets": [
+{
+"name": "Index - Text Box"
+}
+]
+}
+{% endschema %}

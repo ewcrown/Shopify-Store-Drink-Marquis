@@ -1,0 +1,47 @@
+<div class="title-section"><span>COMPLETE THE PACK</span></div>
+<div class="items-list-wrap">
+
+    {% assign total_count = 0 %}
+    {% paginate collections.last-minute-checkout-items.products by 5 %}
+        {% assign related_collection = collections.last-minute-checkout-items %}
+        {% for product in related_collection.products %}
+            {% if product.available %}
+                {% assign show_item = 1 %}
+                {% for line_item in cart.items %}
+                    {% if line_item.product_id == product.id %}
+                        {% assign show_item = 0 %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if show_item == 1 %}
+                    {% assign total_count = total_count | plus:1 %}
+                    <div class="item-row">
+                        <div class="column left-col">
+                            <div class="display-flex">
+                                <div class="image-wrap">
+                                    <div class="image-preview">
+                                        <a href="{{ product.url }}"><img src="{{ product.featured_image.src | img_url: '150x' }}" /></a>
+                                    </div>
+                                </div>
+                                <div class="content-wrap">
+                                    <span class="title"><a href="{{ product.url }}">{{ product.title }}</a></span>
+                                    {% if product.metafields.arena.pack_count != blank %}<span>{{ product.metafields.arena.pack_count }}-Pack</span>{% endif %}
+                                    <span>One-time purchase</span>
+                                    <span class="price">{{ product.price | money }}</span>
+                                    <span class="subscribe" onclick="quiqAddItemToCart({{ product.selected_or_first_available_variant.id }}, '{{ product.metafields.arena.pack_count }} Pack');">Add to Cart</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+
+            {% endif %}
+        {% endfor %}
+    {% endpaginate %}
+
+</div>
+{% if total_count == 0 %}
+<script>
+    document.getElementById("small-cart-recommended-items").hidden = true;
+</script>
+{% endif %}

@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "subscribe-hero": {
+      "type": "subscribe-hero",
+      "settings": {
+        "hero-bg": "shopify://shop_images/Subscription_Header_002_96ad93c5-68c8-469b-845c-ceeb419fee74.png",
+        "page-title": "Clean caffeine starts today",
+        "page-sub-title": "No strings, no commitment, free shipping. We’ll make sure you find the flavor for you.",
+        "btn_text": "Subscribe Now",
+        "first-color": "#d8e7e0",
+        "second-color": "#d8e7e0"
+      }
+    },
+    "subscribe-text-block": {
+      "type": "subscribe-text-block",
+      "blocks": {
+        "6fc35d14-b1e4-4b16-a3f8-4c219ee89b5b": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Sub_Save_Welcome.png",
+            "block-title": "Get a welcome bonus",
+            "block-content": "If you’re a new subscriber, enjoy 10% off your first order."
+          }
+        },
+        "dd218898-8aca-4726-8501-15ab6a0b8230": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Sub_Save_Pay_Less.png",
+            "block-title": "Pay less for every case",
+            "block-content": "Subscribers get 10% off, free shipping, and auto-deliveries on every order."
+          }
+        },
+        "4be18fb2-b3a0-48af-bd9b-222b25203596": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Sub_Save_Cancel.png",
+            "block-title": "Adjust or cancel anytime",
+            "block-content": "Just like your high school crush, we hate commitment; so you can adjust or cancel your subscription whenever you like."
+          }
+        },
+        "59312aae-22f7-41b3-820b-363d996be4d4": {
+          "type": "blocks",
+          "settings": {
+            "image-preview": "shopify://shop_images/Sub_Save_Order_More.png",
+            "block-title": "Order more, save more",
+            "block-content": "Get discounts up to 10% off when you sign up for three or more cases per order."
+          }
+        }
+      },
+      "block_order": [
+        "6fc35d14-b1e4-4b16-a3f8-4c219ee89b5b",
+        "dd218898-8aca-4726-8501-15ab6a0b8230",
+        "4be18fb2-b3a0-48af-bd9b-222b25203596",
+        "59312aae-22f7-41b3-820b-363d996be4d4"
+      ],
+      "settings": {}
+    },
+    "index-product": {
+      "type": "index-product",
+      "blocks": {
+        "d00a1b25-1516-4755-9f92-fe772ee304de": {
+          "type": "product",
+          "settings": {
+            "title": "marquis-assorted-12-pack"
+          }
+        },
+        "9ff83157-6fca-4391-996c-87921b662b8e": {
+          "type": "product",
+          "settings": {
+            "title": "marquis-lemon-lavender"
+          }
+        },
+        "d193f14d-ae9c-4e80-9468-1e402e4a583b": {
+          "type": "product",
+          "settings": {
+            "title": "case-of-marquis-pineapple-passion"
+          }
+        },
+        "7b674825-cbe1-4e59-86aa-d7e38d7cded9": {
+          "type": "product",
+          "settings": {
+            "title": "case-of-marquis-lychee-peach"
+          }
+        },
+        "02e25e44-aa90-4068-a9d5-68693cd89fea": {
+          "type": "product",
+          "settings": {
+            "title": "case-of-marquis-super-berry"
+          }
+        },
+        "c6939cf6-3012-4f32-9e96-82d4a57ccdf8": {
+          "type": "product",
+          "settings": {
+            "title": "case-of-marquis-citrus-yuzu"
+          }
+        },
+        "b09579b5-faa3-4f38-9c81-c34c0f9e5438": {
+          "type": "product",
+          "settings": {
+            "title": "case-of-marquis-mango-ginger"
+          }
+        }
+      },
+      "block_order": [
+        "d00a1b25-1516-4755-9f92-fe772ee304de",
+        "9ff83157-6fca-4391-996c-87921b662b8e",
+        "d193f14d-ae9c-4e80-9468-1e402e4a583b",
+        "7b674825-cbe1-4e59-86aa-d7e38d7cded9",
+        "02e25e44-aa90-4068-a9d5-68693cd89fea",
+        "c6939cf6-3012-4f32-9e96-82d4a57ccdf8",
+        "b09579b5-faa3-4f38-9c81-c34c0f9e5438"
+      ],
+      "settings": {
+        "mobile_padding": "",
+        "desk_padding": ""
+      }
+    },
+    "subscribe-badges": {
+      "type": "subscribe-badges",
+      "blocks": {
+        "f319ba49-482e-429c-930d-eab8ee29c7c6": {
+          "type": "badge",
+          "settings": {
+            "image-preview": "shopify://shop_images/detail-icon-1.png",
+            "badge-title": "100mg Tri-blend Caffeine"
+          }
+        },
+        "47cc2030-9073-4695-bedb-8722817e0b17": {
+          "type": "badge",
+          "settings": {
+            "image-preview": "shopify://shop_images/detail-icon-2.png",
+            "badge-title": "Loaded with vitamins and antioxidants"
+          }
+        },
+        "2af60a6e-ad03-4199-9629-9dcd83709cfd": {
+          "type": "badge",
+          "settings": {
+            "image-preview": "shopify://shop_images/detail-icon-3.png",
+            "badge-title": "Non-GMO, vegan, and gluten-free"
+          }
+        },
+        "4b1984e7-f5ba-4a10-8a6a-5d5a6d0957eb": {
+          "type": "badge",
+          "settings": {
+            "image-preview": "shopify://shop_images/Ellipse_13_3.png",
+            "badge-title": "No sugar, no calories, no artificial coloring"
+          }
+        }
+      },
+      "block_order": [
+        "f319ba49-482e-429c-930d-eab8ee29c7c6",
+        "47cc2030-9073-4695-bedb-8722817e0b17",
+        "2af60a6e-ad03-4199-9629-9dcd83709cfd",
+        "4b1984e7-f5ba-4a10-8a6a-5d5a6d0957eb"
+      ],
+      "settings": {}
+    },
+    "subscribe-faq": {
+      "type": "subscribe-faq",
+      "blocks": {
+        "fe55828c-5287-4ae8-9592-8f78ed68ebc3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I really cancel at any time?",
+            "answer": "<p>Of course! We want you to be happy with your order. In your Account dashboard, you’re able to edit your order frequency, flavor, and quantity. If you’re sure you want to cancel, you can do so in your Account dashboard as well. No hard feelings!</p>"
+          }
+        },
+        "e6b515fb-d464-4b06-8bb6-e069bbd2c6be": {
+          "type": "question",
+          "settings": {
+            "title": "Do I have to pay for shipping?",
+            "answer": "<p>If you add 2 or more cases of Marquis you'll receive Free Shipping.</p>"
+          }
+        },
+        "6ae66aaf-8b71-4200-a2ea-f6415300f01f": {
+          "type": "question",
+          "settings": {
+            "title": "What if I don’t like the flavor I choose?",
+            "answer": "<p>Please login into your account where you'll be able to make edits to your subscriptions.</p>"
+          }
+        },
+        "cc0ed0d1-bdd2-4791-a281-f6b387c94395": {
+          "type": "question",
+          "settings": {
+            "title": "What are the benefits of multi-case orders?",
+            "answer": "<p>When you add 2 cases of Marquis you'll receive free shipping and if you add another case you'll receive 10% on top of your order.</p>"
+          }
+        },
+        "fb234b2b-d976-4813-97df-a039072029e6": {
+          "type": "question",
+          "settings": {
+            "title": "How can I edit my subscription?",
+            "answer": "<p>Please login into your account where you'll be able to make edits to your subscriptions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "fe55828c-5287-4ae8-9592-8f78ed68ebc3",
+        "e6b515fb-d464-4b06-8bb6-e069bbd2c6be",
+        "6ae66aaf-8b71-4200-a2ea-f6415300f01f",
+        "cc0ed0d1-bdd2-4791-a281-f6b387c94395",
+        "fb234b2b-d976-4813-97df-a039072029e6"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "subscribe-hero",
+    "subscribe-text-block",
+    "index-product",
+    "subscribe-badges",
+    "subscribe-faq"
+  ]
+}

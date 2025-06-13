@@ -1,0 +1,160 @@
+{{ 'style-maquology.css' | asset_url | stylesheet_tag }}
+{% assign flavor = '' %}
+{% assign liquor = '' %}
+{% assign counter = 0 %}
+{% for coctail_title in page.metafields.arena.marquology_title %}
+    {% assign flavor = flavor | append: page.metafields.arena.flavor_name[counter] | append:"," %}
+    {% assign liquor = liquor | append: page.metafields.arena.liquor_name[counter] | append:"," %}
+    {% assign counter = counter | plus: 1 %}
+{% endfor %}
+{% assign flavor = flavor | split:"," | uniq %}
+{% assign liquor = liquor | split:"," | uniq %}
+
+<div class="page-wrap marquology-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="section-title">MARQOLOGY</h1>
+                    <div class="description">Browse our library of drink recipes to find the perfect way to mix your Marquis into a happy hour aperitif.</div>
+                    <div class="filter-wrap display-flex">
+                        <div class="select-wrap">
+                            <div class="select-title">Sort Flavor</div>
+                            <div class="select-field select-flavor">
+                                <div class="current">All</div>
+                                <ul class="select-options" id="flavor_options">
+                                    <li onclick="filterCocktail()">All</li>
+                                    {% for flavor_value in flavor %}
+                                        <li onclick="filterCocktail()">{{ flavor_value }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="select-wrap">
+                            <div class="select-title">Sort Liquor</div>
+                            <div class="select-field select-liquor">
+                                <div class="current">All</div>
+                                <ul class="select-options" id="liquor_options">
+                                    <li onclick="filterCocktail()">All</li>
+                                    {% for liquor_value in liquor %}
+                                        <li onclick="filterCocktail()">{{ liquor_value }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty-msg desctop-msg" id="no_filter_results"> <!-- add class "active" for showing empty results message -->
+                        <p>No results, try a different search.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-content"> <!-- add class "no-results" -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 border-wrap">
+                    <div class="left-column">
+                        <div class="cocktails-block" id="featured_block">
+                            <div class="block-header">
+                                <div class="title">Featured Cocktails</div>
+                                <div class="description">Here's a list of our most popular cocktail recipes, we highly recommend you start here.</div>
+                            </div>
+                            <div class="cocktails-list">
+                                {% assign counter = 0 %}
+                                {% assign counter_featured = 0 %}
+                                {% assign global_counter = 0 %}
+                                {% assign active = 0 %}
+                                {% for coctail_title in page.metafields.arena.marquology_title %}
+                                    {% if page.metafields.arena.marqology_featured[counter] == 'true' %}
+                                        {% if counter_featured == 0 %}{% assign active = 1 %}{% endif %}
+                                        {% include "marqology-item-list-grid", active: active, global_counter:global_counter %}
+
+                                        {% assign counter_featured = counter_featured |  plus:1 %}
+                                        {% assign global_counter = global_counter |  plus:1 %}
+                                        {% assign active = active | plus:1  %}
+                                    {% endif %}
+                                    {% assign counter = counter |  plus:1 %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="cocktails-block" id="other_cocktails">
+                            <div class="block-header">
+                                <div class="title">Super Berry Cocktails</div>
+                                <div class="description">Let Marquis Super Berry transform your next cocktail. The light notes of raspberry make it the perfect pair for any clear spirit. </div>
+                            </div>
+                            <div class="cocktails-list">
+
+                                {% assign counter = 0 %}
+                                {% assign counter_other = 0 %}
+                                {% assign active = 0 %}
+                                {% for coctail_title in page.metafields.arena.marquology_title %}
+                                    {% if page.metafields.arena.marqology_featured[counter] != 'true' %}
+                                        {% if counter_other == 0 and counter_featured == 0 %}{% assign active = 1 %}{% endif %}
+                                        {% include "marqology-item-list-grid", active: active, global_counter:global_counter %}
+
+                                        {% assign counter_other = counter_other |  plus:1 %}
+                                        {% assign global_counter = global_counter |  plus:1 %}
+                                    {% endif %}
+                                    {% assign counter = counter |  plus:1 %}
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty-msg mobile-msg"> <!-- add class "active" for showing empty results message -->
+                        <p>No results, try a different search.</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="right-column">
+
+                        {% assign counter = 0 %}
+                        {% assign global_counter = 0 %}
+                        {% assign hide_recipe = 0 %}
+                        {% for coctail_title in page.metafields.arena.marquology_title %}
+                            {% if page.metafields.arena.marqology_featured[counter] == 'true' %}
+                                {% if global_counter > 0 %}{% assign hide_recipe = 1 %}{% endif %}
+                                    {% include "marqology-cocktail-recipe-grid", hide_recipe: hide_recipe, global_counter: global_counter %}
+                                    {% assign global_counter = global_counter |  plus:1 %}
+                            {% endif %}
+                            {% assign counter = counter |  plus:1 %}
+                        {% endfor %}
+
+                        {% assign counter = 0 %}
+
+                        {% for coctail_title in page.metafields.arena.marquology_title %}
+                            {% if page.metafields.arena.marqology_featured[counter] != 'true' %}
+                                {% if global_counter > 0 %}{% assign hide_recipe = 1 %}{% endif %}
+                                    {% include "marqology-cocktail-recipe-grid", hide_recipe: hide_recipe, global_counter: global_counter %}
+                                    {% assign global_counter = global_counter |  plus:1 %}
+                            {% endif %}
+                            {% assign counter = counter |  plus:1 %}
+                        {% endfor %}
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+
+{% if counter_featured == 0 %}
+    <script>
+        document.getElementById("featured_block").hidden = true;
+    </script>
+{% endif %}
+{% if counter_other == 0 %}
+    <script>
+        document.getElementById("other_cocktails").hidden = true;
+    </script>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Marqology Main",
+    "settings": []
+  }
+{% endschema %}

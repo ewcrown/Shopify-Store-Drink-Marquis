@@ -1,0 +1,7 @@
+<div class="navigation-wrap">
+    <ul class="page-navigation">
+        {% for link in linklists['page-navigation'].links %}
+            <li class="{% if page_url == link.url %}active{% endif %}"><a href="{{link.url}}">{{link.title}}</a></li>
+        {% endfor %}
+    </ul>
+</div>

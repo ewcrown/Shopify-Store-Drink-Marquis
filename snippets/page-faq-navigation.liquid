@@ -1,0 +1,19 @@
+<ul class="page-navigation">
+    <li class="{% if page_url == 'faqs' %}active{% endif %}">
+        <a href="#">FAQ</a>
+        <ul class="sub-menu">
+            <li class="faq-tab {% if page_url == 'faqs' %}active{% endif %}"><a href="/pages/faq#all" data-faq-section="all">All</a></li>
+            <li class="faq-tab"><a href="/pages/faq#shipping-deliveries" data-faq-section="shipping-deliveries">Shipping & Deliveries</a></li>
+            <li class="faq-tab"><a href="/pages/faq#returns" data-faq-section="returns">Returns</a></li>
+            <li class="faq-tab"><a href="/pages/faq#product-use" data-faq-section="product-use">Product Use</a></li>
+            <li class="faq-tab"><a href="/pages/faq#wholesale" data-faq-section="wholesale">Wholesale</a></li>
+            <li class="faq-tab"><a href="/pages/faq#subscriptions" data-faq-section="subscriptions">Subscriptions</a></li>
+        </ul>
+    </li>
+    <li class="{% if page_url == 'contact2' %}active{% endif %}">
+        <a href="/pages/contact-us">Contact Us</a>
+        <ul class="sub-menu">
+            <li class="{% if page_url == 'wholesale' %}active{% endif %}"><a href="/pages/wholesale">Wholesale</a></li>
+        </ul>
+    </li>
+</ul>

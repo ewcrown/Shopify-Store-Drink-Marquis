@@ -1,0 +1,56 @@
+<section class="pdm-section product-grid">
+    <div class="container">
+        <div class="product-grid__loop">
+          {% for product in collection.products %}
+              <div class="product-card">
+               
+                  <a href="{{ product.url }}" class="product-card__image">
+                      <img src="{{ product.featured_image | img_url: "400x400", crop:'center' }}" alt="{{ product.title }}" />
+                  </a>
+                  <a href="{{ product.url }}" class="product-card__content">
+                    {% if collection.handle == "all" %}
+                    {% else %}
+                      <span class="product-card__price">{{ product.selected_or_first_available_variant.price | money }}</span>
+                    {% endif %}
+                      <h3>{{ product.title }}</h3>
+                    {% if collection.handle == "all" %}
+                    {% else %}
+                      <div class="product-card__desc">
+                          {{ product.description }}
+                      </div>
+                    {% endif %}
+                  </a>
+
+                {% comment %}
+                  {% form 'product', product, class: 'product-card__form' %}
+                      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                      <button class="btn" type="submit">Add to Cart</button>
+                  {% endform %}
+                {% endcomment %}
+                
+                <button class="btn collection-btn" onclick="addItemToCart2({{ product.selected_or_first_available_variant.id }})">Add to Cart</button>
+              
+            
+            
+              </div>
+          {% endfor %}
+        </div>
+    </div>
+</section>
+{% if collection.handle == "all" %}
+<style>
+  .product-card h3{
+    text-align:center;
+  }
+  .product-card__form{
+    text-align:center;
+  }
+</style>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Collection Product Grid",
+    "settings": []
+  }
+{% endschema %}

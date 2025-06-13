@@ -1,0 +1,163 @@
+{% comment %}
+<div class="gallary-wrap desktop-gallary">
+
+    {% if product.images.size != 0 %}
+        {% for image in product.images %}
+            <a href="#img-{{ forloop.index }}" class="image-wrap">
+                <img src="{{ image.src | product_img_url: '50x' }}" alt="{{ product.title | strip_html | escape }}"
+                     class="lazyload"
+                     data-src="{{ image.src  | product_img_url: '800x' }}"
+                     data-widths="[800]"
+                     data-sizes="auto"
+                     tabindex="-1"
+                />
+            </a>
+        {% endfor %}
+    {% endif %}
+
+</div>
+{% endcomment %}
+{% comment %}
+<div class="gallary-wrap mobile-gallary owl-carousel">
+    {% if product.images.size != 0 %}
+        {% for image in product.images %}
+            <div class="image-wrap">
+                <img src="{{ image.src | product_img_url: '50x' }}" alt="{{ product.title | strip_html | escape }}"
+                     class="lazyload"
+                     data-src="{{ image.src  | product_img_url: '800x' }}"
+                     data-widths="[800]"
+                     data-sizes="auto"
+                     tabindex="-1"
+                />
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endcomment %}
+
+<div class="gallary-wrap desktop-gallary">
+    <div class="rtl-slider-flex">
+    	<div class="rtl-slider-nav">
+            {% if product.images.size != 0 %}
+                {% for image in product.images %}
+            	  <div class="rtl-slider-slide" style="background-image: url({{ image.src  | product_img_url: '800x' }}); border-radius: 8px;">
+                  </div>
+                {% endfor %}
+            {% endif %}
+    	</div>
+    	<span class="thumb-prev"><i class="fa fa-angle-up fa-lg"></i></span>
+    	<span class="thumb-next"><i class="fa fa-angle-down fa-lg"></i></span>
+    	<div class="rtl-slider">
+          
+            {% if product.images.size != 0 %}
+                {% for image in product.images %}
+              	  <a href="#img-{{ forloop.index }}" class="image-wrap rtl-slider-slide" style="background-image: url({{ image.src  | product_img_url: '800x' }}); border-radius: 20px;">
+              	  </a>
+                {% endfor %}
+            {% endif %}
+          
+    	</div>
+    </div>
+</div>
+<style>
+  
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Remove for prod */
+.rtl-slider-flex {
+}
+.thumb-prev,
+.thumb-next {
+  bottom: 12px !important;
+  right: calc(9% + 0.75em) !important;
+}
+.thumb-prev {
+  right: calc(0% + 0.75em) !important;
+}
+/* Necessary styles */
+.rtl-slider-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.rtl-slider-flex .rtl-slider {
+  width: 80%;
+  margin-right: 1%;
+}
+.rtl-slider-flex .rtl-slider-nav {
+  width: 19%;
+  margin-top: -2px;
+  padding-right: 10px;
+}
+.rtl-slider-flex .rtl-slider-nav .rtl-slider-slide {
+  padding-top: 90%;
+  margin-bottom: 4px;
+  opacity: 0.75;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none !important;
+  box-shadow: none;
+}
+.rtl-slider-flex .rtl-slider-nav .slick-slide.slick-current.slick-active .rtl-slider-slide {
+  opacity: 1;
+}
+.rtl-slider-flex .rtl-slider-slide {
+  background: #0b69b7 url("") no-repeat center/cover;
+  padding-top: 56.25%;
+}
+.rtl-slider-flex .thumb-prev,
+.rtl-slider-flex .thumb-next {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  height: 88px;
+  width: 9.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+.rtl-slider-flex .thumb-prev {
+  right: 9.5%;
+}
+
+</style>

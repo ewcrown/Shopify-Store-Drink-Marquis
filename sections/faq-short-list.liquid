@@ -1,0 +1,72 @@
+<section class="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sub-section-title">
+                    {% if template.name == 'product' %}
+                        Frequently Asked Questions
+                    {% else %}
+                        {{ section.settings.title }}
+                    {% endif  %}
+                </div>
+                <div class="faq-wrap">
+                    {% assign counter = 1 %}
+                    {% for block in section.blocks %}
+                        {% if block.settings.title != blank %}
+                            <div class="item-wrap">
+                                <div class="question" data-question-id="{{ counter }}">
+                                    <span>{{ block.settings.title }}</span>
+                                </div>
+                                <div class="answer" data-answer-id="{{ counter }}">
+                                    <span>{{ block.settings.answer }}</span>
+                                </div>
+                            </div>
+                            {% assign counter = counter |  plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="bottom-row">
+                    <div class="btn-wrap">
+                        <a class="btn-link btn-bg-white" href="/pages/faq">Don’t see your question here? Check out our other FAQs.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "FAQ short list",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            }
+        ],
+        "blocks": [
+        {
+            "name": "Question/Answer",
+            "type": "question",
+            "settings":[
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ]
+        }
+        ],
+        "presets": [
+            {
+                "name": "FAQ short list"
+            }
+        ]
+}
+{% endschema %}

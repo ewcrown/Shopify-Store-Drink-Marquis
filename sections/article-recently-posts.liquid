@@ -1,0 +1,31 @@
+<section class="recently-posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">More from Marquis</div>
+            </div>
+        </div>
+        <div class="row">
+            {% assign articles_count = 0 %}
+            {% assign position = "left-column,center-column,right-column" | split: ',' %}
+            {% for article in blogs['marquis-world'].articles %}
+                {% if articles_count <= 2 %}
+                    <div class="col-md-4 {{ position[articles_count] }}">
+                        <div class="post-wrap">
+                            <div class="image-wrap">
+                                <a href="{{ article.url }}">
+                                    <img src="{{ article.image.src | img_url: "1000x" }}" alt="{{ article.title | strip_html | escape }}">
+                                </a>
+                            </div>
+                            <div class="footer">
+                                <div class="title"><a href="{{ article.url }}">{{ article.title }}</a></div>
+                                <div class="excerpt">{{ article.excerpt }}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% assign articles_count = articles_count | plus: 1 %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

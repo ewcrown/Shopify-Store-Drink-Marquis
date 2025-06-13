@@ -1,0 +1,72 @@
+{{ 'style-contact-us.css' | asset_url | stylesheet_tag }}
+
+<div class="page-wrap contact-us-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li class="link">Support</li>
+                            <li><a href="/pages/contact-us">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation-select">
+                        <span class="current">Contact Us</span>
+                        <ul class="select-options">
+                            <li><a href="/pages/faq">FAQ</a></li>
+                            <li><a href="/pages/contact-us">Contact Us</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                        </ul>
+                    </div>
+                    <div class="section-title">Need to get in touch?</div>
+                    <div class="sub-title">Let us know how we can help and a member of our team will be in touch shortly.</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="navigation-wrap desktop-navigation">
+                        {% include 'page-faq-navigation', page_url: page.template_suffix %}
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-wrap">
+                        {% form 'contact' %}
+                            {% if form.posted_successfully? %}
+                                <div class="success-msg">
+                                    <p>Your message has been sent successfully.</p>
+                                    <p><a href="/pages/contact-us">Back to Contact Us</a></p>
+                                </div>
+                            {% else %}
+                                <div class="display-flex">
+                                    <div class="input-field">
+                                        <input type="text" id="first-name" name="contact[first_name]" required />
+                                        <label for="first-name">First Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="last-name" name="contact[last_name]" required />
+                                        <label for="last-name">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" id="email" name="contact[email]" onkeyup="this.setAttribute('value', this.value);" value="" required />
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field textarea-input">
+                                    <textarea id="message" name="contact[message]" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+
+                                <div class="error-form">{{ form.errors | default_errors }}</div>
+
+                                <div class="input-field submit-input">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            {% endif %}
+                        {% endform %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->

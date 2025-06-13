@@ -1,0 +1,134 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.what-caffeine{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.what-caffeine{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="what-caffeine">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header">
+                    <h2 class="section-title">{{ section.settings.title }}</h2>
+                    <div class="description">
+                        {{ section.settings.description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caffeine-wrap display-flex">
+            {% for block in section.blocks %}
+                <div class="column">
+                    <div class="item-wrap">
+                        <div class="header">
+                            <img src="{{ block.settings.image | img_url:"10x" }}" alt="{{ block.settings.title | escape }}"
+                                 class="lazyload"
+                                 data-src="{{ block.settings.image  | img_url: '300x' }}"
+                                 data-widths="[300]"
+                                 data-sizes="auto"
+                                 tabindex="-1"
+                            />
+                            <div class="title">{{ block.settings.title }}</div>
+                        </div>
+                        <div class="description">
+                            <span>{{ block.settings.description }}</span>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="what-caffeine-slider owl-carousel">
+        {% for block in section.blocks %}
+            <div class="item-wrap">
+                <div class="header">
+                    <img src="{{ block.settings.image | img_url:"10x" }}" alt="{{ block.settings.title | escape }}"
+                        class="lazyload"
+                        data-src="{{ block.settings.image  | img_url: '300x' }}"
+                        data-widths="[300]"
+                        data-sizes="auto"
+                        tabindex="-1"
+                    />
+                    <div class="title">{{ block.settings.title }}</div>
+                </div>
+                <div class="description">
+                    <span>{{ block.settings.description }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+<style>
+    .home-page-wrap section.what-caffeine .caffeine-wrap .column .header .title, .home-page-wrap section.what-caffeine .caffeine-wrap .column .description {
+        text-transform: unset !important;
+    }
+</style>
+{% schema %}
+{
+    "name": "Index - What Caffeine",
+    "settings": [
+    {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title",
+        "default" : "WHAT’S</br>TRI-BLEND CAFFEINE?"
+    },
+    {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default" : "<p>Our unique tri-blend of plant-based caffeine is the first of its kind. We combined yerba mate, green coffee, and green tea to give you a balanced lift without the jolt or crash of most caffeinated drinks.</p>"
+    },
+    {
+        "type": "text",
+        "id": "mobile_padding",
+        "label": "Mobile Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "text",
+        "id": "desk_padding",
+        "label": "Desktop Padding (10px 10px 10px 10px)"
+    }
+    ],
+    "blocks": [
+        {
+            "name": "Slide",
+            "type": "slide",
+            "limit": 3,
+            "settings":[
+            {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+            },
+            {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+            },
+            {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+            }
+            ]
+        }
+    ],
+    "presets": [
+    {
+    "name": "Index - What Caffeine"
+    }
+    ]
+}
+{% endschema %}

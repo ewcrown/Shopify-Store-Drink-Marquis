@@ -1,0 +1,76 @@
+{%- form 'product', product, data-productid: product.id, class: form_class, data-section: section_id -%}
+    <!-- Begin ReCharge code -->
+    {% if product.available %}{% include 'subscription-product' %}{% endif %}
+    <!-- End ReCharge code -->
+
+    {%- if section.settings.show_incoming_message -%}
+        <div class="InComing-{{ section_id }} product-single__incoming{% if current_variant.available %} hide{% endif %}" style="color: {{ section.settings.incoming_message_color }};">
+            {%- if current_variant.available == false and current_variant.incoming -%}
+                {%- assign incoming_date = current_variant.next_incoming_date | date: format: 'month_day_year' -%}
+                {{- 'products.product.incoming' | t: date: incoming_date -}}
+            {%- endif -%}
+        </div>
+    {%- endif -%}
+
+    <div class="row row-30 align-items-center">
+        {%- if product.available and is_external_product == false and is_grouped_product == false -%}
+            <select name="id" data-productid="{{ product.id }}" class="ProductSelect-{{ section_id }} hide" data-section="{{ section_id }}">
+                {%- for variant in product.variants -%}
+                    {%- if variant.available -%}
+                        <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">
+                            {{- variant.title -}}
+                        </option>
+                    {%- else -%}
+                        <option disabled="disabled">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
+                    {%- endif -%}
+                {%- endfor -%}
+            </select>
+        {%- endif -%}
+
+        {%- if product.available and section.settings.show_quantity_selector and is_external_product == false and is_grouped_product == false -%}
+            <div class="col-auto product-form__item--quantity{% unless current_variant.available %} btn-disabled{% endunless %}">
+                <button type="button" class="ris ri-minus minus"></button>
+                <input type="text" name="quantity" value="1" min="1" class="quantity product-form__input" pattern="[0-9]*" />
+                <button type="button" class="ris ri-plus plus"></button>
+            </div>
+        {%- endif -%}
+
+        <div class="col-auto product-form__item--submit">
+            {%- if is_external_product == false -%}
+                {%- if is_grouped_product == false -%}
+                    <button type="submit" name="add"{% unless current_variant.available %} disabled="disabled"{% endunless %} class="AddToCart-{{ section_id }} btn btn-primary progress-btn product-form__cart-submit">
+                          <span class="AddToCartText-{{ section_id }} btn-text">
+                            {%- unless current_variant.available -%}
+                                {{- 'products.product.sold_out' | t -}}
+                            {%- else -%}
+                                {%- if current_variant.inventory_quantity <= 0 and current_variant.inventory_management == 'shopify' -%}
+                                    {{- 'products.product.pre_order' | t -}}
+                                {%- else -%}
+                                    {{- 'products.product.add_to_cart' | t -}}
+                                {%- endif -%}
+                            {%- endunless -%}
+                          </span>
+                        <div class="progress"></div>
+                        <div class="checked"></div>
+                    </button>
+                {%- else -%}
+                    <button type="submit" name="add" class="AddToCart-{{ section_id }} btn btn-primary progress-btn product-form__cart-submit--grouped" disabled="">
+                          <span class="btn-text">
+                            {%- if current_variant.inventory_quantity <= 0 and current_variant.inventory_management == 'shopify' -%}
+                                {{- 'products.product.pre_order' | t -}}
+                            {%- else -%}
+                                {{- 'products.product.add_to_cart' | t -}}
+                            {%- endif -%}
+                          </span>
+                        <div class="progress"></div>
+                        <div class="checked"></div>
+                    </button>
+                {%- endif -%}
+            {%- else -%}
+                <a href="{{ product.metafields.info.external_link }}" class="btn btn-primary">{{ product.metafields.info.external_btn }}</a>
+            {%- endif -%}
+        </div>
+    </div>
+
+
+{%- endform -%}

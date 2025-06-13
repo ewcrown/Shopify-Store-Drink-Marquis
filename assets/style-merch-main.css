@@ -1,0 +1,110 @@
+.merchandise-page-wrap {
+  padding-top: 220px;
+  padding-bottom: 174px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .merchandise-page-wrap {
+      padding-top: 130px;
+      padding-bottom: 100px; } }
+  .merchandise-page-wrap section .container {
+    width: 1084px; }
+    @media only screen and (max-width: 1200px) {
+      .merchandise-page-wrap section .container {
+        width: initial; } }
+  .merchandise-page-wrap section.page-hero .page-hero-wrap {
+    min-height: 387px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 126px 0px 118px;
+    margin-bottom: 92px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    @media only screen and (max-width: 767px) {
+      .merchandise-page-wrap section.page-hero .page-hero-wrap {
+        padding-top: 153px;
+        margin-bottom: 71px; } }
+    .merchandise-page-wrap section.page-hero .page-hero-wrap .section-title {
+      font-size: 83.2px;
+      line-height: 78px;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      font-weight: 900;
+      margin-bottom: 3px; }
+      @media only screen and (max-width: 991px) {
+        .merchandise-page-wrap section.page-hero .page-hero-wrap .section-title {
+          font-size: 46px;
+          line-height: 52px;
+          margin-bottom: 1px; } }
+      @media only screen and (max-width: 427px) {
+        .merchandise-page-wrap section.page-hero .page-hero-wrap .section-title {
+          font-size: 32px;
+          line-height: 38px; } }
+    .merchandise-page-wrap section.page-hero .page-hero-wrap .sub-title {
+      font-size: 32px;
+      line-height: 63px;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      font-weight: 700; }
+      @media only screen and (max-width: 991px) {
+        .merchandise-page-wrap section.page-hero .page-hero-wrap .sub-title {
+          font-size: 26px;
+          line-height: 52px; } }
+      @media only screen and (max-width: 427px) {
+        .merchandise-page-wrap section.page-hero .page-hero-wrap .sub-title {
+          font-size: 22px;
+          line-height: 28px; } }
+  .merchandise-page-wrap section .column-2 .product-wrap {
+    margin: 0px auto; }
+  .merchandise-page-wrap section .column-3 .product-wrap {
+    margin-left: auto; }
+  .merchandise-page-wrap section .product-wrap {
+    margin-bottom: 64px;
+    width: 95.755%; }
+    @media only screen and (max-width: 991px) {
+      .merchandise-page-wrap section .product-wrap {
+        width: 100%; } }
+    @media only screen and (max-width: 767px) {
+      .merchandise-page-wrap section .product-wrap {
+        margin-bottom: 42px; } }
+    .merchandise-page-wrap section .product-wrap .image-wrap {
+      width: 100%;
+      height: 323px;
+      margin-bottom: 20px; }
+      @media only screen and (max-width: 767px) {
+        .merchandise-page-wrap section .product-wrap .image-wrap {
+          height: 177px;
+          margin-bottom: 12px; } }
+      .merchandise-page-wrap section .product-wrap .image-wrap img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: center;
+           object-position: center;
+        width: 100%;
+        height: 100%; }
+    .merchandise-page-wrap section .product-wrap .footer {
+      text-align: center; }
+      .merchandise-page-wrap section .product-wrap .footer .title a {
+        font-size: 19.13px;
+        line-height: 23px;
+        color: #000000; }
+        @media only screen and (max-width: 767px) {
+          .merchandise-page-wrap section .product-wrap .footer .title a {
+            font-size: 16px;
+            line-height: 19px; } }
+      .merchandise-page-wrap section .product-wrap .footer .price {
+        color: #656565;
+        font-size: 19.13px;
+        position: relative;
+        top: 5px; }
+        @media only screen and (max-width: 767px) {
+          .merchandise-page-wrap section .product-wrap .footer .price {
+            font-size: 16px;
+            line-height: 19px;
+            top: 1px; } }
+
+/*# sourceMappingURL=style-merch-main.css.map */

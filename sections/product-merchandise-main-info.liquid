@@ -1,0 +1,37 @@
+{{ 'style-merch-pdp.css' | asset_url | stylesheet_tag }}
+
+<section class="header">
+    <div class="container">
+
+        <meta itemprop="name" content="{{ product.title }}" />
+        <meta itemprop="url" content="{{ shop.url }}{{ product.url }}" />
+        <meta itemprop="image" content="http:{{ product.featured_image.src | product_img_url: 'grande' | remove: 'http:' | remove: 'https:' }}" />
+
+        <div class="row">
+            <div class="col-md-6">
+               {% include "product-gallery" %}
+            </div>
+            <div class="col-md-6">
+                <div class="product-info">
+                    <div class="title">{{ product.title }}</div>
+                    <div class="price">{{ product.price | money }}</div>
+                    <div class="description">
+                        <p>{{ product.description }}</p>
+                    </div>
+                    <div class="subscribe-wrap">
+
+                        {% include "order-form", multiproducts: 0, merchandise: 1 %}
+
+                    </div>
+                    <div class="additional-info">
+                        <div class="top-row">
+                            <div class="question">
+                                <a class="link mail-icon" href="/pages/contact-us">Questions? Send us a message.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

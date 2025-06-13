@@ -1,0 +1,239 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.main-slider{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.main-slider{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="main-slider" style="background: linear-gradient(180deg, rgba(255, 252, 235, 0) 0%, rgba(255, 106, 22, 0) 16.03%, rgba(255, 106, 22, 0.5) 37.31%, rgba(255, 106, 22, 0.5) 62.4%, rgba(255, 106, 22, 0) 80.41%);">
+    <div class="slider-bg-wrap">
+        <div class="canvas-wrap" data-bubble-img="{{ "img_figma.png" | asset_url }}"></div>
+        <div class="products-slider slider-wrap owl-carousel">
+            {% assign orange = 'background: linear-gradient(180deg, rgba(255, 252, 235, 0) 0%, rgba(255, 106, 22, 0) 16.03%, rgba(255, 106, 22, 0.5) 37.31%, rgba(255, 106, 22, 0.5) 62.4%, rgba(255, 106, 22, 0) 80.41%);' %}
+            {% assign pink   = 'background: linear-gradient(180deg, rgba(255, 252, 235, 0) 0%, rgba(229, 142, 175, 0.5) 21.12%, rgba(199, 73, 119, 0.5) 37.31%, rgba(199, 73, 119, 0.5) 62.4%, rgba(185, 48, 98, 0) 80.41%);' %}
+            {% assign citrus = 'background: linear-gradient(180deg, rgba(255, 252, 235, 0) 0%, rgba(193, 210, 117, 0.5) 21.12%, rgba(193, 210, 117, 0.5) 37.31%, rgba(193, 210, 117, 0.5) 62.4%, rgba(193, 210, 117, 0) 80.41%);' %}
+
+            {% assign orange_bg = '255,179,129' %}
+            {% assign pink_bg   = '227,169,177' %}
+            {% assign citrus_bg = '224,231,176' %}
+
+            {% for block in section.blocks %}
+                <div class="slide-item  {% if block.settings.custom_background == blank %}
+                                        {% if block.settings.background == 'orange' %}{{ 'mango-slide' }}{% endif %}
+                                        {% if block.settings.background == 'pink' %}{{ 'berry-slide' }}{% endif %}
+                                        {% if block.settings.background == 'citrus' %}{{ 'citrus-slide' }}{% endif %}
+                                        {% else %}{{ block.settings.custom_background }}{% endif %}"
+                    bg-color="{% if block.settings.custom_background == blank %}
+                                {% if block.settings.background == 'orange' %}{{ orange_bg }}{% endif %}
+                                {% if block.settings.background == 'pink' %}{{ pink_bg }}{% endif %}
+                                {% if block.settings.background == 'citrus' %}{{ citrus_bg }}{% endif %}
+                                {% else %}{{ block.settings.custom_background }}{% endif %}"
+                     current-bg-color="">
+                    <div class="slide-container">
+                        <h2 class="title" data-aos="fade-left" style="{% if block.settings.title-custom-color != null %}color: {{ block.settings.title-custom-color }}{% endif %}">{{ block.settings.title }}</h2>
+                        <div class="display-flex">
+                            <div class="column slide-image">
+                                <div class="image-wrap">
+                                    <img src="{{ block.settings.image | img_url:"50x" }}" alt="{{ block.settings.title | escape }}"
+
+                                         class="lazyload"
+                                         data-src="{{ block.settings.image  | img_url: '500x' }}"
+                                         data-widths="[500]"
+                                         data-sizes="auto"
+                                         tabindex="-1"
+
+                                    />
+                                </div>
+                            </div>
+                            <div class="column slide-content" data-aos="fade-left">
+                                {% if block.settings.fruit_profile != blank %}
+                                    <div class="details">
+                                        <span>FLAVOR PROFILE</span>
+                                        <span class="button">{{ block.settings.fruit_profile }}</span>
+                                    </div>
+                                {% endif %}
+
+                                {% if block.settings.sweet_with != blank %}
+                                <div class="details">
+                                    <span>SWEETENED WITH</span>
+                                    <span class="button">{{ block.settings.sweet_with }}</span>
+                                </div>
+                                {% endif %}
+
+                                <div class="lists-wrap">
+                                    <ul class="product-benefits">
+                                        {% assign left_list = block.settings.left_list | split:", " %}
+                                        {% for list in left_list %}
+                                            <li>{{ list }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                    <ul class="product-benefits">
+                                        {% assign right_list = block.settings.right_list | split:", " %}
+                                        {% for list in right_list %}
+                                            <li class="no-check" >{{ list }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                {% if block.settings.shop_now_link != blank %}
+                                    <div class="btn-link"><a href="{{ block.settings.shop_now_link }}" class="btn-link btn-bg-green btn-shop">{{ block.settings.shop-button-title }}</a></div>
+                                {% endif %}
+
+                              
+                                <ul class="dots-nav">
+                                  {% for block in section.blocks %}
+                                    <li><button class="dots-nav__option {% if forloop.index0 == 0 %}active{% endif %}" data-index={{ forloop.index0 }}></button></li>
+                                  {% endfor %}
+                                </ul>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Index - Slider",
+        "settings": [
+            {
+                "type": "text",
+                "id": "mobile_padding",
+                "label": "Mobile Padding (10px 10px 10px 10px)"
+            },
+            {
+                "type": "text",
+                "id": "desk_padding",
+                "label": "Desktop Padding (10px 10px 10px 10px)"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Slide",
+                "type": "slide",
+                "settings":[
+                    {
+                        "type": "select",
+                        "id": "background",
+                        "label": "Background",
+                        "options": [
+                            {
+                                "value": "",
+                                "label": "--Custom--"
+                            },
+                            {
+                                "value": "orange",
+                                "label": "Orange"
+                            },
+                            {
+                                "value": "pink",
+                                "label": "Pink"
+                            },
+                            {
+                                "value": "citrus",
+                                "label": "Citrus"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "custom_background",
+                        "label": "Custom Background",
+                        "info": "Format RGB (ex: 255,255,255)"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                      "type": "text",
+                      "id": "title-custom-color",
+                      "label": "Title custom color",
+                      "info": "Format HEX (ex: #F79F90)"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "fruit_profile",
+                        "label": "FRUIT PROFILE"
+                    },
+                    {
+                        "type": "text",
+                        "id": "sweet_with",
+                        "label": "SWEETENED WITH"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "left_list",
+                        "label": "Left List",
+                        "info" : "Example: Element1, Element2"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "right_list",
+                        "label": "Right List",
+                        "info" : "Example: Element1, Element2"
+                    },
+                    {
+                        "type": "text",
+                        "id": "shop-button-title",
+                        "label": "CTA Text",
+                        "default": "Shop Now"
+                    },
+                    {
+                        "type": "url",
+                        "id": "shop_now_link",
+                        "label": "Shop Now Link"
+                    },
+                    {
+                        "type": "color",
+                        "id": "cta_bg_color",
+                        "label": "CTA BG Color"
+                    },
+                    {
+                        "type": "color",
+                        "id": "cta_text_color",
+                        "label": "CTA TEXT Color"
+                    }
+                  
+                ]
+            }
+        ],
+        "presets": [
+        {
+            "name": "Index - Slider"
+        }
+    ]
+}
+{% endschema %}
+
+<style>
+    .canvas-wrap {
+        position: fixed;
+        z-index: 0;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .canvas-wrap canvas {
+        width: 100%;
+    }
+</style>

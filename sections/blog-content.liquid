@@ -1,0 +1,132 @@
+{{ 'style-blog.css' | asset_url | stylesheet_tag }}
+
+<div class="page-wrap blog-page-wrap">
+    <section class="recents-posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">OUR LATEST</div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                {% for block in section.blocks %}
+                    {% assign article = articles[block.settings.article] %}
+                    <div class="col-md-6 {% if articles_count == 0 %}left-column{% else %}right-column{% endif %}">
+                        <div class="post-wrap">
+                            <div class="image-wrap">
+                                <a href="{{ article.url }}">
+                                    <img src="{{ article.image.src | img_url: "1000x" }}" alt="{{ article.title | strip_html | escape }}">
+                                </a>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <a href="{{ article.url }}">{{ article.title }}</a>
+                                </div>
+                                <div class="excerpt">{{ article.excerpt }}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="posts-slider">
+        <div class="recently-posts-slider owl-carousel">
+            {% for article in blogs['marquis-world'].articles %}
+                {% assign show_article = 1 %}
+                {% for block in section.blocks %}
+                    {% if block.settings.article == article.handle %}
+                        {% assign show_article = 0 %}
+                    {% endif %}
+                {% endfor %}
+                {% if show_article == 1 %}
+                    <div class="post-slide">
+                        <div class="image-wrap">
+                            <a href="{{ article.url }}">
+                            <img src="{{ article.image.src | img_url: "1000x" }}" alt="{{ article.title | strip_html | escape }}">
+                            </a>
+                        </div>
+                        <div class="footer">
+                            <div class="title">
+                                <a href="{{ article.url }}">{{ article.title }}</a>
+                            </div>
+                            <div class="excerpt">{{  article.excerpt  }}</div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+    <section class="mobile-posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 right-column">
+                    <div class="mobile-posts-slider owl-carousel">
+                        {% assign global_post_count = 0 %}
+                        {% assign blog_size_count =  blogs['marquis-world'].articles.size %}
+                        {% assign count_article = 1 %}
+                        {% for article in blogs['marquis-world'].articles %}
+                            {% assign show_article = 1 %}
+                            {% for block in section.blocks %}
+                                {% if block.settings.article == article.handle %}
+                                    {% assign show_article = 0 %}
+                                {% endif %}
+                            {% endfor %}
+                            {% if show_article == 1 %}
+                                {% if count_article == 1 %}
+                                    <div class="slide-item">
+                                {% endif %}
+                                <div class="post-wrap" data-count="{{ blog_size_count }}">
+                                    <div class="image-wrap">
+                                        <a href="{{ article.url }}">
+                                        <img src="{{ article.image.src | img_url: "1000x" }}" alt="{{ article.title | strip_html | escape }}">
+                                        </a>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="title">
+                                            <a href="{{ article.url }}">{{ article.title }}</a>
+                                        </div>
+                                        <div class="excerpt">{{ article.excerpt }}</div>
+                                    </div>
+                                </div>
+                                {% assign count_article = count_article | plus:1 %}
+                                {% assign global_post_count = global_post_count | plus:1 %}
+                                {% if count_article == 7 or global_post_count == blog_size_count %}
+                                    </div>
+                                    {% assign count_article = 1 %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% schema %}
+{
+    "name": "Featurud Posts",
+    "settings": [],
+    "blocks": [
+    {
+    "name": "Featured Article",
+    "type": "article",
+    "settings":[
+        {
+            "type": "article",
+            "id": "article",
+            "label": "Featured Article"
+        }
+    ]
+    }
+    ],
+    "presets": [
+        {
+            "name": "Index - Slider"
+        }
+    ]
+}
+{% endschema %}

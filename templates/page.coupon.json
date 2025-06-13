@@ -1,0 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "coupon-hero": {
+      "type": "coupon-hero",
+      "settings": {
+        "heading": "Your new favorite mixer",
+        "content": "<p>Yup we can mix that. Browse our library of drink recipes to find the perfect way to mix your Marquis intro a happy hour aperitif.</p>",
+        "cta": "View Recipes",
+        "cta_link": "/",
+        "image": "shopify://shop_images/PINEAPPLE_PASSION_HERO_HEADER_1_2.png"
+      }
+    }
+  },
+  "order": [
+    "coupon-hero"
+  ]
+}

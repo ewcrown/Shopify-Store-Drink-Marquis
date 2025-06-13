@@ -1,0 +1,155 @@
+<div id="cart" class="popup-window">
+    <div class="cart-wrap">
+        <div class="top-bar">
+            <div class="title">YOUR CART (<span id="small_cart_elements_count">0</span>)</div>
+            <div class="close-cart"></div>
+        </div>
+        <div class="progress-bar-wrap">
+            <div class="message">
+                <span id="case_1_text" style="display: none">{{ section.settings.case_1_text }}</span>
+                <span id="case_2_text" style="display: none">{{ section.settings.case_2_text }}</span>
+            </div>
+            <div class="custom-progress-bar">
+                <div class="progress"></div>
+                <div class="cases-wrap">
+                    <div class="case-wrap">
+                        <span class="bullet"></span>
+                        <span>1 Case</span>
+                    </div>
+                    <div class="case-wrap">
+                        <span class="bullet"></span>
+                        <span>2 Cases</span>
+                        <span class="benefit">{{ section.settings.case_2_subtext }}</span>
+                    </div>
+                    <div class="case-wrap">
+                        <span class="bullet"></span>
+                        <span>3 Cases</span>
+                        <span class="benefit">{{ section.settings.case_3_subtext }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="items">
+
+            <div class="no-items-in-cart" style="display: none">
+                <div class="empty-cart">
+                    <div class="title">{{ section.settings.cart-text }}</div>
+                    <div class="btn-link"><a href="/products/marquis-assorted-12-pack" class="btn-link btn-bg-green btn-shop">SHOP NOW</a></div>
+                </div>
+            </div>
+
+            <div class="items-list cart-items mini-products-list">
+            </div>
+            <div class="loadingCart" style="text-align: center;display: none;padding-bottom: 100px;padding-top: 100px;">
+                <img src="{{ "ajax-loader.gif" | asset_url }}"/>
+            </div>
+            <div class="flavors">
+
+              <div class="main-carousel">
+              {% for block in section.blocks %}
+              {% assign slider_product = all_products[block.settings.title] %}
+                <div class="carousel-cell">
+                  <div class="flavors-slide">
+                    
+                      <div class="image-wrap">
+                        {% if slider_product.featured_image %}
+                          <img class="main-image" src="{{ slider_product.featured_image.src | img_url:" 300x" }}" />
+                        {% endif %}
+                      </div>
+                      <div class="flavors-product-info">
+                        <a href="{{ slider_product.url }}">
+                          {{ slider_product.title }}
+                        </a>
+                        <div class="price">
+                          {{ slider_product.price | money }}
+                        </div>
+                      </div>
+                      <div class="flavors-product-action">
+                        <span class="subscribe" onclick="quiqAddItemToCart({{ slider_product.selected_or_first_available_variant.id }}, '{{ slider_product.metafields.arena.pack_count }} Pack');">Add to Cart</span>
+                      </div>
+                     
+                    
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              
+            </div>
+            <div class="items-list recommended-items" id="small-cart-recommended-items">
+
+                {% include "small-cart-related-products" %}
+
+            </div>
+        </div>
+    </div>
+    <div class="total small-cart-checkout-button">
+        <div class="total-row">
+            <div class="btn-checkout recharge-checkout" onclick="reChargeProcessCart()"><span>Total: <span class="mini-cart-subtotal"></span></span>|<span> Checkout</span></div>
+            <div class="btn-checkout shopify-checkout" style="display: none;" onclick="document.location.href='/checkout'"><span>Total: <span class="mini-cart-subtotal"></span></span>|<span> Checkout</span></div>
+        </div>
+        <div class="description">Taxes calculated at checkout</div>
+    </div>
+</div> <!-- END CART -->
+<script>
+    function reChargeProcessCart() {
+        function get_cookie(name){ return( document.cookie.match('(^|; )'+name+'=([^;]*)')||0 )[2] }
+        do {
+            token=get_cookie('cart');
+        }
+        while(token == undefined);	var myshopify_domain='{{ shop.permanent_domain }}'
+        try { var ga_linker = ga.getAll()[0].get('linkerParam') } catch(err) { var ga_linker ='' }
+        checkout_url= "https://checkout.rechargeapps.com/r/checkout?myshopify_domain="+myshopify_domain+"&cart_token="+token+"&"+ga_linker;
+        document.location.href=checkout_url;
+    }
+</script>
+{% schema %}
+{
+    "name": "Small Cart",
+    "settings": [
+        {
+            "type": "text",
+            "id": "cart-text",
+            "label": "Empty Cart Text",
+            "default" : "TIME FOR CLEAN CAFFEINE"
+        },
+        {
+            "type": "textarea",
+            "id": "case_1_text",
+            "label": "Case 1 text",
+            "default" : "Add 1 case to your cart to unlock Free Shipping"
+        },
+        {
+            "type": "textarea",
+            "id": "case_2_text",
+            "label": "Case 2 text",
+            "default" : "Add 1 case to your cart to unlock 10% Off"
+        },
+        {
+            "type": "text",
+            "id": "case_2_subtext",
+            "label": "Case 2 subtext",
+            "default" : "Free Shipping"
+        },
+        {
+            "type": "text",
+            "id": "case_3_subtext",
+            "label": "Case 3 subtext",
+            "default" : "10% Off"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "products",
+        "name": "Products",
+        "settings": [
+          {
+              "type": "product",
+              "id": "title",
+              "label": "Product"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}

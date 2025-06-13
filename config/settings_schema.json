@@ -1,0 +1,138 @@
+[
+  {
+    "name": "CSV FOR STORES LOCATION",
+    "settings": [
+      {
+        "type": "url",
+        "id": "csv_file_url",
+        "label": "Put CSV file URL"
+      }
+    ]
+  },
+  {
+    "name": "Product Badges",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "badge_1_image",
+        "label": "Image Badge 1"
+      },
+      {
+        "type": "text",
+        "id": "badge_1_title",
+        "label": "Title Badge 1"
+      },
+      {
+        "type": "textarea",
+        "id": "badge_1_description",
+        "label": "Description Badge 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "badge_2_image",
+        "label": "Image Badge 2"
+      },
+      {
+        "type": "text",
+        "id": "badge_2_title",
+        "label": "Title Badge 2"
+      },
+      {
+        "type": "textarea",
+        "id": "badge_2_description",
+        "label": "Description Badge 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "badge_3_image",
+        "label": "Image Badge 3"
+      },
+      {
+        "type": "text",
+        "id": "badge_3_title",
+        "label": "Title Badge 3"
+      },
+      {
+        "type": "textarea",
+        "id": "badge_3_description",
+        "label": "Description Badge 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "badge_4_image",
+        "label": "Image Badge 4"
+      },
+      {
+        "type": "text",
+        "id": "badge_4_title",
+        "label": "Title Badge 4"
+      },
+      {
+        "type": "textarea",
+        "id": "badge_4_description",
+        "label": "Description Badge 4"
+      }
+    ]
+  },
+  {
+    "name": "Social Links",
+    "settings": [
+      {
+        "type": "url",
+        "id": "fb_link",
+        "label": "Facebook"
+      },
+      {
+        "type": "url",
+        "id": "ig_link",
+        "label": "Instagram"
+      },
+      {
+        "type": "url",
+        "id": "linkedin_link",
+        "label": "LinkedIn"
+      },
+      {
+        "type": "url",
+        "id": "pint_link",
+        "label": "Pinterest"
+      },
+      {
+        "type": "url",
+        "id": "tiktok_link",
+        "label": "TikTok"
+      },
+      {
+        "type": "url",
+        "id": "spotify_link",
+        "label": "Spotify"
+      },
+      {
+        "type": "text",
+        "id": "contact_email",
+        "label": "Contact Email"
+      }
+    ]
+  },
+  {
+    "name": "Other Settings",
+    "settings": [
+      {
+        "type": "text",
+        "id": "footer_subscribe_text",
+        "label": "Footer text on subscribe form"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon_image",
+        "label": "Favicon Image"
+      },
+      {
+        "type": "textarea",
+        "id": "copyright_text",
+        "label": "Contact Email",
+        "default": "Copyright Fierce Clarity 2021 © All Rights Reserved."
+      }
+    ]
+  }
+]

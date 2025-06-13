@@ -1,0 +1,116 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.head{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.head{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="head" style="{% if module.bg_color %}background-color:{{ module.bg_color }};{% endif %}">
+    {% if section.settings.hero-image != '' %}
+        <div class="image-bg"><img src="{{ section.settings.hero-image | img_url: "master" }}" alt=""></div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="hero-content">
+                    <h1 class="hero-title" style="{% if module.heading_color %}color:{{ module.heading_color }};{% endif %}">{{ section.settings.title }}</h1>
+                    <div class="description" style="{% if module.desc_color %}color:{{ module.desc_color }};{% endif %}">{{ section.settings.text }}</div>
+                    {% if section.settings.btn_text != blank %}
+                        <div class="btn-link"><a href="{{ section.settings.btn_link }}" style="{% if module.cta_color %}color:{{ module.cta_color }};{% endif %} {% if module.cta_bg_color %}background-color:{{ module.cta_bg_color }};{% endif %}" class="btn-link btn-bg-green btn-shop">{{ section.settings.btn_text }}</a></div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+        <div class="badge-wrap"><img src="{{ "PurePlantPowerBadge.svg" | asset_url }}"/></div>
+    </div>
+    <div class="walve"></div>
+</section>
+
+{% schema %}
+{
+    "name": "Index - Hero Banner",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "hero-image",
+            "label": "Hero image"
+        },
+        {
+            "type": "html",
+            "id": "title",
+            "label": "Title",
+            "default" : "No sugar, </br> no calories? </br> NO GUILT."
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Description",
+            "default" : "Our sparkling tri-blend caffeine gives you the perfect energy lift every time."
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button Title",
+            "default" : "Shop Now"
+        },
+        {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Section Background Color"
+        },
+        {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading Color"
+        },
+        {
+            "type": "color",
+            "id": "desc_color",
+            "label": "Description Color"
+        },
+        {
+            "type": "color",
+            "id": "cta_bg_color",
+            "label": "CTA Background Color"
+        },
+        {
+            "type": "color",
+            "id": "cta_color",
+            "label": "CTA Color"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        }
+      
+    ],
+    "presets": [
+        {
+            "name": "Index - Hero Banner"
+        }
+    ]
+}
+{% endschema %}

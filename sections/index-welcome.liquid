@@ -1,0 +1,78 @@
+<section class="welcome">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ section.settings.title }}</h2>
+            </div>
+        </div>
+        <div class="benefits-wrap display-flex">
+            {% for block in section.blocks %}
+                <div class="benefit-item">
+                    <div class="image-wrap">
+                        <img src="{{ block.settings.image | img_url:"10x" }}" alt="{{ block.settings.title | escape }}"
+                             class="lazyload"
+                             data-src="{{ block.settings.image  | img_url: '300x' }}"
+                             data-widths="[300]"
+                             data-sizes="auto"
+                             tabindex="-1"
+                        />
+                    </div>
+                    <div class="title">{{ block.settings.title }}</div>
+                    <div class="description">{{ block.settings.description }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name": "Index - Welcome",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default" : "WELCOME TO </br>NO MORE CRASHES"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Slide",
+            "type": "slide",
+            "limit": 4,
+            "settings":[
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        }
+    ],
+    "presets": [
+    {
+    "name": "Index - Welcome"
+    }
+    ]
+}
+{% endschema %}

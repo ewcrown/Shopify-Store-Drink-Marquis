@@ -1,0 +1,383 @@
+.promotions-page footer .walve-footer {
+  background-color: #FFFFFC; }
+
+.promotions-page-wrap {
+  padding-top: 218px;
+  padding-bottom: 45px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFC), to(#FFFFFC)), -webkit-gradient(linear, left bottom, left top, from(#FBFBFB), to(#FBFBFB)), -webkit-gradient(linear, left bottom, left top, from(#FFFCEB), to(#FFFCEB)), -webkit-gradient(linear, left bottom, left top, from(#FEFBF4), to(#FEFBF4)), #FAFAFA;
+  background: linear-gradient(0deg, #FFFFFC, #FFFFFC), linear-gradient(0deg, #FBFBFB, #FBFBFB), linear-gradient(0deg, #FFFCEB, #FFFCEB), linear-gradient(0deg, #FEFBF4, #FEFBF4), #FAFAFA; }
+  @media only screen and (max-width: 767px) {
+    .promotions-page-wrap {
+      padding-top: 116px;
+      padding-bottom: 58px; } }
+  .promotions-page-wrap section.content .section-title {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #284734; }
+    @media only screen and (max-width: 767px) {
+      .promotions-page-wrap section.content .section-title {
+        font-size: 30px;
+        line-height: 52px; } }
+  .promotions-page-wrap section.content .sub-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(40, 71, 52, 0.6);
+    width: 65%;
+    margin: 0 auto;
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .promotions-page-wrap section.content .sub-title {
+        width: 100%;
+        padding: 0 20px; } }
+  .promotions-page-wrap section.content .contact-wrap {
+    width: 46.297%;
+    margin: 0 auto;
+    padding-top: 67px; }
+    @media only screen and (max-width: 1200px) {
+      .promotions-page-wrap section.content .contact-wrap {
+        width: 80%; } }
+    @media only screen and (max-width: 767px) {
+      .promotions-page-wrap section.content .contact-wrap {
+        width: 100%;
+        padding-top: 62px; } }
+    .promotions-page-wrap section.content .contact-wrap iframe body {
+      background-color: chocolate; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .display-flex {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .display-flex {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .display-flex .input-field {
+        width: 48.335%; }
+        @media only screen and (max-width: 767px) {
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .display-flex .input-field {
+            width: 100%; } }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .input-field {
+      margin-bottom: 20px; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .input-field {
+          margin-bottom: 17px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .input-field.textarea-input {
+        margin-bottom: 18px; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text],
+    .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email],
+    .promotions-page-wrap section.content .contact-wrap .form-wrap textarea {
+      background: #FFFFFF;
+      border: 1px solid #A0A0A0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 19px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 48px;
+      width: 100%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      letter-spacing: 0.02em;
+      color: #A0A0A0;
+      padding: 0px 16px; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text],
+        .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email],
+        .promotions-page-wrap section.content .contact-wrap .form-wrap textarea {
+          font-size: 16px;
+          line-height: 19px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text]::-webkit-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email]::-webkit-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap textarea::-webkit-input-placeholder {
+        color: #A0A0A0; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text]:-ms-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email]:-ms-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap textarea:-ms-input-placeholder {
+        color: #A0A0A0; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text]::-ms-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email]::-ms-input-placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap textarea::-ms-input-placeholder {
+        color: #A0A0A0; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=text]::placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=email]::placeholder,
+      .promotions-page-wrap section.content .contact-wrap .form-wrap textarea::placeholder {
+        color: #A0A0A0; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field {
+      background: #FFFFFF;
+      border: 1px solid #A0A0A0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 19px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 47px;
+      width: 100%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      letter-spacing: 0.02em;
+      color: #A0A0A0;
+      padding: 0px 16px;
+      position: relative; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field {
+          font-size: 16px;
+          line-height: 19px;
+          height: 48px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field::after {
+        content: '';
+        width: 17px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        right: 17px;
+        top: 18px;
+        background-image: url(select-arrow-contact-page.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+        @media only screen and (max-width: 767px) {
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field::after {
+            right: 22px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .current {
+        font-size: 19px;
+        color: #A0A0A0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer; }
+        @media only screen and (max-width: 767px) {
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .current {
+            font-size: 16px;
+            line-height: 19px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .select-options {
+        display: none;
+        padding: 15px 15px 15px 21px;
+        position: absolute;
+        width: calc(100% + 4px);
+        left: -2px;
+        top: 67px;
+        background: #FFFCEB;
+        border-radius: 0px 0px 20px 20px;
+        border: 2px solid #C4C4C4; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .select-options::before {
+          width: 100%;
+          height: 2px;
+          background-color: #C4C4C4;
+          position: absolute;
+          left: 0px;
+          top: 0; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .select-options li {
+          display: block;
+          list-style: none;
+          font-size: 30px;
+          line-height: 42px;
+          color: #949494;
+          -webkit-transition: 0.2s;
+          transition: 0.2s;
+          cursor: pointer; }
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field .select-options li:hover {
+            color: #000000;
+            -webkit-transition: 0.2s;
+            transition: 0.2s; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field.active {
+        border-radius: 20px 20px 0px 0px; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .select-field.active .select-options {
+          display: block; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap textarea {
+      height: 192px;
+      padding-top: 9px; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=submit] {
+      height: 48px;
+      width: 180px;
+      margin: 0 auto;
+      background: #284734;
+      border-radius: 100px;
+      border: none;
+      font-size: 19px;
+      line-height: 23px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      letter-spacing: 0.02em;
+      color: #ffffff; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap input[type=submit] {
+          font-size: 14.9854px;
+          line-height: 18px;
+          width: 142px;
+          height: 38px; } }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input {
+      background: #FFFFFF;
+      border: 1px solid #A0A0A0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      min-height: 89px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input {
+          min-height: 95px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input span {
+        display: block;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #A0A0A0; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input span.top {
+          font-size: 19px;
+          line-height: 23px;
+          margin-bottom: 10px; }
+          @media only screen and (max-width: 767px) {
+            .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input span.top {
+              font-size: 16px;
+              line-height: 19px; } }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input span.bottom {
+          font-size: 15px;
+          line-height: 18px; }
+          @media only screen and (max-width: 767px) {
+            .promotions-page-wrap section.content .contact-wrap .form-wrap .file-input span.bottom {
+              font-size: 14px;
+              line-height: 17px; } }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox {
+      margin-bottom: 10px;
+      position: relative; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox label {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        color: #727272;
+        padding-left: 28px;
+        position: relative;
+        cursor: pointer; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox input[type=checkbox] {
+        position: absolute;
+        opacity: 0; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox input[type=checkbox]:checked ~ .custom-checkbox:before {
+          opacity: 1; }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox .custom-checkbox {
+        border: 2px solid #727272;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border-radius: 3px;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 0px;
+        top: 0px; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .input-checkbox .custom-checkbox:before {
+          content: '';
+          width: 10px;
+          height: 7px;
+          display: block;
+          position: absolute;
+          top: 3px;
+          left: 2px;
+          opacity: 0;
+          -webkit-transition: 0.2s;
+          transition: 0.2s;
+          background-image: url(checkbox-checked.svg);
+          background-size: cover; }
+    .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques {
+      padding-top: 26px;
+      padding-bottom: 34px; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques {
+          padding-top: 32px;
+          padding-bottom: 22px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .title {
+        font-size: 32px;
+        line-height: 52px;
+        text-align: center;
+        color: #284734;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 20px; }
+        @media only screen and (max-width: 767px) {
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .title {
+            font-size: 30px;
+            margin-bottom: 22px; } }
+      .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap {
+        margin-bottom: 9px; }
+        @media only screen and (max-width: 767px) {
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap {
+            margin-bottom: 17px; } }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .display-flex {
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start; }
+          .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .display-flex .column {
+            width: 36.5%;
+            padding-right: 25px; }
+            @media only screen and (max-width: 767px) {
+              .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .display-flex .column {
+                width: 50%;
+                padding-right: 0px; } }
+            .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .display-flex .column:nth-child(2) {
+              padding-left: 12px; }
+        .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .sub-title {
+          font-size: 24px;
+          line-height: 52px;
+          letter-spacing: -0.02em;
+          text-align: left;
+          color: #284734;
+          margin-bottom: 11px;
+          width: 100%; }
+          @media only screen and (max-width: 767px) {
+            .promotions-page-wrap section.content .contact-wrap .form-wrap .additional-reques .options-wrap .sub-title {
+              font-size: 22px;
+              padding: 0px; } }
+  .promotions-page-wrap section.content .success-msg {
+    padding-top: 4px;
+    text-align: center;
+    min-height: 417px; }
+    @media only screen and (max-width: 767px) {
+      .promotions-page-wrap section.content .success-msg {
+        padding-top: 13px;
+        min-height: 455px;
+        min-height: 247px; } }
+    .promotions-page-wrap section.content .success-msg p {
+      font-size: 22px;
+      line-height: 24px;
+      color: #373732;
+      margin-bottom: 13px; }
+      @media only screen and (max-width: 767px) {
+        .promotions-page-wrap section.content .success-msg p {
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 15px; } }
+      .promotions-page-wrap section.content .success-msg p a {
+        font-size: 13px;
+        line-height: 24px;
+        color: #373732;
+        opacity: 0.6; }
+
+/*# sourceMappingURL=style-promotions.css.map */

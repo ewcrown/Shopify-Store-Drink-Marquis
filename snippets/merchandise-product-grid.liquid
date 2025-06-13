@@ -1,0 +1,19 @@
+<div class="col-md-4 col-6 column-{{ counter }}">
+    <div class="product-wrap">
+        <div class="image-wrap">
+            <a href="{{ product.url | within: collection }}">
+                <img src="{{ product.images[0] | img_url: "10x" }}" alt="{{ product.title | escape }}"
+                     class="lazyload"
+                     data-src="{{ product.images[0]  | img_url: '400x' }}"
+                     data-widths="[400]"
+                     data-sizes="auto"
+                     tabindex="-1"
+                />
+            </a>
+        </div>
+        <div class="footer">
+            <div class="title"><a href="{{ product.url | within: collection }}">{{ product.title }}</a></div>
+            <div class="price">{{ product.price | money }}</div>
+        </div>
+    </div>
+</div>

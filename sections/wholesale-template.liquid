@@ -1,0 +1,118 @@
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li class="link">Support</li>
+                        <li class="link"><a href="/pages/contact-us">Contact Us</a></li>
+                        <li><a href="/pages/wholesale">Wholesale</a></li>
+                    </ul>
+                </div>
+                <div class="navigation-select">
+                    <span class="current">Wholesale</span>
+                    <ul class="select-options">
+                        <li><a href="pages/faq">FAQ</a></li>
+                        <li><a href="pages/contact-us">Contact Us</a></li>
+                        <li><a href="/pages/wholesale">Wholesale</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="page-hero" style="background: linear-gradient(0deg, rgba(40, 71, 52, 0.8), rgba(40, 71, 52, 0.8)), url({{ section.settings.hero-bg | img_url: 'master' }}), #C4C4C4;">
+                    <h1 class="section-title">{{ section.settings.title }}</h1>
+                    <div class="sub-title">{{ section.settings.sub-title }}</div>
+                    <p>{{ section.settings.description }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="navigation-wrap desktop-navigation">
+                    {% include 'page-faq-navigation', page_url: page.template_suffix %}
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contact-wrap">
+                    {% form 'contact' %}
+                        {% if form.posted_successfully? %}
+                            <div class="success-msg">
+                                <p>Your message has been sent successfully.</p>
+                                <p><a href="/">Back to Wholesale Contact</a></p>
+                            </div>
+                        {% else %}
+                            <div class="display-flex">
+                                <div class="input-field">
+                                    <input type="text" id="retailer-name" name="contact[retailer_name]" required />
+                                    <label for="retailer-name">Retailer Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="text" id="first-name" name="contact[first_name]" placeholder="Contact First Name*" required />
+                                    <label for="first-name">Contact First Name</label>
+                                </div>
+                            </div>
+                            <div class="display-flex">
+                                <div class="input-field">
+                                    <input type="text" id="last-name" name="contact[last_name]" required />
+                                    <label for="last-name">Contact Last Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <select id="contact-country" class="nice-select" name="contact[country]" id="">
+                                        {{ all_country_option_tags }}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="phone-number" name="contact[phone]" required />
+                                <label for="phone-number">Contact Phone Number</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email" name="contact[email]" onkeyup="this.setAttribute('value', this.value);" value="" required />
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field textarea-input">
+                                <textarea id="message" name="contact[message]" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="input-field submit-input">
+                                <input type="submit" value="Submit">
+                            </div>
+                        {% endif %}
+                    {% endform %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+
+{
+    "name": "Page hero",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "hero-bg",
+            "label": "Hero image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "sub-title",
+            "label": "Sub title"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+        }
+    ]
+}
+
+{% endschema %}

@@ -1,0 +1,283 @@
+<header class="main-header">
+    <div class="nav-bar">
+        <div class="main-navigation{% if page.template_suffix == 'about2' %} white-navigation{% endif %}">
+            <div class="navigation-wrap">
+                <div class="column left-column">
+                    <ul class="navigation">
+                        <li class="burger-mobile">
+                            <a class="burger-btn" href="#">
+                                <svg class="open" width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="17" height="2" fill="#284734"/>
+                                    <rect y="6" width="17" height="2" fill="#284734"/>
+                                    <rect y="12" width="17" height="2" fill="#284734"/>
+                                </svg>
+                                <svg class="close" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2.19678" width="17" height="2" transform="rotate(45 2.19678 0)" fill="#284734"/>
+                                    <rect x="0.782715" y="12.3037" width="17" height="2" transform="rotate(-45 0.782715 12.3037)" fill="#284734"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="has-children">
+                            <a class="text-link" href="javascript:void(0);">Shop</a>
+                            <div class="sub-menu-wrap">
+                                <div class="sub-menu">
+                                    <div class="navigation-slider owl-carousel">
+                                    {% for block in section.blocks %}
+                                        {% assign header_product = all_products[block.settings.title] %}
+                                        <div class="sub-menu-item">
+                                            <a href="{{ header_product.url }}">
+                                                <div class="image-wrap">
+
+                                                    {% if block.settings.main_image_product != blank %}
+                                                        <img class="main-image" src="{{ block.settings.main_image_product | img_url:"300x" }}" />
+                                                    {% else %}
+                                                        {% if header_product.featured_image %}
+                                                            <img class="main-image" src="{{ header_product.featured_image.src | img_url:"300x" }}" />
+                                                        {% else %}
+                                                            <img class="main-image" src="{{ header_product.images[0].src | img_url:"300x" }}" />
+                                                        {% endif %}
+                                                    {% endif %}
+
+                                                    {% if block.settings.hover_image_product != blank %}
+                                                        <img src="{{ block.settings.hover_image_product | img_url:"300x" }}" />
+                                                    {% else %}
+                                                        {% if header_product.images[1] %}
+                                                            <img src="{{ header_product.images[1].src | img_url:"300x" }}" />
+                                                        {% endif %}
+                                                    {% endif %}
+
+                                                </div>
+                                                <div class="content-wrap">
+                                                    <span class="title">{% if block.settings.title_in_menu_product != blank %}{{ block.settings.title_in_menu_product }}{% else %}{{ header_product.title }}{% endif %}</span>
+                                                    <span>Discover</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="text-link" href="{{ section.settings.subscription_url }}">BEST SELLER PACK</a></li>
+                    </ul>
+                </div>
+                <div class="column center-column">
+                    <a href="/">
+                        <div class="logo-wrap">
+                            <img class="main-logo" src="{% if page.template_suffix == 'about2' %} {{ "main-logo-white.svg" | asset_url }} {% else %} {{ "main-logo-green.svg" | asset_url }} {% endif %}" class="logo" data-white-logo="{{ "main-logo-white.svg" | asset_url }}" data-green-logo="{{ "main-logo-green.svg" | asset_url }}" />
+                        </div>
+                    </a>
+                </div>
+                <div class="column right-column">
+                    <ul class="navigation">
+                        <li style="display: none;">
+                            <a class="text-link" href="{{ section.settings.collection_url }}">Collection</a>
+                        </li>
+                        <li>
+                            <a class="text-link" href="{{ section.settings.store_locator_url }}">Retail</a>
+                        </li>
+                        <li class="has-children">
+                            <a class="text-link" href="{{ section.settings.learn_url }}">Learn</a>
+                            <div class="sub-menu-wrap">
+                                <div class="sub-menu-links">
+                                    <ul>
+                                        {% for link in linklists.learn-menu.links %} 
+                                            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            {% if customer %}
+                                <a class="account-btn" href="/account">
+                                    <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 20C17.7614 20 20 17.7614 20 15C20 12.2386 17.7614 10 15 10C12.2386 10 10 12.2386 10 15C10 17.7614 12.2386 20 15 20Z" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M6 24C6.46522 22.8637 7.60903 21.8492 9.2441 21.1225C10.8792 20.3958 12.9086 20 15 20C17.0914 20 19.1208 20.3958 20.7559 21.1225C22.391 21.8492 23.5348 22.8637 24 24" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="15" cy="16" r="12" stroke="#284734" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            {% else %}
+                                <a class="account-btn login-form" href="javascript:void(0)">
+                                    <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 20C17.7614 20 20 17.7614 20 15C20 12.2386 17.7614 10 15 10C12.2386 10 10 12.2386 10 15C10 17.7614 12.2386 20 15 20Z" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M6 24C6.46522 22.8637 7.60903 21.8492 9.2441 21.1225C10.8792 20.3958 12.9086 20 15 20C17.0914 20 19.1208 20.3958 20.7559 21.1225C22.391 21.8492 23.5348 22.8637 24 24" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="15" cy="16" r="12" stroke="#284734" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            {% endif %}
+                        </li>
+
+                        <li>
+                          <div class="searchbar">
+                            <a class="search-btn">
+                              <svg width="31" height="31" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19.5" cy="19.5" r="18" stroke="#404040" stroke-width="3"/>
+                                <path d="M33 33L48 48" stroke="#404040" stroke-width="3"/>
+                              </svg>
+                            </a>
+                            <div class="search-form">
+                              <form class="search" id="searchForm" action="/search">
+                                <input type="text" placeholder="Search" name="q" value="{{ search.terms | escape }}"  />
+                                <input type="hidden" name="type" value="product">
+                                <button class="form-search-btn" type="submit">
+                                  <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px">
+                                    <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"/>
+                                    </svg>
+                                </button>
+                              </form>
+                            </div>
+                          </div>
+                        </li>
+                                      
+                        <li>
+                            <a class="cart-btn cart-action" href="javascript:void(0)">
+                                <svg viewBox="0 0 31 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M15.496 21.829h.004a17.627 17.627 0 0 1 5.794.91.28.28 0 0 0 .375-.221l.969-5.756a.248.248 0 0 0-.308-.314.247.247 0 0 0-.13.094L19.14 19.61l-3.437-3.45-.002-.003a.29.29 0 0 0-.403 0l-.003.003-3.438 3.452-3.082-3.08a.248.248 0 0 0-.42.217l.971 5.769a.281.281 0 0 0 .375.222 17.64 17.64 0 0 1 5.796-.911Z" fill="#2A4735" stroke="#2A4735" stroke-width=".3"/>
+                                  <path d="M20.825 23.924a.34.34 0 0 0 .126-.657l-.006-.002a16.005 16.005 0 0 0-5.447-.914 16.005 16.005 0 0 0-5.447.914l-.006.002a.34.34 0 0 0 .126.657h10.654Z" fill="#2A4735" stroke="#2A4735" stroke-width=".3"/>
+                                  <path d="M25.333 9.935H5.406c-.5 0-.906.486-.906 1.086v17.392c0 .6.406 1.087.906 1.087h19.927c.5 0 .906-.487.906-1.087V11.02c0-.6-.405-1.086-.906-1.086Z" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.935 14.283V9.935a5.435 5.435 0 0 1 10.87 0v4.348" stroke="#284734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="quantity-items"><span id="header_cart_quantity">0</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-navigation">
+                <ul class="top-menu">
+                    <li class="has-child active">
+                        <a href="/collections/all">SHOP ALL</a>
+                    </li>
+                  
+                    <li class="has-child">
+                      <a href="javascript:void(0)">Flavors</a>
+                      <div class="sub-menu">
+                            {% for block in section.blocks %}
+                                {% assign header_product = all_products[block.settings.title] %}
+                                <div class="sub-menu-item">
+                                    <a href="{{ header_product.url }}">
+                                      <div class="content-wrap w50">
+                                            <span class="title">{% if block.settings.title_in_menu_product != blank %}{{ block.settings.title_in_menu_product }}{% else %}{{ header_product.title }}{% endif %}</span>
+                                        </div>
+                                        <div class="image-wrap w50">
+                                            {% if block.settings.main_image_product != blank %}
+                                                <img class="main-image" src="{{ block.settings.main_image_product | img_url:"300x" }}" />
+                                            {% else %}
+                                                {% if header_product.featured_image %}
+                                                    <img class="main-image" src="{{ header_product.featured_image.src | img_url:"300x" }}" />
+                                                {% else %}
+                                                    <img class="main-image" src="{{ header_product.images[0].src | img_url:"300x" }}" />
+                                                {% endif %}
+                                            {% endif %}
+                                        </div>    
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </li>
+                    
+                    <li><a href="{{ section.settings.subscription_url }}">BEST SELLER PACK</a></li>
+                    <li><a href="{{ section.settings.marquology_url }}">Recipes</a></li>
+                    <li class="nav-bottom"><a href="{{ section.settings.about_url }}">Our Story</a></li>
+                    <li class="nav-bottom"><a href="{{ section.settings.blog_url }}">Blog</a></li>
+                    <li class="nav-bottom"><a href="{{ section.settings.contact_url }}">Contact Us</a></li>
+                    <li class="nav-bottom"><a href="{{ section.settings.press_url }}">Press</a></li>
+                    <li class="nav-bottom"><a href="{{ section.settings.store_locator_url }}">Store Locator</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+{% schema %}
+{
+    "name": "Header",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Subscription and Learn Links"
+        },
+        {
+            "type": "url",
+            "id": "subscription_url",
+            "label": "URL for Subscription"
+        },
+        {
+            "type": "url",
+            "id": "marquology_url",
+            "label": "URL for Marquology"
+        },
+        {
+            "type": "url",
+            "id": "learn_url",
+            "label": "URL for Learn"
+        },
+        {
+            "type": "url",
+            "id": "about_url",
+            "label": "URL for About"
+        },
+        {
+            "type": "url",
+            "id": "blog_url",
+            "label": "URL for Blog"
+        },
+        {
+            "type": "url",
+            "id": "contact_url",
+            "label": "URL for Contact"
+        },
+        {
+            "type": "url",
+            "id": "press_url",
+            "label": "URL for Press"
+        },
+        {
+            "type": "url",
+            "id": "collection_url",
+            "label": "URL for Collection"
+        },
+        {
+            "type": "url",
+            "id": "store_locator_url",
+            "label": "URL for Retail"
+        },
+        {
+            "type": "header",
+            "content": "Shop Products List"
+        }
+    ],
+    "blocks": [
+    {
+        "type": "products",
+        "name": "Products",
+        "settings": [
+            {
+                "type": "product",
+                "id": "title",
+                "label": "Product"
+            },
+            {
+                "type": "text",
+                "id": "title_in_menu_product",
+                "label": "Product - Title In Menu"
+            },
+            {
+                "type": "image_picker",
+                "id": "main_image_product",
+                "label": "Product - Main Image"
+            },
+            {
+                "type": "image_picker",
+                "id": "hover_image_product",
+                "label": "Product - Hover Image"
+            }
+        ]
+        }
+    ]
+}
+
+{% endschema %}
+

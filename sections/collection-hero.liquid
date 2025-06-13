@@ -1,0 +1,18 @@
+<section class="collection-hero pdm-section">
+    <div class="container container--medium">
+        <div class="collection-hero__image">
+            <img src="{{ collection.featured_image | img_url: "1000x" }}" alt="{{ collection.title }}" />
+        </div>
+        <div class="collection-hero__content">
+            <h1>{{ collection.title }}</h1>
+        </div>
+    </div>
+  <div class="collection-hero__wave"></div>
+</section>
+
+{% schema %}
+  {
+    "name": "Collection Hero",
+    "settings": []
+  }
+{% endschema %}

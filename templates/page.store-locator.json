@@ -1,0 +1,529 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "store-locator-template": {
+      "type": "store-locator-template",
+      "blocks": {
+        "aa859f3d-3131-49bb-abf0-82e27edcb45c": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Aliso Viejo",
+            "address": "26932 La Paz Rd Aliso Viejo,CA\t92656",
+            "lat": "33.571497722470845",
+            "long": "-117.70527141620042"
+          }
+        },
+        "51104783-a85f-4a89-835a-4e4885d364d8": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Chino",
+            "address": "5555 Philadelphia St Chino, CA\t91710",
+            "lat": "34.03305949772396",
+            "long": "-117.6814322738577"
+          }
+        },
+        "8523dbea-6c56-4639-b8cd-4bba10329c40": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Commerce",
+            "address": "5600 Whittier Blvd, Commerce, CA 90022",
+            "lat": "34.019905475396726",
+            "long": "-118.15051883015897"
+          }
+        },
+        "6c7eb8eb-83f6-451c-b945-c6779dcb467d": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Costa Mesa",
+            "address": "3030 Harbor Blvd Ste A, Costa Mesa, CA, US, 92626",
+            "lat": "33.681784",
+            "long": "-117.917943"
+          }
+        },
+        "fd59c015-4540-496c-8bef-735b213d15e5": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Culver City",
+            "address": "10820 Jefferson Blvd. Culver City\tCA\t90230",
+            "lat": "33.999405280001824",
+            "long": "-118.39348477881657"
+          }
+        },
+        "cfa448a2-22a3-41a0-9a88-e268f830afb7": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Carson",
+            "address": "651 W Sepulveda Blvd, Carson, CA, US, 90745",
+            "lat": "33.809760",
+            "long": "-118.286099"
+          }
+        },
+        "9861ccee-9e36-416a-8f92-f41e7937613e": {
+          "type": "store",
+          "settings": {
+            "title": "Target - De Soto",
+            "address": "20801 Ventura Blvd, Woodland Hills, CA 91364",
+            "lat": "34.16777769104817",
+            "long": "-118.58466845851102"
+          }
+        },
+        "fce12403-8bab-43ec-b6f9-490b7ef407bc": {
+          "type": "store",
+          "settings": {
+            "title": "Target - DTLA",
+            "address": "735 S. Figueroa St.\tLos Angeles\tCA\t90017",
+            "lat": "34.049418485014115",
+            "long": "-118.26085070269271"
+          }
+        },
+        "2976e8c4-bb2e-4282-89e5-280a749b404f": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Eastvale",
+            "address": "12471 Limonite Ave, Eastvale, CA, US, 91752",
+            "lat": "33.978378",
+            "long": "-117.554171"
+          }
+        },
+        "e8e97105-6626-47c4-918d-92109999e666": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Gardena",
+            "address": "2169 W Redondo Beach Blvd.\tTorrance, CA 90504",
+            "lat": "33.88688663535644",
+            "long": "-118.31653421619082"
+          }
+        },
+        "b1f3be3d-c84f-4ca5-a78f-0ad3948b9583": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Huntington",
+            "address": "9882 Adams Ave, Huntington beach, CA, US, 92646",
+            "lat": "33.670973",
+            "long": "-117.956203"
+          }
+        },
+        "4196e1fd-508a-4ee4-9ffc-3154ff3c1f81": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Hawthorne",
+            "address": "2700 W 120th St, Hawthorne, CA, US, 90250",
+            "lat": "33.921839",
+            "long": "-118.321538"
+          }
+        },
+        "f100e7d5-3a02-4d8e-b10f-6908618fd392": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Irvine Spectrum",
+            "address": "900 Spectrum Center Dr, Irvine, CA, US, 92618",
+            "lat": "33.647857",
+            "long": "-117.740510"
+          }
+        },
+        "f5f145b3-bb51-4a36-951b-f5c05f8c3f9f": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Irvine (UCI)",
+            "address": "4255 Campus drive, Irvine, CA, US, 92612",
+            "lat": "33.649449",
+            "long": "-117.839328"
+          }
+        },
+        "91870bc6-680e-4b1e-8f0f-d1a82cba3e1a": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Irvine Jamboree",
+            "address": "13200 Jamboree Rd, Irvine, CA, US, 92602",
+            "lat": "33.729572",
+            "long": "-117.786582"
+          }
+        },
+        "9f0a7f66-519f-4bd7-b735-1c9d4f529d6f": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Inglewood",
+            "address": "3471 W. Century Blvd, Inglewood, CA, US, 90303",
+            "lat": "33.948312",
+            "long": "-118.333592"
+          }
+        },
+        "2a777603-b528-4ba6-8d80-dfe349ce1582": {
+          "type": "store",
+          "settings": {
+            "title": "Target - LA Westwood",
+            "address": "10861 Weyburn Ave Los Angeles, CA\t90024",
+            "lat": "34.062939521389005",
+            "long": "-118.4438670026922"
+          }
+        },
+        "3e839558-426f-4a10-a42a-f5dae529f0f0": {
+          "type": "store",
+          "settings": {
+            "title": "Target - LA Beverly",
+            "address": "8480 Beverly Blvd Ste 1A Los Angeles, CA 90048",
+            "lat": "34.07546992177998",
+            "long": "-118.37561146036299"
+          }
+        },
+        "bc33380e-9e93-4b69-a84a-7c1926739e58": {
+          "type": "store",
+          "settings": {
+            "title": "Target - S. La Cienega",
+            "address": "3535 S La Cienega Blvd\tLos Angeles\tCA, 90016",
+            "lat": "34.02429924232549",
+            "long": "-118.3736495543418"
+          }
+        },
+        "63b2484b-1559-48fa-9597-556b0be7345f": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Long Beach",
+            "address": " 5760 E 7th St\tLong Beach, CA\t90803",
+            "lat": "33.77459265268127",
+            "long": "-118.1195286161943"
+          }
+        },
+        "82e9de46-a27e-422f-88cb-a4b97255c317": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Long Beach Bellflower",
+            "address": "2270 N Bellflower Blvd, Long Beach, CA 90815",
+            "lat": "33.79814996747106",
+            "long": "-118.12255728735789"
+          }
+        },
+        "9fbcbfb3-5a66-4703-ad08-e2678c66c4a9": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Manhattan Beach",
+            "address": "1200 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+            "lat": "33.88921097305585",
+            "long": "-118.39426271803994"
+          }
+        },
+        "274c2b16-fc76-49bc-a4ec-7482bf705cc2": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Menifee",
+            "address": "30340 Haun Road, Menifee, CA, US, 92584",
+            "lat": "33.680346",
+            "long": "-117.172245"
+          }
+        },
+        "65baa3eb-f3b4-4426-989c-511c5c0834cd": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Norwalk",
+            "address": "10600 Firestone Blvd, Norwalk, CA, US, 90650",
+            "lat": "33.926057",
+            "long": "-118.107617"
+          }
+        },
+        "ef8544c5-ea2b-4f79-87f8-fde329055e8b": {
+          "type": "store",
+          "settings": {
+            "title": "Target - North Hollywood",
+            "address": "11051 Victory Blvd\tNorth Hollywood, CA 91606",
+            "lat": "34.18882962460683",
+            "long": "-118.37140613152395"
+          }
+        },
+        "6dcc5f2f-5199-454c-b90e-b8f36a388101": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Pasadena East",
+            "address": "3121 E. Colorado Blvd, Pasadena, CA, US, 91107",
+            "lat": "34.146931",
+            "long": "-118.084786"
+          }
+        },
+        "fec97e7c-6ea7-47fb-8321-1b703dd92b65": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Redondo Beach",
+            "address": "1601 Kingsdale Ave Redondo Beach\tCA, 90278",
+            "lat": "33.869109579894754",
+            "long": "-118.35766791619122"
+          }
+        },
+        "ac4c336c-7644-46fe-8043-6827d9ff1b0a": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Rancho Santa Margarita Pkwy",
+            "address": "30602 Santa Margarita Pkwy, Rancho Santa Margarita, CA 92688",
+            "lat": "33.64178214762424",
+            "long": "-117.5980943431846"
+          }
+        },
+        "dda447c0-d104-4748-9e9e-c77e6678c5d4": {
+          "type": "store",
+          "settings": {
+            "title": "Target - San Pedro",
+            "address": "1701 N Gaffey St, San Pedro, CA, US, 90731",
+            "lat": "33.760572",
+            "long": "-118.294137"
+          }
+        },
+        "7ae30de3-5b6c-4722-8646-45f2e4f9d2ae": {
+          "type": "store",
+          "settings": {
+            "title": "Target - South Gate",
+            "address": "5700 firestone blvd, South gate, CA, US, 90280",
+            "lat": "33.948079",
+            "long": "-118.168403"
+          }
+        },
+        "4ab619f0-454f-417e-8fbe-5d0394e5beaf": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Sepulveda Blvd",
+            "address": "6000 Sepulveda Blvd Culver City, CA\t90230",
+            "lat": "33.984950670338975",
+            "long": "-118.39460794502337"
+          }
+        },
+        "456412e0-0802-49fe-9571-5aba49e6c491": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Seal Beach",
+            "address": "12300 Seal Beach Blvd Seal Beach, CA 90740",
+            "lat": "33.783167212195785",
+            "long": "-118.06939380085146"
+          }
+        },
+        "c514c700-b2d1-458c-be04-4008976560cb": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Santa Fe",
+            "address": "10621 Carmenita Rd, Santa Fe Springs, CA, US, 90670",
+            "lat": "33.937822",
+            "long": "-118.048169"
+          }
+        },
+        "c430a625-d563-458a-8a9b-5e3b3acce7ef": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Temecula",
+            "address": "29676 Rancho California Rd, Temecula, CA, US, 92591",
+            "lat": "33.506796",
+            "long": "-117.146145"
+          }
+        },
+        "865b1738-bbf0-4220-96d9-c0764f51a390": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Torrance",
+            "address": "3433 Sepulveda Blvd, Torrance, CA, US, 90505",
+            "lat": "33.827009",
+            "long": "-118.345647"
+          }
+        },
+        "fc5f7098-6f8d-4092-8232-f6eb2c5bbeca": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Tustin",
+            "address": "2300 Park Ave, Tustin, CA, US, 92782",
+            "lat": "33.700095",
+            "long": "-117.827476"
+          }
+        },
+        "d5bd2cd9-6c5c-4825-bfba-f8d636941578": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Valencia",
+            "address": "24425 Magic Mountain Pkwy, Valencia, CA 91355",
+            "lat": "34.421293487427505",
+            "long": "-118.56160906035237"
+          }
+        },
+        "59100fcd-c1ba-4077-8b96-ff0f4df8046a": {
+          "type": "store",
+          "settings": {
+            "title": "Target - West Hollywood",
+            "address": "7100 Santa Monica Blvd, STE 201\tWest Hollywood, CA 90046",
+            "lat": "34.08992851040171",
+            "long": "-118.3446592450201"
+          }
+        },
+        "a45fe96b-bdbf-4411-86e0-9dd216b097e5": {
+          "type": "store",
+          "settings": {
+            "title": "Target - West Covina",
+            "address": "2831 E Eastland Ctr Dr West Covina, CA 91791",
+            "lat": "34.07397677849889",
+            "long": "-117.88435951618506"
+          }
+        },
+        "b7ccf5c6-1203-4307-a801-c8ba5dc60c38": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Whittier",
+            "address": "15614 Whittwood Ln, Whittier, CA 90603",
+            "lat": "33.94302049222201",
+            "long": "-117.99657088735353"
+          }
+        },
+        "289e5858-5e94-4965-a10b-c37cf5596f27": {
+          "type": "store",
+          "settings": {
+            "title": "Target - Westminster",
+            "address": "16400 Beach Blvd, Westminster, CA 92683",
+            "lat": "33.72608463032881",
+            "long": "-117.98585290270249"
+          }
+        },
+        "14f2dd1f-a916-4df0-9a12-df0fab9cae24": {
+          "type": "store",
+          "settings": {
+            "title": "Vicente Foods Market",
+            "address": "12027 San Vicente Blvd, Los Angeles, CA, US, 90049",
+            "lat": "34.052372",
+            "long": "-118.473843"
+          }
+        },
+        "13a8097a-9a76-4cc7-8f91-d7c1926480a0": {
+          "type": "store",
+          "settings": {
+            "title": "Zanotto's Market",
+            "address": "1356 S Mary Ave, Sunnyvale, CA, US, 94087",
+            "lat": "37.35117524450167",
+            "long": "-122.0499556127707"
+          }
+        },
+        "dbafc668-b040-4cd5-86d0-97f16b4a1597": {
+          "type": "store",
+          "settings": {
+            "title": "Zanotto's Family Market",
+            "address": "1970 Naglee Ave, San Jose, CA, US, 95126",
+            "lat": "37.32818548810196",
+            "long": "-121.93117735450016"
+          }
+        },
+        "70fc65a6-04a1-4953-ac22-99a5c80e10a1": {
+          "type": "store",
+          "settings": {
+            "title": "Zanotto's Fruitdale Station Market",
+            "address": "1520 Southwest Expy, San Jose, CA 95126",
+            "lat": "37.31048207967594",
+            "long": "-121.91702801772918"
+          }
+        },
+        "64f9f5d0-71e8-4417-9244-7f6ec7558b3d": {
+          "type": "store",
+          "settings": {
+            "title": "Zanotto's Willow Glen Market",
+            "address": "1421 Foxworthy Ave #1119, San Jose, CA 95118",
+            "lat": "37.275707413421316",
+            "long": "-121.8922068428617"
+          }
+        },
+        "18212c87-de95-48ce-b228-8a7b80c4a8f5": {
+          "type": "store",
+          "settings": {
+            "title": "Mr Brews Taphouse",
+            "address": "N91W15720 Falls Pkwy, Menomonee Falls, WI 53051",
+            "lat": "43.18298724264785",
+            "long": "-88.10488322919728"
+          }
+        },
+        "48cee3b8-a515-4ae2-8788-1730d5d794d0": {
+          "type": "store",
+          "settings": {
+            "title": "Cermak Fresh Market",
+            "address": "1541 Miller Park Way, West Milwaukee, WI 53214",
+            "lat": "43.01452808690976",
+            "long": "-87.9696867868746"
+          }
+        },
+        "ac158a65-c082-480a-80c0-84dede3de836": {
+          "type": "store",
+          "settings": {
+            "title": "ampm-Long Beach",
+            "address": "1785 N Bellflower Blvd, Long Beach, CA, US, 90815",
+            "lat": "33.788284",
+            "long": "-118.124715"
+          }
+        },
+        "ea9fab97-d20d-4d5b-9963-96b32199acd0": {
+          "type": "store",
+          "settings": {
+            "title": "7-Eleven",
+            "address": "541 W Imperial Hwн \nLa Habra CA, 90631",
+            "lat": "33.917684",
+            "long": "-117.951467"
+          }
+        }
+      },
+      "block_order": [
+        "aa859f3d-3131-49bb-abf0-82e27edcb45c",
+        "51104783-a85f-4a89-835a-4e4885d364d8",
+        "8523dbea-6c56-4639-b8cd-4bba10329c40",
+        "6c7eb8eb-83f6-451c-b945-c6779dcb467d",
+        "fd59c015-4540-496c-8bef-735b213d15e5",
+        "cfa448a2-22a3-41a0-9a88-e268f830afb7",
+        "9861ccee-9e36-416a-8f92-f41e7937613e",
+        "fce12403-8bab-43ec-b6f9-490b7ef407bc",
+        "2976e8c4-bb2e-4282-89e5-280a749b404f",
+        "e8e97105-6626-47c4-918d-92109999e666",
+        "b1f3be3d-c84f-4ca5-a78f-0ad3948b9583",
+        "4196e1fd-508a-4ee4-9ffc-3154ff3c1f81",
+        "f100e7d5-3a02-4d8e-b10f-6908618fd392",
+        "f5f145b3-bb51-4a36-951b-f5c05f8c3f9f",
+        "91870bc6-680e-4b1e-8f0f-d1a82cba3e1a",
+        "9f0a7f66-519f-4bd7-b735-1c9d4f529d6f",
+        "2a777603-b528-4ba6-8d80-dfe349ce1582",
+        "3e839558-426f-4a10-a42a-f5dae529f0f0",
+        "bc33380e-9e93-4b69-a84a-7c1926739e58",
+        "63b2484b-1559-48fa-9597-556b0be7345f",
+        "82e9de46-a27e-422f-88cb-a4b97255c317",
+        "9fbcbfb3-5a66-4703-ad08-e2678c66c4a9",
+        "274c2b16-fc76-49bc-a4ec-7482bf705cc2",
+        "65baa3eb-f3b4-4426-989c-511c5c0834cd",
+        "ef8544c5-ea2b-4f79-87f8-fde329055e8b",
+        "6dcc5f2f-5199-454c-b90e-b8f36a388101",
+        "fec97e7c-6ea7-47fb-8321-1b703dd92b65",
+        "ac4c336c-7644-46fe-8043-6827d9ff1b0a",
+        "dda447c0-d104-4748-9e9e-c77e6678c5d4",
+        "7ae30de3-5b6c-4722-8646-45f2e4f9d2ae",
+        "4ab619f0-454f-417e-8fbe-5d0394e5beaf",
+        "456412e0-0802-49fe-9571-5aba49e6c491",
+        "c514c700-b2d1-458c-be04-4008976560cb",
+        "c430a625-d563-458a-8a9b-5e3b3acce7ef",
+        "865b1738-bbf0-4220-96d9-c0764f51a390",
+        "fc5f7098-6f8d-4092-8232-f6eb2c5bbeca",
+        "d5bd2cd9-6c5c-4825-bfba-f8d636941578",
+        "59100fcd-c1ba-4077-8b96-ff0f4df8046a",
+        "a45fe96b-bdbf-4411-86e0-9dd216b097e5",
+        "b7ccf5c6-1203-4307-a801-c8ba5dc60c38",
+        "289e5858-5e94-4965-a10b-c37cf5596f27",
+        "14f2dd1f-a916-4df0-9a12-df0fab9cae24",
+        "13a8097a-9a76-4cc7-8f91-d7c1926480a0",
+        "dbafc668-b040-4cd5-86d0-97f16b4a1597",
+        "70fc65a6-04a1-4953-ac22-99a5c80e10a1",
+        "64f9f5d0-71e8-4417-9244-7f6ec7558b3d",
+        "18212c87-de95-48ce-b228-8a7b80c4a8f5",
+        "48cee3b8-a515-4ae2-8788-1730d5d794d0",
+        "ac158a65-c082-480a-80c0-84dede3de836",
+        "ea9fab97-d20d-4d5b-9963-96b32199acd0"
+      ],
+      "settings": {
+        "google_map_api_key": "AIzaSyBiD1nuh44ZW2-Q39iPkEhszHNL8sxqhMk",
+        "map_center_lat": "37.1842331",
+        "map_center_long": "-118.691928",
+        "map_center_zoom": "6"
+      }
+    }
+  },
+  "order": [
+    "store-locator-template"
+  ]
+}

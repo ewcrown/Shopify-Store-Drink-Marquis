@@ -1,0 +1,64 @@
+<section class="find-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-container">
+                    <div class="title">{{ section.settings.title }}</div>
+                    <div class="section-content" style="background-image: url({{ section.settings.background_image | img_url: 'master'}});">
+                        <div class="gradien-wrap" style="background: linear-gradient(12deg, rgba({{ section.settings.gradient_color_1 }}, 0) 0%, rgba({{ section.settings.gradient_color_2 }}, 0.7));"></div>
+                        {% if section.settings.btn_text != '' %}
+                        <div class="btn-link">
+                            <a href="{{ section.settings.btn_link  }}" class="btn-link btn-border-white">{{ section.settings.btn_text }}</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Index - Find us",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Link"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Link text"
+        },
+        {
+            "type": "color",
+            "id": "gradient_color_1",
+            "label": "First gradient color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "color",
+            "id": "gradient_color_2",
+            "label": "Second gradient color",
+            "default": "#284734"
+        },
+        {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background image"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Index - Find us"
+        }
+    ]
+}
+{% endschema %}

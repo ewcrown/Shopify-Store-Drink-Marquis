@@ -1,0 +1,71 @@
+<div class="page-wrap sponorship-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="section-title">{{ section.settings.title }}</h1>
+                    <div class="sub-title">{{ section.settings.sub-title }}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-wrap">
+                        {% form 'contact' %}
+                            {% if form.posted_successfully? %}
+                                <div class="success-msg">
+                                    <p>Your message has been sent successfully.</p>
+                                    <p><a href="/pages/sponsorship">Back to Marquis Sponsorship</a></p>
+                                </div>
+                            {% else %}
+                                <div class="display-flex">
+                                    <div class="input-field">
+                                        <input type="text" id="first-name" name="contact[first_name]" required />
+                                        <label for="first-name">First Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="last-name" name="contact[last_name]" required />
+                                        <label for="last-name">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" id="email" name="contact[email]" onkeyup="this.setAttribute('value', this.value);" value="" required />
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field textarea-input">
+                                    <textarea id="message" name="contact[message]" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+
+                                <div class="error-form">{{ form.errors | default_errors }}</div>
+
+                                <div class="input-field submit-input">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            {% endif %}
+                        {% endform %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+
+{% schema %}
+
+{
+    "name": "Page header",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Sub title"
+        }
+    ]
+}
+
+{% endschema %}

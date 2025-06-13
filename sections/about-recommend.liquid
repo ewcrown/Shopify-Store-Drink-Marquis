@@ -1,0 +1,73 @@
+<section class="recommend-flavor">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">{{ section.settings.title }}</div>
+            </div>
+        </div>
+        <div class="row">
+            {% assign count = 0 %}
+            {% for block in section.blocks %}
+                <div class="col-md-4 col-6 column">
+                    <div class="flover-wrap">
+                        <div class="image-wrap">
+                            <a href="{{ block.settings.recommend-product.url }}">
+                                <img class="main-image lazyload" src="{{ block.settings.recommend-product.featured_image | img_url: "10x" }}" alt="{{ block.settings.recommend-product.title | escape }}"
+                                    data-src="{{ block.settings.recommend-product.featured_image | img_url: '400x' }}"
+                                    data-widths="[400]"
+                                    data-sizes="auto"
+                                    tabindex="-1"
+                                />
+                                {% if block.settings.recommend-product.images[1] != blank %}
+                                    <img src="{{ block.settings.recommend-product.images[1] | img_url: "10x" }}" alt="{{ block.settings.recommend-product.title | escape }}"
+                                        class="lazyload"
+                                        data-src="{{ block.settings.recommend-product.images[1]  | img_url: '400x' }}"
+                                        data-widths="[400]"
+                                        data-sizes="auto"
+                                        tabindex="-1"
+                                    />
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="footer-wrap">
+                            <div class="title"><a href="{{ block.settings.recommend-product.url }}">{{ block.settings.recommend-product.title }}</a></div>
+                            <a href="{{ block.settings.recommend-product.url }}" class="meta">Discover</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+.about-page-wrap section.recommend-flavor .flover-wrap .image-wrap a{
+    background-color: #ffffff;
+}
+</style>
+
+{% schema %}
+{
+    "name": "Recommend products",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "products",
+            "name": "Recommend product",
+            "settings": [
+                {
+                    "type": "product",
+                    "id": "recommend-product",
+                    "label": "Product"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

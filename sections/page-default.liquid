@@ -1,0 +1,26 @@
+<section class="content">
+    <div class="container">
+        <div class="row">
+            {% if page.title contains 'TERMS' or page.title contains 'POLICY' %}
+              <div class="col-md-3">
+                  {% include 'page-default-navigation', page_url:  page.url %}
+              </div>
+            {% endif %}
+            <div class="col-md-9">
+                <article>
+                    <div class="entry-content">
+                        <h1 class="page-title">{{ page.title }}</h1>
+                        {{ page.content }}
+                    </div>
+                    {% if page.title contains 'TERMS' or page.title contains 'POLICY' %}
+                      <div class="footer">
+                          <div class="btn-wrap">
+                              <a href="/" class="btn-link btn-opacity-08">Back to Main</a>
+                          </div>
+                      </div>
+                    {% endif %}
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

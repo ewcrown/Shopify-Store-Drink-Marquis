@@ -1,0 +1,49 @@
+{% assign module = section.settings %}
+
+<section class="coupon-hero pdm-section">
+    <div class="container">
+        <div class="coupon-hero__image">
+            <img src="{{ module.image | img_url: "1000x" }}" alt="{{ module.heading}}" />
+        </div>
+        <div class="coupon-hero__content">
+            <div class="content-wrap">
+                <h1>{{ module.heading }}</h1>
+                {{ module.content }}
+                <a class="btn btn--green" href="{{ module.cta_link }}">{{ module.cta }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Coupon Hero",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+        },
+        {
+            "type": "text",
+            "id": "cta",
+            "label": "CTA"
+        },
+        {
+            "type": "text",
+            "id": "cta_link",
+            "label": "CTA Link"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        }
+    ]
+  }
+{% endschema %}

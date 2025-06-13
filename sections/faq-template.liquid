@@ -1,0 +1,123 @@
+<div class="page-wrap faq-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li class="link">Support</li>
+                            <li><a href="/pages/faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation-select">
+                        <span class="current">FAQ</span>
+                        <ul class="select-options">
+                            <li><a href="/pages/faq">FAQ</a></li>
+                            <li><a href="/pages/contact-us">Contact Us</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                        </ul>
+                    </div>
+                    <div class="section-title">{{ section.settings.title }}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="navigation-wrap desktop-navigation">
+                        {% include 'page-faq-navigation', page_url: page.template_suffix %}
+                    </div>
+                    <div class="navigation-wrap mobile-navigation">
+                        <ul class="page-navigation faq-tabs">
+                            <li class="active faq-tab"><a href="#" data-faq-section="all">All</a></li>
+                            <li class="faq-tab"><a href="#" data-faq-section="shipping-deliveries">Shipping & Deliveries</a></li>
+                            <li class="faq-tab"><a href="#" data-faq-section="returns">Returns</a></li>
+                            <li class="faq-tab"><a href="#" data-faq-section="product-use">Product Use</a></li>
+                            <li class="faq-tab"><a href="#" data-faq-section="wholesale">Wholesale</a></li>
+                            <li class="faq-tab"><a href="#" data-faq-section="subscriptions">Subscriptions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="faq-wrap">
+                        {% assign counter = 1 %}
+                        {% for block in section.blocks %}
+                            {% if block.settings.title != blank %}
+                            <div class="item-wrap faq-item" data-faq-section="{{ block.settings.faq-section }}">
+                                <div class="question" data-question-id="{{ counter }}">
+                                    <span>{{ block.settings.title }}</span>
+                                </div>
+                                <div class="answer" data-answer-id="{{ counter }}">
+                                    <span>{{ block.settings.answer }}</span>
+                                </div>
+                            </div>
+                            {% assign counter = counter |  plus: 1 %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+
+{% schema %}
+    {
+        "name": "FAQ list",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            }
+        ],
+        "blocks": [
+        {
+            "name": "Question/Answer",
+            "type": "question",
+            "settings":[
+                {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Question"
+                },
+                {
+                    "type": "textarea",
+                    "id": "answer",
+                    "label": "Answer"
+                },
+                {
+                    "type": "select",
+                    "id": "faq-section",
+                    "label": "FAQ section",
+                    "options": [
+                      {
+                        "value": "all",
+                        "label": "All"
+                      },
+                      {
+                        "value": "shipping-deliveries",
+                        "label": "Shipping & Deliveries"
+                      },
+                      {
+                        "value": "returns",
+                        "label": "Returns"
+                      },
+                      {
+                        "value": "product-use",
+                        "label": "Product Use"
+                      },
+                      {
+                        "value": "wholesale",
+                        "label": "Wholesale"
+                      },
+                      {
+                        "value": "subscriptions",
+                        "label": "Subscriptions"
+                      }
+                    ],
+                    "default": "all"
+                  }
+            ]
+        }
+        ]
+}
+{% endschema %}

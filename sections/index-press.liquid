@@ -1,0 +1,95 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.press{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.press{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="press" {% if section.settings.background != blank %}style="background-color:{{ section.settings.background }} !important;"{% endif %}>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="press-slider owl-carousel">
+                    {% for block in section.blocks %}
+                        <div class="slide-press">
+                            <div class="header">
+                                <div class="quote">
+                                    <span>{{ block.settings.title }}</span>
+                                </div>
+                            </div>
+                            <div class="logo-wrap">
+                                {% if block.settings.link != 'blank' %}
+                                    <a href="{{ block.settings.link }}" target="_blank">
+                                        <img src="{{ block.settings.image | img_url:"300x" }}" alt="{{ block.settings.title | escape }}" class="logo" />
+                                    </a>
+                                {% else %}
+                                    <img src="{{ block.settings.image | img_url:"300x" }}" alt="{{ block.settings.title | escape }}" class="logo" />
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+"name": "Index - Press",
+"settings": [
+    {
+        "type": "color",
+        "id": "background",
+        "label": "Background Color"
+    },
+    {
+        "type": "text",
+        "id": "mobile_padding",
+        "label": "Mobile Padding (10px 10px 10px 10px)"
+    },
+    {
+        "type": "text",
+        "id": "desk_padding",
+        "label": "Desktop Padding (10px 10px 10px 10px)"
+    }
+],
+"blocks": [
+    {
+    "name": "Slide",
+    "type": "slide",
+    "settings":[
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+        }
+    ]
+    }
+],
+"presets": [
+{
+"name": "Index - Press"
+}
+]
+}
+{% endschema %}

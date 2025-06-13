@@ -1,0 +1,43 @@
+<section class="differences">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">{{ section.settings.title }}</div>
+                <div class="sub-title">{{ section.settings.sub-title }}</div>
+                <div class="image-wrap">
+                    <img class="desktop-image" src="{{ section.settings.desktop-image | img_url: 'master' }}" alt="">
+                    <img class="mobile-image" src="{{ section.settings.mobile-image | img_url: 'master' }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "What’s the difference?",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "title"
+            },
+            {
+                "type": "textarea",
+                "id": "sub-title",
+                "label": "Sub title"               
+            },
+            {
+                "type": "image_picker",
+                "id": "desktop-image",
+                "label": "Desktop image"
+            },
+            {
+                "type": "image_picker",
+                "id": "mobile-image",
+                "label": "Mobile image"
+            }
+        ]
+    }
+
+{% endschema %}

@@ -1,0 +1,59 @@
+{% assign module = section.settings %}
+
+<style>
+{% if module.mobile_padding %}
+  section.video-section{
+    padding: {{ module.mobile_padding }}!important;
+  }
+{% endif %}
+{% if module.desk_padding %}
+  @media (min-width:960px){
+    section.video-section{
+      padding: {{ module.desk_padding }}!important;
+    }
+  }
+{% endif %}
+</style>
+
+<section class="video-section">
+  <div class="container">
+    {% if module.heading != '' %}<h2>{{ module.heading }}</h2>{% endif %}
+    <div class="video-section__embedd">
+      <div class="spacer">{{ module.embedd }}</div>
+    </div>
+</section>
+
+    
+{% schema %}
+  {
+    "name": "Video Embedd",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "textarea",
+            "id": "embedd",
+            "label": "Video Embedd Code"
+        },
+        {
+            "type": "text",
+            "id": "mobile_padding",
+            "label": "Mobile Padding (10px 10px 10px 10px)"
+        },
+        {
+            "type": "text",
+            "id": "desk_padding",
+            "label": "Desktop Padding (10px 10px 10px 10px)"
+        }
+            
+    ],
+    "presets": [
+        {
+            "name": "Index - Video Embedd"
+        }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,97 @@
+{{ 'style-forgot.css' | asset_url | stylesheet_tag }}
+<div class="page-wrap forgot-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="forgot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <div id="customer_login">
+
+                        <div class="section-title">Login</div>
+
+                        {% form 'customer_login', class: "account-form" %}
+
+                            <div class="field-wrap">
+                                <input class="input-field" type="email" placeholder="Email address"  name="customer[email]" />
+                            </div>
+                            <div class="field-wrap">
+                                <input class="input-field" type="password"  name="customer[password]" placeholder="Password"  id="password_login"/>
+                            </div>
+
+                            <div class="error-form">
+                                {{ form.errors | default_errors }}
+                            </div>
+
+                            <div class="field-wrap submit-wrap">
+                                <input type="submit" class="input-submit" value="LOGIN">
+                            </div>
+                            <div class="form-content">
+                                <p><a href="javascript:void(0)" onclick="showRecoverPasswordForm();">Forgot password?</a> </p>
+                                <p>Don’t have an account yet? <a href="/account/register" class="linkLoginPopup" data-form-name="register">Register</a></p>
+                            </div>
+
+                        {% endform %}
+
+                    </div>
+
+                    <div style="display: none" id="recover_password">
+                        <div class="section-title">Reset Password</div>
+                        <div class="description">Enter your account email and we’ll send you a secure link to reset your password.</div>
+
+                        {%- form 'recover_customer_password' -%}
+                            {% if form.posted_successfully? %}
+                                {% assign resetPassword = true %}
+                            {% endif %}
+                            <div style="color:green; display: none" id="resetSuccess">
+                                Recovery link successfully sent to email!
+                            </div>
+
+                            <div style="color:red">{{ form.errors | default_errors }}</div>
+
+                            <div class="field-wrap">
+                                <input placeholder="Email" type="email"
+                                       name="email"
+                                       id="customerEmail"
+                                       autocorrect="off"
+                                       autocapitalize="off"
+                                       autocomplete="email">
+                            </div>
+                            <div class="field-wrap">
+                                <input class="submit-btn accont-submit" type="submit" value="Reset Password">
+                            </div>
+
+                            <div class="form-content">
+                                <p>Have an account? <a href="/account/login">Login here.</a></p>
+                                <p>Don’t have an account yet? <a href="/account/register" class="linkLoginPopup" data-form-name="register">Register</a></p>
+                            </div>
+
+                        {%- endform -%}
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div> <!-- END PAGE WRAP -->
+
+
+
+<script>
+    function showRecoverPasswordForm() {
+        document.getElementById('recover_password').style.display = 'block';
+        document.getElementById('customer_login').style.display='none';
+    }
+
+    function hideRecoverPasswordForm() {
+        document.getElementById('recover_password').style.display = 'none';
+        document.getElementById('customer_login').style.display = 'block';
+    }
+
+    if (window.location.hash == '#recover') { showRecoverPasswordForm() }
+
+    {% if resetPassword == true %}
+    showRecoverPasswordForm();
+    document.getElementById('resetSuccess').style.display = 'block';
+    {% endif %}
+</script>
