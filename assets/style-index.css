@@ -1,5 +1,5 @@
 .home-page-wrap {
-  background-color: #fffceb;
+  background-color: #fff;
   padding-bottom: 60px;
   overflow: hidden;
   margin-top: 54px; }
@@ -582,12 +582,12 @@
               .home-page-wrap section.main-slider .products-slider .slide-item .slide-container .lists-wrap li.no-check:before {
                 background-image: url(check-list-no.svg); }
     .home-page-wrap section.welcome {
-      padding-bottom: 146px; }
+      padding-bottom: 60px; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.welcome {
           padding-bottom: 61px; } }
       .home-page-wrap section.welcome .section-title {
-        margin-bottom: 62px; }
+        margin-bottom: 32px; }
         @media only screen and (max-width: 767px) {
           .home-page-wrap section.welcome .section-title {
             margin-bottom: 35px; } }
@@ -871,7 +871,7 @@
           transition: 0.3s;
           top: 0px; }
     .home-page-wrap section.product {
-      padding-top: 100px;
+      padding-top: 60px;
       padding-bottom: 110px; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.product {
@@ -1417,8 +1417,8 @@
                   font-size: 14px;
                   letter-spacing: 0.02em; } }
     .home-page-wrap section.differences {
-      padding-top: 220px;
-      padding-bottom: 200px; }
+      padding-top: 60px;
+      padding-bottom: 60px; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.differences {
           padding-top: 10px;
@@ -1649,7 +1649,7 @@
       .home-page-wrap section.review .bottom-row {
         text-align: center; }
     .home-page-wrap section.press {
-      padding: 94px 0px 94px;
+      padding: 160px 0px 94px;
       background-color: #F2F4CE; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.press {
@@ -1758,7 +1758,7 @@
               height: auto;
               width: auto; }
     .home-page-wrap section.blog-posts {
-      padding-top: 104px; }
+      padding-top: 60px; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.blog-posts {
           padding-top: 27px; } }
@@ -1849,22 +1849,25 @@
           .home-page-wrap section.blog-posts .content-wrap {
             padding-right: 40px; } }
         .home-page-wrap section.blog-posts .content-wrap .title {
-          font-size: 56px;
-          line-height: 56px;
-          letter-spacing: -0.02em;
-          text-transform: uppercase;
-          font-weight: 900;
-          color: #87836B;
-          margin-bottom: 26px; }
+              font-size: 56px;
+    line-height: 52px;
+
+    letter-spacing: -0.02em;
+    color: #284734;
+    font-weight: 700;
+    margin-bottom: 38px;
+          margin-bottom: 26px;
+         }
           @media only screen and (max-width: 991px) {
             .home-page-wrap section.blog-posts .content-wrap .title {
               font-size: 46px;
               line-height: 46px;
               margin-bottom: 22px; } }
         .home-page-wrap section.blog-posts .content-wrap .description {
-          font-size: 24px;
-          line-height: 29px;
-          color: #A8A69B;
+              font-size: 18px;
+    line-height: 22px;
+    color: #494949;
+    font-weight: 300;
           margin-bottom: 24px; }
           @media only screen and (max-width: 767px) {
             .home-page-wrap section.blog-posts .content-wrap .description {
@@ -1941,7 +1944,7 @@
                 padding: 8px 18px; } }
     .home-page-wrap section.instagram {
       text-align: center;
-      padding-top: 138px;
+      padding-top: 30px;
       padding-bottom: 4px; }
       @media only screen and (max-width: 767px) {
         .home-page-wrap section.instagram {

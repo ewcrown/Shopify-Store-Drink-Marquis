@@ -1,5 +1,76 @@
 {{ 'style-product.css' | asset_url | stylesheet_tag }}
 
+{% style %}
+  /* Modal container */
+  .ew-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ew-modal-content-wrapper {
+    position: relative;
+    max-width: 90%;
+    max-height: 80vh;
+    margin: auto;
+  }
+
+  .ew-modal img {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+  }
+
+  .ew-close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .ew-modal-content-wrapper {
+      max-width: 95%;
+      max-height: 70vh;
+    }
+    .ew-close {
+    right: 0px !important;
+}
+
+    .ew-modal img {
+      max-height: 70vh;
+    }
+  }
+{% endstyle %}
+
+<div id="ew-productModal" class="ew-modal">
+  <div class="ew-modal-content-wrapper">
+    <button class="ew-close">&times;</button>
+
+    {% if product.metafields.custom.product_details_image != blank %}
+      <img id="ew-modalImage" 
+           src="{{ product.metafields.custom.product_details_image | img_url: 'master' }}" 
+           alt="Product Details" 
+          />
+    {% else %}
+      <p style="color:white; text-align:center;">Nothing available....</p>
+    {% endif %}
+  </div>
+</div>
+
 <section class="header">
     <div class="container">
         <meta itemprop="name" content="{{ product.title }}" />
@@ -55,7 +126,7 @@
                     <div class="additional-info">
                         <div class="top-row display-flex">
                             <div class="anchor">
-                                <a class="link help-circle  product-details-popup" href="javascript:void(0);">Product Details</a>
+                                <a class="link help-circle ew-product-details-popup product-details-popup" href="javascript:void(0);">Product Details</a>
                             </div>
                             <div class="question">
                                 <a class="link mail-icon" href="/pages/contact-us">Questions? Send us a message.</a>
@@ -114,12 +185,12 @@
                         				{{ product.metafields.custom.ingredients }}
                         			</div>
                                 {% endif %}
-                                {% if product.metafields.custom.nutrition_facts != blank %}
+                                {% comment %} {% if product.metafields.custom.nutrition_facts != blank %}
                         		<div class="accordion">Nutrition Facts</div>
                         			<div class="panel">
                         				{{ product.metafields.custom.nutrition_facts }}
                         			</div>
-                                {% endif %}
+                                {% endif %} {% endcomment %}
                         </div>
                       </div>
                     </div>
@@ -285,6 +356,101 @@
             var product_pack_count = '';
         {% endif %}
   </script>
+
+  {% style %}
+  /* Modal container */
+  .ew-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ew-modal-content-wrapper {
+    position: relative;
+    max-width: 90%;
+    max-height: 80vh;
+    margin: auto;
+  }
+
+  .ew-modal img {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+  }
+
+  .ew-close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .ew-modal-content-wrapper {
+      max-width: 95%;
+      max-height: 70vh;
+    }
+
+    .ew-modal img {
+      max-height: 70vh;
+    }
+  }
+{% endstyle %}
+
+<!-- Modal -->
+<div id="ew-productModal" class="ew-modal">
+  <div class="ew-modal-content-wrapper">
+    <button class="ew-close">&times;</button>
+
+    {% if product.metafields.custom.product_details_image != blank %}
+      <img id="ew-modalImage" 
+           src="{{ product.metafields.custom.product_details_image | img_url: 'master' }}" 
+           alt="Product Details" 
+           width="600" 
+           height="600" />
+    {% else %}
+      <p style="color:white; text-align:center;">Nothing available....</p>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById('ew-productModal');
+    const openBtn = document.querySelector('.ew-product-details-popup');
+    const closeBtn = modal.querySelector('.ew-close');
+
+    if (openBtn && modal && closeBtn) {
+      openBtn.addEventListener('click', function () {
+        modal.style.display = 'flex'; // flex for centering
+      });
+
+      closeBtn.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
+
+      window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
 
 {% schema %}
 {

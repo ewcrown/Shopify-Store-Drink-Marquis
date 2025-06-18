@@ -77,14 +77,6 @@
         "cta_bg_color": ""
       }
     },
-    "product-badges-and-difference-global": {
-      "type": "product-badges-and-difference-global",
-      "settings": {}
-    },
-    "product-text-blocks-with-images": {
-      "type": "product-text-blocks-with-images",
-      "settings": {}
-    },
     "faq-short-list": {
       "type": "faq-short-list",
       "blocks": {
@@ -151,6 +143,15 @@
         "title": ""
       }
     },
+    "product-badges-and-difference-global": {
+      "type": "product-badges-and-difference-global",
+      "settings": {}
+    },
+    "product-text-blocks-with-images": {
+      "type": "product-text-blocks-with-images",
+      "disabled": true,
+      "settings": {}
+    },
     "product-reviews": {
       "type": "product-reviews",
       "settings": {}
@@ -163,9 +164,9 @@
   },
   "order": [
     "product-main-info",
+    "faq-short-list",
     "product-badges-and-difference-global",
     "product-text-blocks-with-images",
-    "faq-short-list",
     "product-reviews",
     "product-recommended-list"
   ]

@@ -30,7 +30,7 @@
     "spotify_link": "https://open.spotify.com/user/31w7fj2p326gciq32yb3nrw5um6i",
     "footer_subscribe_text": "Get $15 off your first order:",
     "favicon_image": "shopify://shop_images/favicon-32x32_35ea0319-56fe-4124-891c-ce2a84e12e21.png",
-    "copyright_text": "Copyright Marquis 2024 © All Rights Reserved.",
+    "copyright_text": "Copyright Marquis 2025 © All Rights Reserved.",
     "checkout_header_image": "shopify://shop_images/Cart_Header_FINALv2.jpg",
     "checkout_logo_image": "shopify://shop_images/Horizontal_Logo_d9a772ef-38eb-465e-8dbd-06194df23af9.png",
     "checkout_logo_position": "left",
@@ -49,13 +49,6 @@
               "title_in_menu_product": "Variety Pack",
               "main_image_product": "shopify://shop_images/Variety_ToteBagw_ographic.png",
               "hover_image_product": "shopify://shop_images/Variety_Pack_-_PDP.jpg"
-            }
-          },
-          "products_tLKFLT": {
-            "type": "products",
-            "settings": {
-              "title": "",
-              "title_in_menu_product": ""
             }
           },
           "9b7965c5-e3d1-4ed3-99c1-6e74b4e881f4": {
@@ -124,7 +117,6 @@
         },
         "block_order": [
           "d57557e3-0d8b-4134-b234-44ef40edbdc2",
-          "products_tLKFLT",
           "9b7965c5-e3d1-4ed3-99c1-6e74b4e881f4",
           "1f6b4433-afca-415e-a0a9-4d0cbd00426d",
           "43aeeb41-42d8-4619-931b-c869a7d484db",
@@ -214,7 +206,7 @@
           "left_btn_link": "shopify://products/case-of-marquis-lychee-peach",
           "right_title": "Mix it up",
           "right_sub_title": "Best Seller Pack",
-          "right_text": "<p>Get Lemon Lavender, Pineapple Passion, and Lychee Peach all in one. Whether it be for that vacation you’ve been dreaming of, a drive through Beverly Hills with the windows down, or if you’re just feelin’ peachy… you can’t go wrong with this new variety pack that puts our best fruit forward flavors.</p>",
+          "right_text": "<p>Get Lemon Lavender, Pineapple Passion, and Lychee Peach all in one. Whether it be for that vacation you’ve been dreaming of, a drive through Beverly Hills with the windows down, or if you’re just feelin’ peachy…</p>",
           "right-image": "shopify://shop_images/Homepage_Best_Seller.jpg",
           "right_btn_text": "Shop Now",
           "right_btn_link": "shopify://products/marquis-best-seller-variety-pack",
@@ -251,10 +243,10 @@
               "background": "",
               "custom_background": "218,205,229",
               "title": "Lemon Lavender",
-              "title-custom-color": "#fdf7f0",
+              "title-custom-color": "#334f3f",
               "image": "shopify://shop_images/LELO_640x_6782cdc7-5ded-4912-857e-4abbc38308d2.png",
               "fruit_profile": "Fresh-squeezed Citrus & a Hint of Lavender",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -272,7 +264,7 @@
               "title-custom-color": "#F9D849",
               "image": "shopify://shop_images/PIPA.png",
               "fruit_profile": "Tropical Pineapple & Passion Fruit",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -290,7 +282,7 @@
               "title-custom-color": "#F79F90",
               "image": "shopify://shop_images/LP_68b517b9-6502-402f-9e40-87f3affca0c6.png",
               "fruit_profile": "Lychee Fruit & Sweet Peach",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -308,7 +300,7 @@
               "title-custom-color": "",
               "image": "shopify://shop_images/SB_a2b47a02-c9ff-4ae7-8977-0289d1ce76e7.png",
               "fruit_profile": "Sweet Raspberries & Tart Lemon",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -326,7 +318,7 @@
               "title-custom-color": "",
               "image": "shopify://shop_images/CY_c4f80e61-d94e-4b27-97b9-ed51ce47546f.png",
               "fruit_profile": "Yuzu, Lemon, Lime & Tangerine",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -344,7 +336,7 @@
               "title-custom-color": "",
               "image": "shopify://shop_images/MG.png",
               "fruit_profile": "Sweet Mango & Ginger Root",
-              "sweet_with": "Monk Fruit",
+              "sweet_with": "",
               "left_list": "100mg Caffeine, USDA Organic, Non-GMO, B & C Vitamins, Antioxidants",
               "right_list": "No Sugar, No Calories, No Net Carbs, No Sucralose, Nothing Artificial",
               "shop-button-title": "Shop Now",
@@ -2619,6 +2611,7 @@
       },
       "1640758285d4294507": {
         "type": "index-welcome-global",
+        "disabled": true,
         "settings": {
           "title": "Caffeine with Benefits",
           "mobile_padding": "",

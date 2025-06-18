@@ -38,7 +38,9 @@
                                 {% if block.settings.background == 'pink' %}{{ pink_bg }}{% endif %}
                                 {% if block.settings.background == 'citrus' %}{{ citrus_bg }}{% endif %}
                                 {% else %}{{ block.settings.custom_background }}{% endif %}"
-                     current-bg-color="">
+                     current-bg-color=""
+                    data-index="{{ forloop.index0 }}"
+                    >
                     <div class="slide-container">
                         <h2 class="title" data-aos="fade-left" style="{% if block.settings.title-custom-color != null %}color: {{ block.settings.title-custom-color }}{% endif %}">{{ block.settings.title }}</h2>
                         <div class="display-flex">

@@ -1,7 +1,7 @@
 .product-page-wrap {
     padding-top: 211px;
     padding-bottom: 100px;
-    background-color: #fffceb;
+    background-color: #fff;
 }
 
 @media only screen and (max-width: 767px) {
@@ -363,10 +363,11 @@
         line-height: 17px;
     }
 }
-
 .product-page-wrap section.header .product-info .description p {
     margin-bottom: 22px;
     font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 @media only screen and (max-width: 991px) {

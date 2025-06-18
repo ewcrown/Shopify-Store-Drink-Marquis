@@ -206,15 +206,16 @@ font-weight: 900;
 .subs-check {	
   display: none;	
 }	
-/* .active-subs .default-check {	
+ .default-check {	
   display: none;	
 }	
+/*
 .active-subs .subs-check {	
   display: block;	
 } 	
 .checkbox-wrap-list.active-subs li {	
-  width: 100%;*/	
-}
+  width: 100%;
+}*/	
 @media(min-width:960px){
   .coupon-hero{
     padding-top:12rem;

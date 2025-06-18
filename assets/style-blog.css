@@ -39,8 +39,8 @@
       @media only screen and (max-width: 767px) {
         .blog-page-wrap section.recents-posts .right-column .post-wrap {
           margin-left: 0px; } }
-    .blog-page-wrap section.recents-posts .post-wrap {
-      width: 80.19%; }
+    /* .blog-page-wrap section.recents-posts .post-wrap {
+      width: 80.19%; } */
       @media only screen and (max-width: 991px) {
         .blog-page-wrap section.recents-posts .post-wrap {
           width: 100%; } }
@@ -90,7 +90,7 @@
       .blog-page-wrap section.posts-slider {
         display: none; } }
     .blog-page-wrap section.posts-slider .recently-posts-slider {
-      width: 1060px;
+      /* width: 1060px; */
       margin: 0 auto;
       position: relative; }
       @media only screen and (max-width: 1200px) {

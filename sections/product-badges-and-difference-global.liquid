@@ -37,7 +37,7 @@
                         </div>
                         {% endcomment %}
 
-                        <div class="benefits-wrap display-flex">
+                        {% comment %} <div class="benefits-wrap display-flex">
                             <div class="benefit-item">
                                 <div class="image-wrap">
                                     <img src="{{ settings.badge_1_image | img_url:"10x" }}" alt="{{ settings.badge_1_title | escape }}"
@@ -90,7 +90,7 @@
                                 <div class="title">{{ settings.badge_4_title }}</div>
                                 <div class="description">{{ settings.badge_4_description }}</div>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
         </div>
     {% endif %}
 
-    {% if product.metafields.arena.why_we_made_image_1 != blank and product.metafields.arena.why_we_made_image_2 != blank %}
+    {% comment %} {% if product.metafields.arena.why_we_made_image_1 != blank and product.metafields.arena.why_we_made_image_2 != blank %}
         <div class="sub-section-why-we-made">
             <div class="sub-container display-flex">
                 <div class="column left-column">
@@ -137,7 +137,7 @@
                 </div>
             </div>
         </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
 </section>
 <style>
     .canvas-wrap {

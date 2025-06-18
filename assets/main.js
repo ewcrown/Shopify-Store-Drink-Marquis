@@ -214,95 +214,97 @@ jQuery(document).ready(function($){
     }
 
 
-    function homePageSliders(){
-        var productsSlider = jQuery('.products-slider');
+ function homePageSliders() {
+  var productsSlider = jQuery('.products-slider');
 
-        productsSlider.owlCarousel({
-            items: 1,
-            loop: true,
-            dots: false,
-            nav: true,
-            navText: ["<span class='slide-nav prev-slide'></span>","<span class='slide-nav next-slide'></span>"],
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut',
-            paginationSpeed: 1000,
-            //autoplay: true,
-            //transitionStyle: "fade",
-            mouseDrag: false,
-            changed: function(){
-                    var slideCurrenBg = jQuery('.products-slider .active .slide-item').attr('current-bg-color');
-                    jQuery('.slider-bg-wrap').css({
-                            backgroundColor: 'rgb('+ slideCurrenBg +')',
-                        });
-            },
-        });
+  productsSlider.owlCarousel({
+    items: 1,
+    loop: true,
+    dots: false,
+    nav: true,
+    navText: [
+      "<span class='slide-nav prev-slide'></span>",
+      "<span class='slide-nav next-slide'></span>"
+    ],
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+    paginationSpeed: 1000,
+    mouseDrag: false
+  });
 
-        productsSlider.on('changed.owl.carousel', function(event) {
+  var $dots = jQuery('.dots-nav__option');
 
-           var slideCurrenBg = jQuery('.products-slider .active .slide-item').attr('current-bg-color');
-            var currentSlide = jQuery('.products-slider .owl-item')[event.item.index];
-            var slideCurrenBg = jQuery('.slide-item', currentSlide).attr('current-bg-color');
+  $dots.on('click', function () {
+    var $this = jQuery(this);
+    var index = $this.data('index');
 
-            jQuery('.slider-bg-wrap').css({
-                backgroundColor: 'rgb('+ slideCurrenBg +')',
-            });
+    $dots.removeClass('active');
+    $this.addClass('active');
 
-        });
+    productsSlider.trigger('to.owl.carousel', [index, 300]);
+  });
 
-        var $dots = productsSlider.find('.dots-nav__option');
+  productsSlider.on('changed.owl.carousel', function (event) {
+    var currentSlide = jQuery('.products-slider .owl-item').eq(event.item.index);
+    var currentSlideItem = currentSlide.find('.slide-item');
+    var slideCurrenBg = currentSlideItem.attr('current-bg-color');
 
-        $dots.click(function(){
-          $dots.removeClass('active');
-          var $this = $(this);
-          var index = $this.data('index')
-          $dots.filter('[data-index="'+index+'"]').addClass('active');
-          productsSlider.trigger('to.owl.carousel', [index, 300]);
-        });
-
-        var pressSlider = jQuery('.press-slider');
-
-        pressSlider.owlCarousel({
-            items: 1,
-            loop: false,
-            dots: false,
-            nav: true,
-            margin: 20,
-            navText: ["<span class='slide-nav prev-slide'></span>","<span class='slide-nav next-slide'></span>"],
-            responsive: {
-                768: {
-                    margin: 47,
-                    items: 3,
-                },
-                1200: {
-                    margin: 47,
-                    items: 3,
-                }
-            }
-        });
-
-
-        var whatCaffeine = jQuery('.what-caffeine-slider');
-
-        whatCaffeine.owlCarousel({
-            items: 1,
-            loop: true,
-            center: true,
-            dots: false,
-            nav: false,
-            margin: -18,
-            stagePadding: 45,
-            responsive: {
-                424: {
-                    stagePadding: 89,
-                }
-            },
-            onResized: function(){
-                var widthSlide = jQuery('.item-wrap', whatCaffeine).width();
-                jQuery('.header', whatCaffeine).height(widthSlide);
-            }
-        });
+    if (slideCurrenBg) {
+      jQuery('.slider-bg-wrap').css({
+        backgroundColor: 'rgb(' + slideCurrenBg + ')'
+      });
     }
 
+    var activeIndex = currentSlideItem.data('index');
+    $dots.removeClass('active');
+    $dots.filter('[data-index="' + activeIndex + '"]').addClass('active');
+  });
+
+  // Press Slider
+  var pressSlider = jQuery('.press-slider');
+  pressSlider.owlCarousel({
+    items: 1,
+    loop: false,
+    dots: false,
+    nav: true,
+    margin: 20,
+    navText: [
+      "<span class='slide-nav prev-slide'></span>",
+      "<span class='slide-nav next-slide'></span>"
+    ],
+    responsive: {
+      768: {
+        margin: 47,
+        items: 3
+      },
+      1200: {
+        margin: 47,
+        items: 3
+      }
+    }
+  });
+
+  // What Caffeine Slider
+  var whatCaffeine = jQuery('.what-caffeine-slider');
+  whatCaffeine.owlCarousel({
+    items: 1,
+    loop: true,
+    center: true,
+    dots: false,
+    nav: false,
+    margin: -18,
+    stagePadding: 45,
+    responsive: {
+      424: {
+        stagePadding: 89
+      }
+    },
+    onResized: function () {
+      var widthSlide = jQuery('.item-wrap', whatCaffeine).width();
+      jQuery('.header', whatCaffeine).height(widthSlide);
+    }
+  });
+}
     function selectProduct(){
         jQuery('.select-product .current').on('click', function(){
             // if( jQuery(this).parent().hasClass('active') ){

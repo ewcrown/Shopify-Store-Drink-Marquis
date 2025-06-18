@@ -7,7 +7,7 @@
                     <input type="hidden" class="product_extra_properties" value="{{ product.metafields.arena.pack_count }} Pack"/>
                     <div class="price price-custom"   id="price_normal_{{ product.id }}"  style="display: none">
                   {% assign price_per_item = product.price | divided_by: product.metafields.arena.pack_count %}
-                        {{ price_per_item | money }}/can 
+                        {{ product.price | money }}/can 
                     </div>
                     <div class="subscribe-save">Subscribe & Save</div>
                 {% endif %}
