@@ -1,0 +1,13 @@
+.map-locator-page {
+  padding: 300px 0px 120px;
+}
+
+#recharge-customer-portal {
+  padding: 200px 0 0;
+}
+
+@media(max-width:600px) {
+  #recharge-customer-portal {
+    padding: 60px 0 0;
+  }
+}
