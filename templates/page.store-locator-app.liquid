@@ -1,10 +1,35 @@
-<div class="map-locator-page">
-  <div class="container">
-    <!-- Start Stockist.co widget -->
-    <stockist-store-locator data-stockist-widget-tag="u9638">
-      Loading store locator from <a href="https://stockist.co">Stockist store locator</a>...
-    </stockist-store-locator>
-    <script async src="https://stockist.co/embed/v1/widget.min.js"></script>
-    <!-- End Stockist.co widget -->
-  </div>
-</div>
+{{ 'style-custom-page.css' | asset_url | stylesheet_tag }}
+<style>
+  .custom-page-wrap section.content article {
+    width: 100%;
+  }
+</style>
+<div class="page-wrap custom-page-wrap"> <!-- START PAGE WRAP -->
+    <section class="content">
+      <div class="container">
+          <div class="row">
+              {% if page.title contains 'TERMS' or page.title contains 'POLICY' %}
+                <div class="col-md-3">
+                    {% include 'page-default-navigation', page_url:  page.url %}
+                </div>
+              {% endif %}
+              <div class="col-md-12">
+                  <article>
+                      <div class="entry-content">
+                          <h1 class="page-title">{{ page.title }}</h1>
+                          {{ page.content }}
+                      </div>
+                      {% if page.title contains 'TERMS' or page.title contains 'POLICY' %}
+                        <div class="footer">
+                            <div class="btn-wrap">
+                                <a href="/" class="btn-link btn-opacity-08">Back to Main</a>
+                            </div>
+                        </div>
+                      {% endif %}
+                  </article>
+              </div>
+          </div>
+      </div>
+  </section>
+
+</div> <!-- END PAGE WRAP -->

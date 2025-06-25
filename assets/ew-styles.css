@@ -6,6 +6,11 @@
   padding: 200px 0 0;
 }
 
+.blog-page-wrap,
+.recharge-container {
+  background: #fff !important;
+}
+
 @media(max-width:600px) {
   #recharge-customer-portal {
     padding: 60px 0 0;
