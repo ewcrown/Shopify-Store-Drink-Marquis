@@ -784,6 +784,7 @@
             font-size: 16px;
             line-height: 22px;
             text-align: center;
+            font-family: "League Spartan", sans-serif;
             letter-spacing: -0.01em;
             color: #284734;
             opacity: 0.6;
@@ -1558,7 +1559,7 @@
               line-height: 21px;
               color: #000000;
               opacity: 1;
-              font-family: nobel, sans-serif; }
+              font-family: "League Spartan", sans-serif; }
               @media only screen and (max-width: 767px) {
                 .home-page-wrap section.review .review-judgeme_widgets .jdgm-carousel-wrapper .jdgm-carousel-item .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
                   font-size: 13px;
@@ -1726,6 +1727,7 @@
               text-align: center;
               color: #284734;
               padding-bottom: 64px;
+              font-family: "League Spartan", sans-serif;
               position: relative; }
           .home-page-wrap section.press .press-slider .slide-press .logo-wrap {
             text-align: center;
@@ -1868,6 +1870,7 @@
     line-height: 22px;
     color: #494949;
     font-weight: 300;
+    font-family: "League Spartan", sans-serif;
           margin-bottom: 24px; }
           @media only screen and (max-width: 767px) {
             .home-page-wrap section.blog-posts .content-wrap .description {

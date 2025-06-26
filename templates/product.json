@@ -164,8 +164,8 @@
   },
   "order": [
     "product-main-info",
-    "faq-short-list",
     "product-badges-and-difference-global",
+    "faq-short-list",
     "product-text-blocks-with-images",
     "product-reviews",
     "product-recommended-list"

@@ -124,6 +124,8 @@
         margin-bottom: 12px; }
         .blog-page-wrap section.posts-slider .recently-posts-slider .post-slide .footer .title a {
           color: #3A3A3A; }
+
+          .right-column .post-wrap .footer .excerpt,
       .blog-page-wrap section.posts-slider .recently-posts-slider .post-slide .footer .excerpt {
         font-size: 16px;
         font-family: "League Spartan", sans-serif;

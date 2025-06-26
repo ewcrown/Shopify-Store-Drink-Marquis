@@ -1,3 +1,9 @@
+.shg-rich-text,
+.description,
+p {
+  font-family: "League Spartan", sans-serif;
+}
+
 .map-locator-page {
   padding: 300px 0px 120px;
 }
@@ -15,4 +21,16 @@
   #recharge-customer-portal {
     padding: 60px 0 0;
   }
+}
+
+
+@media(min-width:769px) {
+  .marquology-page-wrap section.page-content .border-wrap {
+    overflow: scroll;
+    height: 100vh;
+  }
+}
+
+.about-page footer .walve-footer {
+  background-color: #284734 !important;
 }

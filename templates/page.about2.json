@@ -13,7 +13,7 @@
       "type": "about-header",
       "settings": {
         "title": "Over 197,049 cans",
-        "sub-title": "of Marquis proudly donated."
+        "sub-title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate dui nunc, at sollicitudin purus venenatis nec. Pellentesque magna orci, tempus eu consequat sit amet, ultrices sit amet mi. Nullam malesuada urna in mauris ornare, dapibus euismod odio sagittis. Donec gravida est eu nisl dictum facilisis. Integer maximus ligula nec turpis viverra, sit amet lobortis libero tincidunt. Pellentesque elementum mauris vitae efficitur lobortis. Sed porttitor, odio eget hendrerit mattis, nulla turpis fermentum enim, nec pharetra tellus magna a elit. Vestibulum porta volutpat risus eu tincidunt.\n\nDonec urna enim, ornare ac sollicitudin eget, ultricies nec lorem. Vestibulum dictum felis ut hendrerit rhoncus. Fusce in turpis a lacus hendrerit egestas. Aliquam pulvinar, ante ac accumsan ultrices, mi mauris tempus ante, nec pharetra felis dolor a orci. Aliquam tempor dui faucibus sapien mollis, vitae euismod lectus imperdiet. Proin orci ipsum, scelerisque ac convallis a, placerat at odio. Morbi bibendum est sed urna ullamcorper, et tristique velit pharetra. Donec commodo neque quis leo vehicula congue. Sed commodo purus leo, faucibus aliquet nisi scelerisque aliquet. Aenean dapibus neque a purus pulvinar faucibus. Nullam in dapibus risus. Donec ullamcorper elit sed ligula placerat, at porttitor risus venenatis. Duis consequat diam non elit pulvinar sodales at ac magna.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ante sed purus vestibulum convallis id non neque. Mauris viverra ex ac nibh malesuada auctor. Integer venenatis mattis dignissim. Suspendisse lobortis nibh quis erat ultricies dignissim. Proin nisi libero, laoreet quis aliquam vel, efficitur vitae lectus. Morbi vel enim ac dolor scelerisque porttitor at ut enim. Mauris est ex, feugiat eu purus non, tempor semper ante. Phasellus enim urna, ultricies id venenatis sit amet, viverra non nunc. Nunc id vulputate felis, vel consectetur eros. Nulla condimentum in lectus et fermentum. Curabitur hendrerit tellus aliquet, pretium erat nec, placerat quam. In lacinia laoreet mauris, id iaculis dui commodo et."
       }
     },
     "about-us": {
@@ -58,10 +58,12 @@
         "9bff86b4-5eae-4d4e-945c-2a0749268cd4",
         "db9dc9b1-ec94-45cf-929a-640e723833df"
       ],
+      "disabled": true,
       "settings": {}
     },
     "about-differences": {
       "type": "about-differences",
+      "disabled": true,
       "settings": {
         "title": "Marquis vs Big Beverage",
         "sub-title": "Take a look at how we stack up against the competition.",
@@ -71,6 +73,7 @@
     },
     "index-review": {
       "type": "index-review",
+      "disabled": true,
       "settings": {
         "title": "Marquis is making waves",
         "shop_now_link": "",
@@ -126,6 +129,7 @@
         "192a58ad-8ceb-4517-9ea6-b9a031684b6e",
         "1365acd1-638b-4351-9573-7d2270d568fb"
       ],
+      "disabled": true,
       "settings": {
         "title": "Find your flavor, guaranteed"
       }

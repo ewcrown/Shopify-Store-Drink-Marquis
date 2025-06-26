@@ -39,9 +39,13 @@
           .about-page-wrap section.page-header .section-title {
             font-size: 70px;
             line-height: 70px; } }
+            .about-page-wrap {
+              background: #284734;
+            }
       .about-page-wrap section.page-header .sub-title {
-        font-size: 32px;
+        font-size: 20px;
         line-height: 38px;
+        font-family: "League Spartan", sans-serif;
         text-align: center;
         color: #FFFFFF;
         text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2); }
